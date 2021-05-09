@@ -1,0 +1,15 @@
+{
+  "background_color": "white",
+  "description": "RetroSmiles",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "app.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    }
+  ],
+  "name": "RetroSmiles",
+  "short_name": "RetroSmiles",
+  "start_url": "index.html?pwa=1"
+}

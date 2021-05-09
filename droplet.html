@@ -1,0 +1,47 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<title>Retro Smiles for PersianTools</title>
+<script src="js/clipboard.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/notify.js"></script>
+<style>
+.btn {
+	cursor:pointer;
+}
+.btn:hover{background:yellow}
+</style>
+</head>
+<body><script>
+
+
+function handleDrop() {
+	var fullPath = $('#drop-area').val();
+    var startIndex = (fullPath.indexOf('\\') >= 0 ? fullPath.lastIndexOf('\\') : fullPath.lastIndexOf('/'));
+    var filename = fullPath.substring(startIndex);
+    if (filename.indexOf('\\') === 0 || filename.indexOf('/') === 0) {
+        filename = filename.substring(1);
+    }
+    
+	var p = $('#path').val()+filename;
+  $('#txt').val($('#txt').val()+ '<div class="col-auto col-md-2"><img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/'+p+'[/img]" src="'+p+'"></div>\n');
+  $('#drop-area').fadeOut(100);
+  $('#drop-area').fadeIn(200);
+}
+  
+</script>
+<h4>Retro Smiles Droplet</h4>
+<hr>
+Drag-drop here:
+<br>
+<input type="file" id='drop-area' style="width:100%;height:80px;background:red;color:red;" onchange="handleDrop();">
+<br>
+Path to add:<br>
+<input type="text" id="path" value="QuickSmiles/PATH/">
+<br>
+<textarea style="width:100%;height:300px;" id='txt'></textarea>
+</body>
+</html>

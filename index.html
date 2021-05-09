@@ -1,0 +1,241 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="manifest" href="manifest.webmanifest">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>RetroSmiles</title>
+	<script src="js/clipboard.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/notify.js"></script>
+	<style>
+	body {
+		overflow-x: hidden
+	}
+	
+	#header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: auto;
+		z-index: 100;
+		background-color: white
+	}
+	
+	.tab-content .btn {
+		cursor: pointer;
+		max-width: 100px;
+		max-height: auto;
+	}
+	
+	.tab-content .btn:hover {
+		background: yellow
+	}
+	
+	.logo {
+		font-size: 1.2em;
+		font-weight: bold;
+		padding: 0.2em;
+		margin-bottom: 2px;
+		width: 100%;
+		color: white;
+		background-color: #888;
+		background: rgb(40, 85, 173);
+		background: linear-gradient(90deg, rgba(40, 85, 173, 1) 0%, rgba(230, 238, 249, 1) 100%);
+	}
+	
+	.tabl {
+		padding: 0.2em;
+		background: #bababa;
+		background: linear-gradient(90deg, #bababa 0%, #fff 100%);
+		margin-bottom: 5px;
+		width: 100%;
+	}
+	
+	#myTabContent {
+		position: absolute;
+		height: auto;
+		z-index: 95;
+        padding-bottom:50px;
+	}
+    #splash {
+        position:absolute;
+        left:0;
+        right:0;
+        width:100%;
+        height:100%;
+        z-index:100000;
+        background-color:white;
+        /*background-image:url('app.png');*/
+        background-repeat:no-repeat;
+        background-position: 50% 50%;
+        background-size:auto 10%;
+        font-size:3em;
+        font-weight:bold;
+        text-align:center;
+        padding-top:10%;
+        color:darkblue;
+        cursor:wait;
+    }
+    #ads {
+        position:fixed;
+        bottom:0;
+        left:0;
+        right:0;
+        text-align:center;
+        margin: auto 2px;
+        z-index:1000;
+        background-color:#fff;
+        color:gray!important;
+        font-size:12px!important;
+        font-weight:bold!important;
+    }
+
+
+	</style>
+</head>
+
+<body>
+<div id="splash">RetroSmiles</div>
+	<script>
+    document.getElementById('splash').style.backgroundImage = "url('./QuickSmiles/0/"+ Math.floor(Math.random() * 100) +".gif')";
+    //$('#splash').css("background-image","url('./QuickSmiles/0/"+ Math.floor(Math.random() * 100) +".gif')");
+
+	function playHint() {
+		try {
+			var snd = new Audio("coin.mp3");
+			snd.currentTime = 0;
+			snd.play();
+		} catch(e) {}
+	}
+	var count_smb = 0;
+	var count_sign = 0;
+	if(!ClipboardJS.isSupported()) $.notify("Copy to clipboard is not supported for your browser!");
+	//var clipboard = new ClipboardJS('.btn');
+	var clipboard = new ClipboardJS('.btn', {
+		text: function(trigger) {
+			if(trigger.getAttribute('data-clipboard-text') == '' || trigger.getAttribute('data-clipboard-text') == null) {
+				return '';
+			}
+			//if(count_sign % 8 == 0 && count_sign > 0) {
+				//return '[url=https://retrosmiles.github.io/retrosmiles]' + trigger.getAttribute('data-clipboard-text') + '[/url]';
+				//return ' ' + trigger.getAttribute('data-clipboard-text') + '[url=https://retrosmiles.github.io/retrosmiles][img]https://retrosmiles.github.io/retrosmiles/retro.gif[/img][/url]  ';
+			//} else {
+				return trigger.getAttribute('data-clipboard-text');
+			//}
+		}
+	});
+	clipboard.on('success', function(e) {
+		count_sign++;
+		count_smb++;
+		if(count_smb > 2 && count_smb < 6) {
+			$("#smb").fadeOut();
+			$("#smb").fadeIn();
+			//playHint();
+		}
+		$.notify("Smiley copied to clipboard!");
+		e.clearSelection();
+	});
+	clipboard.on('error', function(e) {
+		$.notify("Error: Smiley not copied to clipboard!");
+	});
+
+	function loadTab(e) {
+		$('.dropdown-item').removeClass('active');
+//      $('.tab-pane').removeClass('active');
+//		$('.tab-pane').hide();
+		$('#dtext').html($('#' + e).html());
+		$('#selText').html($('#' + e).html());
+		if(e.toString() != 'tab999-tab' && e.toString() != 'tab998-tab') localStorage.setItem('lasttab', e.toString());
+		var targ = '#maintab'; //'#' + e.replace('-tab', '');
+        $(targ).html('<p>Loading...</p>');
+		$(targ).addClass('active');
+		$(targ).addClass('show');
+		$(targ).show();
+		var loadurl = e.replace('-tab', '.html') + '?' + Date.now();
+//		if($(targ).html().indexOf('class="row"') <= 0) {
+			$.notify("loading...", {
+				autoHideDelay: 1000
+			});
+			try {
+				$.get(loadurl, function(data) {
+					$(targ).html(data);
+				}).fail(function() {
+					$.notify("error, try later.", {
+						autoHideDelay: 1000
+					});
+				});
+			} catch(e) {
+				$.notify("error, try later.", {
+					autoHideDelay: 1000
+				});
+			}
+//		}
+		$(window).scrollTop(0);
+	}
+
+	function loadTabs() {
+		var deftab = 'tab2-tab';
+		var targ = '.dropdown-menu';
+		var loadurl = 'buttons.html' + '?' + Date.now();
+		if($(targ).html().indexOf(' < a class ') <= 0) {
+				try {
+					$.get(loadurl, function(data) {
+						$(targ).html(data);
+						if(localStorage["lasttab"]) {
+							deftab = localStorage.getItem('lasttab');
+						}
+						loadTab(deftab);
+                        setTimeout(function(){ $('#splash').fadeOut(); }, 2500);
+					}).fail(function() {
+						$.notify("error, try later.", {
+							autoHideDelay: 1000
+						});
+					});
+				} catch(e) {
+					$.notify("error, try later.", {
+						autoHideDelay: 1000
+					});
+				}
+			}
+		}
+		$(function() {
+			$('#myTabContent').css({
+				top: ($('#header').offset().top + $('#header').height() + 5) + 'px'
+			});
+			loadTabs();
+		});
+	</script>
+	<div id="header">
+		<div class="row">
+			<div class="col-12 col-md-12 col-sm-12">
+				<div class="logo">RetroSmiles<span class="btn" style="cursor:pointer" data-clipboard-text="[url=https://retrosmiles.github.io/retrosmiles]Visit RetroSmiles[/url]"><img src="copy.png"/></span></div>
+			</div>
+			<div id="smb" style="display:none;position:absolute;float:right;left:45%;top:1px;">
+				<a href="https://retrosmiles.github.io/retrosmb/"> <img style="width:42px;height:50px;" src="https://retrosmiles.github.io/retrosmb/smb.gif"> </a>
+			</div>
+		</div>
+		<div class="row tabl">
+			<div class="col-6"> <b id="selText"></b> </div>
+			<div class="col-6">
+				<div class="text-right">
+					<div class="btn-group">
+						<button type="button" id="dtext" style="min-width:120px" class="btn btn-success btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Select </button>
+						<div class="dropdown-menu dropdown-menu-right"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tab-content" id="myTabContent">
+		<div class="tab-pane fade" id="maintab" role="tabpanel" aria-labelledby="maintab-tab">
+			<p>Loading...</p>
+		</div>
+	</div>
+</body>
+
+</html>
