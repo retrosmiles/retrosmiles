@@ -15,7 +15,7 @@
 	body {
 		overflow-x: hidden
 	}
-	
+
 	#header {
 		position: fixed;
 		top: 0;
@@ -25,17 +25,17 @@
 		z-index: 100;
 		background-color: white
 	}
-	
+
 	.tab-content .btn {
 		cursor: pointer;
 		max-width: 100px;
 		max-height: auto;
 	}
-	
+
 	.tab-content .btn:hover {
 		background: yellow
 	}
-	
+
 	.logo {
 		font-size: 1.2em;
 		font-weight: bold;
@@ -47,15 +47,15 @@
 		background: rgb(40, 85, 173);
 		background: linear-gradient(90deg, rgba(40, 85, 173, 1) 0%, rgba(230, 238, 249, 1) 100%);
 	}
-	
+
 	.tabl {
 		padding: 0.2em;
 		background: #bababa;
 		background: linear-gradient(90deg, #bababa 0%, #fff 100%);
 		margin-bottom: 5px;
-		width: 100%;
+		/*width: 100%;*/
 	}
-	
+
 	#myTabContent {
 		position: absolute;
 		height: auto;
@@ -100,6 +100,40 @@
         font-size:12px!important;
         font-weight:bold!important;
     }
+
+		.horizontal-scrollable {
+			width:100%;
+		}
+
+		.horizontal-scrollable > .menuscroller {
+			overflow-x: auto;
+			white-space: nowrap;
+		}
+
+		.horizontal-scrollable > .menuscroller > .cell {
+			display: inline-block;
+			float: none;
+			width: 42px;
+			height: 32px;
+			color: white;
+			cursor: pointer;
+		}
+
+		.horizontal-scrollable > .menuscroller > .cell img {
+			height: auto;
+			width: auto;
+			max-height: 20px;
+			max-width: auto;
+			margin: 6px 6px;
+		}
+
+		.horizontal-scrollable > .menuscroller > .cell:nth-child(2n+1) {
+			background: #fff;
+		}
+
+		.horizontal-scrollable > .menuscroller > .cell:nth-child(2n+2) {
+			background: #fafafa;
+		}
 
 
 	</style>
@@ -186,7 +220,7 @@
 
 	function loadTabs() {
 		var deftab = 'tab2-tab';
-		var targ = '.dropdown-menu';
+		var targ = '.menuscroller';
 		var loadurl = 'buttons.html' + '?' + Date.now();
 		if($(targ).html().indexOf(' < a class ') <= 0) {
 				try {
@@ -211,7 +245,7 @@
 		}
 		$(function() {
 			$('#myTabContent').css({
-				top: ($('#header').offset().top + $('#header').height() + 5) + 'px'
+				top: ($('#header').offset().top + $('#header').height() + $('.tabl').offset().top + $('.tabl').height() + 5) + 'px'
 			});
 			loadTabs();
 		});
@@ -226,12 +260,9 @@
 			</div>
 		</div>
 		<div class="row tabl">
-			<div class="col-6"> <b id="selText"></b> </div>
-			<div class="col-6">
-				<div class="text-right">
-					<div class="btn-group">
-						<button type="button" id="dtext" style="min-width:120px" class="btn btn-success btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Select </button>
-						<div class="dropdown-menu dropdown-menu-right"></div>
+			<div class="col-12">
+				<div class="horizontal-scrollable">
+					<div class="text-center menuscroller">
 					</div>
 				</div>
 			</div>
