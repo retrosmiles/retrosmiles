@@ -522,10 +522,6 @@
 			if(trigger.getAttribute('data-clipboard-text') == '' || trigger.getAttribute('data-clipboard-text') == null) {
 				return '';
 			}
-			//if(count_sign % 8 == 0 && count_sign > 0) {
-				//return '[url=https://retrosmiles.github.io/retrosmiles]' + trigger.getAttribute('data-clipboard-text') + '[/url]';
-				//return ' ' + trigger.getAttribute('data-clipboard-text') + '[url=https://retrosmiles.github.io/retrosmiles][img]https://retrosmiles.github.io/retrosmiles/retro.gif[/img][/url]  ';
-			//} else {
 			var tbbcode = trigger.getAttribute('data-clipboard-text');
 			if(!$("#bbcode").hasClass('active')) {
 				tbbcode = tbbcode.replace("[img]","<img src='");
@@ -599,7 +595,11 @@
 							deftab = localStorage.getItem('lasttab');
 						}
 						loadTab(deftab);
-                        setTimeout(function(){ $('#splash').fadeOut(); }, 2500);
+						if(inIframe())
+							setTimeout(function(){ $('#splash').fadeOut(); }, 200);
+						else
+							setTimeout(function(){ $('#splash').fadeOut(); }, 1500);
+
 					}).fail(function() {
 						$.notify("error, try later.", {
 							autoHideDelay: 1000
@@ -618,6 +618,15 @@
 			});
 			loadTabs();
 		});
+
+		function inIframe () {
+		    try {
+		        return window.self !== window.top;
+		    } catch (e) {
+		        return true;
+		    }
+		}
+
 	</script>
 	<div id="header">
 		<div class="logo row">
