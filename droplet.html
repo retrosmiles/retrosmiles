@@ -25,13 +25,13 @@ function handleDrop() {
     if (filename.indexOf('\\') === 0 || filename.indexOf('/') === 0) {
         filename = filename.substring(1);
     }
-    
+
 	var p = $('#path').val()+filename;
-  $('#txt').val($('#txt').val()+ '<div class="col-auto col-md-2"><img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/'+p+'[/img]" src="'+p+'"></div>\n');
+  $('#txt').val($('#txt').val()+ '<div class="col-auto col-md-2"><img class="btn" data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/'+p+'[/img]" src="css/placeholder.png" ref-src="'+p+'"></div>\n');
   $('#drop-area').fadeOut(100);
   $('#drop-area').fadeIn(200);
 }
-  
+
 </script>
 <h4>Retro Smiles Droplet</h4>
 <hr>

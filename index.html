@@ -526,10 +526,6 @@
 			if(trigger.getAttribute('data-clipboard-text') == '' || trigger.getAttribute('data-clipboard-text') == null) {
 				return '';
 			}
-			//if(count_sign % 8 == 0 && count_sign > 0) {
-				//return '[url=https://retrosmiles.github.io/retrosmiles]' + trigger.getAttribute('data-clipboard-text') + '[/url]';
-				//return ' ' + trigger.getAttribute('data-clipboard-text') + '[url=https://retrosmiles.github.io/retrosmiles][img]https://retrosmiles.github.io/retrosmiles/retro.gif[/img][/url]  ';
-			//} else {
 			var tbbcode = trigger.getAttribute('data-clipboard-text');
 			if(!$("#bbcode").hasClass('active')) {
 				tbbcode = tbbcode.replace("[img]","<img src='");
@@ -539,7 +535,6 @@
 				tbbcode = tbbcode.replace("]","'>");
 			}
 				return tbbcode;
-			//}
 		}
 	});
 	clipboard.on('success', function(e) {
@@ -557,6 +552,26 @@
 		$.notify("Error: Smiley not copied to clipboard!");
 	});
 
+	function loadImages() {
+
+		let imgs = $("img");
+		for(let a=0;a<imgs.length;a++){
+		  loadImage(imgs[a]);
+		}
+		function loadImage(elem){
+		  let url = $(elem).attr("ref-src");
+		  let newImg = new Image();
+		  newImg.onload = function(){
+		    //console.log("done loading");
+				if(url!='')
+		    	$(elem).attr("src", url);
+		  }
+			if(url!='')
+		  	newImg.src = url;
+		}
+
+	}
+
 	function loadTab(e) {
 		$('.dropdown-item').removeClass('active');
 //      $('.tab-pane').removeClass('active');
@@ -565,7 +580,7 @@
 		$('#selText').html($('#' + e).html());
 		if(e.toString() != 'tab999-tab' && e.toString() != 'tab998-tab') localStorage.setItem('lasttab', e.toString());
 		var targ = '#maintab'; //'#' + e.replace('-tab', '');
-        $(targ).html('<p>Loading...</p>');
+    $(targ).html('<p>Loading...</p>');
 		$(targ).addClass('active');
 		$(targ).addClass('show');
 		$(targ).show();
@@ -577,6 +592,7 @@
 			try {
 				$.get(loadurl, function(data) {
 					$(targ).html(data);
+					loadImages();
 				}).fail(function() {
 					$.notify("error, try later.", {
 						autoHideDelay: 1000
