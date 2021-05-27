@@ -503,6 +503,7 @@
 <body>
 <div id="splash">RetroSmiles</div>
 	<script>
+	var bCanceled = false;
 	var d = new Date();
 	var n = d.getDay().toString();
 	if(localStorage.getItem('lastsplash')!=n)
@@ -553,9 +554,12 @@
 	});
 
 	function loadImages() {
-
+		bCanceled = false;
+		
 		let imgs = $("img");
 		for(let a=0;a<imgs.length;a++){
+			if(bCanceled)
+				break;
 		  loadImage(imgs[a]);
 		}
 		function loadImage(elem){
@@ -573,6 +577,7 @@
 	}
 
 	function loadTab(e) {
+		bCanceled = true;
 		$('.dropdown-item').removeClass('active');
 //      $('.tab-pane').removeClass('active');
 //		$('.tab-pane').hide();
