@@ -503,8 +503,12 @@
 <body>
 <div id="splash">RetroSmiles</div>
 	<script>
-    document.getElementById('splash').style.backgroundImage = "url('./QuickSmiles/0/"+ Math.floor(Math.random() * 100) +".gif')";
-    //$('#splash').css("background-image","url('./QuickSmiles/0/"+ Math.floor(Math.random() * 100) +".gif')");
+	var d = new Date();
+	var n = d.getDay().toString();
+	if(localStorage.getItem('lastsplash')!=n)
+		document.getElementById('splash').style.backgroundImage = "url('./QuickSmiles/0/"+ Math.floor(Math.random() * 100) +".gif')";
+	else
+		$('#splash').hide();
 
 	function playHint() {
 		try {
