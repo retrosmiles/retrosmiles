@@ -553,32 +553,33 @@
 		$.notify("Error: Smiley not copied to clipboard!");
 	});
 
+	function sleep(ms) {
+	  return new Promise(resolve => setTimeout(resolve, ms));
+	}
+
 	function loadImages() {
 		bLoading = true;
 		let imgs = $("img");
 		for(let a=0;a<imgs.length;a++){
-		  loadImage(imgs[a]);
+    		loadImage(imgs[a]);
 		}
+
 		function loadImage(elem){
 		  let url = $(elem).attr("ref-src");
-			if(url=='') return false;
 
-		  let newImg = new Image();
-		  newImg.onload = function(){
-				if(!bCanceled) {
-		   		$(elem).attr("src", url);
-				} else {
-					newImg.src = '';
-					return false;
+			if (typeof url !== 'undefined' && url !== false) {
+				if(bCanceled)
+					url = '';
+				//console.log(url);
+			  let newImg = new Image();
+			  newImg.onload = function(){
+			   		$(elem).attr("src", url);
 				}
-		  }
-
-			if(bCanceled)
-				url = '';
-	  	newImg.src = url;
+		  	newImg.src = url;
+			}
 		}
 		//bCanceled = false;
-		bLoading = false;
+		//bLoading = false;
 	}
 
 	function loadTab2(e) {
@@ -586,6 +587,18 @@
 		var wcount = 0;
 
 		(function wait() {
+
+			let imgs = $("img");
+			var b = 0;
+			//console.log("total "+imgs.length);
+			for(let a=0;a<imgs.length;a++){
+			  if(imgs[a].complete) b++;
+			}
+			//console.log("finished "+b);
+			if(b>=imgs.length) bLoading = false;
+
+
+			if(!bLoading) bCanceled = false;
 			wcount++;
 		    if (!bCanceled || wcount > 20) {
 						bCanceled = false;
@@ -605,7 +618,7 @@
 		$('#selText').html($('#' + e).html());
 		if(e.toString() != 'tab999-tab' && e.toString() != 'tab998-tab') localStorage.setItem('lasttab', e.toString());
 		var targ = '#maintab'; //'#' + e.replace('-tab', '');
-    $(targ).html('<p>Loading...</p>');
+    $(targ).html('<p>Loading, please wait...</p>');
 		$(targ).addClass('active');
 		$(targ).addClass('show');
 		$(targ).show();
