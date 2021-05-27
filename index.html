@@ -554,12 +554,8 @@
 	});
 
 	function loadImages() {
-		bCanceled = false;
-		
 		let imgs = $("img");
 		for(let a=0;a<imgs.length;a++){
-			if(bCanceled)
-				break;
 		  loadImage(imgs[a]);
 		}
 		function loadImage(elem){
@@ -570,6 +566,8 @@
 				if(url!='')
 		    	$(elem).attr("src", url);
 		  }
+			if(bCanceled)
+				return false;
 			if(url!='')
 		  	newImg.src = url;
 		}
@@ -577,7 +575,6 @@
 	}
 
 	function loadTab(e) {
-		bCanceled = true;
 		$('.dropdown-item').removeClass('active');
 //      $('.tab-pane').removeClass('active');
 //		$('.tab-pane').hide();
@@ -595,8 +592,10 @@
 				autoHideDelay: 1000
 			});
 			try {
+				bCanceled = true;
 				$.get(loadurl, function(data) {
 					$(targ).html(data);
+					bCanceled = false;
 					loadImages();
 				}).fail(function() {
 					$.notify("error, try later.", {
