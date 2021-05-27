@@ -559,6 +559,9 @@
 		  loadImage(imgs[a]);
 		}
 		function loadImage(elem){
+			if(bCanceled)
+				return false;
+
 		  let url = $(elem).attr("ref-src");
 		  let newImg = new Image();
 		  newImg.onload = function(){
