@@ -503,7 +503,7 @@
 <body>
 <div id="splash">RetroSmiles</div>
 	<script>
-	var bCanceled = false;
+	var bCanceled = false, bLoading = false;
 	var d = new Date();
 	var n = d.getDay().toString();
 	if(localStorage.getItem('lastsplash')!=n)
@@ -554,26 +554,46 @@
 	});
 
 	function loadImages() {
+		bLoading = true;
 		let imgs = $("img");
 		for(let a=0;a<imgs.length;a++){
 		  loadImage(imgs[a]);
 		}
 		function loadImage(elem){
-			if(bCanceled)
-				return false;
-
 		  let url = $(elem).attr("ref-src");
+			if(url=='') return false;
+
 		  let newImg = new Image();
 		  newImg.onload = function(){
-		    //console.log("done loading");
-				if(url!='')
-		    	$(elem).attr("src", url);
+				if(!bCanceled) {
+		   		$(elem).attr("src", url);
+				} else {
+					newImg.src = '';
+					return false;
+				}
 		  }
+
 			if(bCanceled)
-				return false;
-			if(url!='')
-		  	newImg.src = url;
+				url = '';
+	  	newImg.src = url;
 		}
+		//bCanceled = false;
+		bLoading = false;
+	}
+
+	function loadTab2(e) {
+		if(bLoading) bCanceled = true; else bCanceled = false;
+		var wcount = 0;
+
+		(function wait() {
+			wcount++;
+		    if (!bCanceled || wcount > 20) {
+						bCanceled = false;
+		        loadTab(e);
+		    } else {
+		        setTimeout( wait, 500 );
+		    }
+		})();
 
 	}
 
@@ -595,10 +615,9 @@
 				autoHideDelay: 1000
 			});
 			try {
-				bCanceled = true;
 				$.get(loadurl, function(data) {
 					$(targ).html(data);
-					bCanceled = false;
+					//bCanceled = false;
 					loadImages();
 				}).fail(function() {
 					$.notify("error, try later.", {
