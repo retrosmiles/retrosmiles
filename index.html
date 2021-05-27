@@ -527,6 +527,7 @@
 				return '';
 			}
 			var tbbcode = trigger.getAttribute('data-clipboard-text');
+			var tbbcode2 = tbbcode;
 			if(!$("#bbcode").hasClass('active')) {
 				tbbcode = tbbcode.replace("[img]","<img src='");
 				tbbcode = tbbcode.replace("[/img]","'>");
@@ -534,6 +535,11 @@
 				tbbcode = tbbcode.replace("[/url]","</a>");
 				tbbcode = tbbcode.replace("]","'>");
 			}
+
+			if(tbbcode2 != trigger.src && typeof trigger.src !== 'undefined' && trigger.src !== false) {
+				trigger.src =  tbbcode2.toString().replace("[img]","").replace("[/img]","");
+			}
+
 				return tbbcode;
 		}
 	});
@@ -541,8 +547,8 @@
 		count_sign++;
 		count_smb++;
 		if(count_smb > 2 && count_smb < 6) {
-			$("#smb").fadeOut();
-			$("#smb").fadeIn();
+			//$("#smb").fadeOut();
+			//$("#smb").fadeIn();
 			//playHint();
 		}
 		$.notify("Smiley copied to clipboard!");
