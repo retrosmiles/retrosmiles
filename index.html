@@ -536,7 +536,7 @@
 				tbbcode = tbbcode.replace("]","'>");
 			}
 
-			if(tbbcode2 != trigger.src && typeof trigger.src !== 'undefined' && trigger.src !== false) {
+			if(tbbcode2.toString().replace("[img]","").replace("[/img]","") != trigger.src && typeof trigger.src !== 'undefined' && trigger.src !== false) {
 				trigger.src =  tbbcode2.toString().replace("[img]","").replace("[/img]","");
 			}
 
