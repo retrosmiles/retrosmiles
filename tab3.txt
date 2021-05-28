@@ -1,0 +1,34 @@
+#bbcode,img
+6/baa_1.gif,6/baa_1.gif
+6/ban_1.gif,6/ban_1.gif
+6/beta_1.gif,6/beta_1.gif
+6/birthday_1.gif,6/birthday_1.gif
+6/boo_1.gif,6/boo_1.gif
+6/busted2_1.gif,6/busted2_1.gif
+6/chickawow_1.gif,6/chickawow_1.gif
+6/dots_1.gif,6/dots_1.gif
+6/idhitit_1.gif,6/idhitit_1.gif
+6/jerry_1.gif,6/jerry_1.gif
+6/kewlpics_1.gif,6/kewlpics_1.gif
+6/lame_1.gif,6/lame_1.gif
+6/nospam_1.gif,6/nospam_1.gif
+6/offtopic_1.gif,6/offtopic_1.gif
+6/onepointtwo_1.gif,6/onepointtwo_1.gif
+6/please_1.gif,6/please_1.gif
+6/rockon_1.gif,6/rockon_1.gif
+6/shibby_1.gif,6/shibby_1.gif
+6/shutup2_1.gif,6/shutup2_1.gif
+6/sorry_1.gif,6/sorry_1.gif
+6/sp_sign (2).gif,6/sp_sign (2).gif
+6/sp_sign (8).gif,6/sp_sign (8).gif
+6/sp_sign.gif,6/sp_sign.gif
+6/sss_1.gif,6/sss_1.gif
+6/stupid2_1.gif,6/stupid2_1.gif
+6/stupid_1.gif,6/stupid_1.gif
+6/wanted_1.gif,6/wanted_1.gif
+6/welcomeani_1.gif,6/welcomeani_1.gif
+6/welcome_1.gif,6/welcome_1.gif
+0/234.gif,0/234.gif
+0/235.gif,0/235.gif
+0/236.gif,0/236.gif
+0/237.gif,0/237.gif
