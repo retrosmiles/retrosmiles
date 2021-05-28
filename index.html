@@ -30,10 +30,13 @@
 		cursor: pointer;
 		max-width: 100px;
 		max-height: auto;
+        text-align: center;
 	}
 
 	.tab-content .btn:hover {
-		background: yellow
+        background-image: linear-gradient(#7bbdf7, #3399f3 50%, #208ff2);
+       	-webkit-filter: none;
+       	filter: none;
 	}
 
 	.logo {
@@ -44,8 +47,11 @@
 		/*width: 100%;*/
 		color: white;
 		background-color: #888;
-		background: rgb(40, 85, 173);
-		background: linear-gradient(90deg, rgba(40, 85, 173, 1) 0%, rgba(230, 238, 249, 1) 100%);
+		/*background: rgb(40, 85, 173);
+		background: linear-gradient(90deg, rgba(40, 85, 173, 1) 0%, rgba(230, 238, 249, 1) 100%);*/
+        background-image: linear-gradient(#567d9f, #0056a2 50%, #208ff2);
+	    -webkit-filter: none;
+	    filter: none;
 	}
 
 	.tabl {
@@ -54,6 +60,10 @@
 		background: linear-gradient(90deg, #bababa 0%, #fff 100%);
 		margin-bottom: 5px;
 		/*width: 100%;*/
+		background: linear-gradient(90deg, rgba(40, 85, 173, 1) 0%, rgba(230, 238, 249, 1) 100%);
+        background-image: linear-gradient(white, #eee 50%, #e4e4e4);
+	    -webkit-filter: none;
+	    filter: none;
 	}
 
 	#myTabContent {
@@ -125,7 +135,15 @@
 		}
 
 		.horizontal-scrollable > .menuscroller > .cell:hover {
-			background-color: yellow;
+	        background-image: linear-gradient(#7bbdf7, #3399f3 50%, #208ff2);
+        	-webkit-filter: none;
+        	filter: none;
+		}
+
+		.selectedcell {
+	        background-image: linear-gradient(#7bbdf7, #3399f3 50%, #208ff2);
+        	-webkit-filter: none;
+        	filter: none;
 		}
 
 		.horizontal-scrollable > .menuscroller > .cell img {
@@ -145,7 +163,7 @@
 		  width: 3rem;
 		  border-radius: 1.5rem;
 		  color: #6b7381;
-		  background: darkblue;
+		  background: #7bbdf7;
 		}
 		.btn-toggle:focus,
 		.btn-toggle.focus,
@@ -228,7 +246,7 @@
 		  color: #6b7381;
 		}
 		.btn-toggle.active {
-		  background-color: darkgreen;
+		  background-color: #0056a2;
 		}
 		.btn-toggle.btn-lg {
 		  margin: 0 5rem;
@@ -551,11 +569,13 @@
 			//$("#smb").fadeIn();
 			//playHint();
 		}
-		$.notify("Smiley copied to clipboard!");
+		$.notify("Copied to clipboard!", {
+					autoHideDelay: 500
+				});
 		e.clearSelection();
 	});
 	clipboard.on('error', function(e) {
-		$.notify("Error: Smiley not copied to clipboard!");
+		$.notify("Error: Could not copy to clipboard!");
 	});
 
 	function loadImages() {
@@ -582,7 +602,8 @@
 	}
 
 	function loadTab(e) {
-		$('.dropdown-item').removeClass('active');
+		$('.cell').removeClass('selectedcell');
+        $('#' + e).addClass('selectedcell');
 //      $('.tab-pane').removeClass('active');
 //		$('.tab-pane').hide();
 		$('#dtext').html($('#' + e).html());
