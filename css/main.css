@@ -13,8 +13,8 @@ body {
 	background-color: white
 }
 
-.col-auto {
-	text-align: center!important;
+#myTabContent .row {
+    max-width: 100%!important;
 }
 
 .tab-content .btn {
