@@ -5,6 +5,8 @@
 20/moo.gif,20/moo.gif
 20/soltan.gif,20/soltan.gif
 20/spammer.gif,20/spammer.gif
+20/dast.gif,20/dast.gif
+20/goolam.gif,20/goolam.gif
 19/posht.gif,19/posht.gif
 19/simkesh.gif,19/simkesh.gif
 19/kootah.gif,19/kootah.gif
