@@ -1,4 +1,10 @@
 #bbcode,img
+20/bitcoin.gif,20/bitcoin.gif
+20/cheghadr.gif,20/cheghadr.gif
+20/kamtar.gif,20/kamtar.gif
+20/moo.gif,20/moo.gif
+20/soltan.gif,20/soltan.gif
+20/spammer.gif,20/spammer.gif
 19/posht.gif,19/posht.gif
 19/simkesh.gif,19/simkesh.gif
 19/kootah.gif,19/kootah.gif
