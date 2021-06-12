@@ -38,3 +38,16 @@ meme1/sticker32.png,meme1/sticker32.img.png
 12/g13.gif,12/g13.img.png
 meme1/1621774233087s.jpg,meme1/1621774233087s.img.png
 meme1/1621773704313s.jpg,meme1/1621773704313s.img.png
+meme2/cocopry1.gif,meme2/cocopry1.img.png
+meme2/cocopry3.gif,meme2/cocopry3.img.png
+meme2/cocopry4.gif,meme2/cocopry4.img.png
+meme2/cocopry5.gif,meme2/cocopry5.img.png
+meme2/cocopry7.gif,meme2/cocopry7.img.png
+meme2/cocopry12.gif,meme2/cocopry12.img.png
+meme2/cocopry13.gif,meme2/cocopry13.img.png
+meme2/cocopry15.gif,meme2/cocopry15.img.png
+meme2/cocopry16.gif,meme2/cocopry16.img.png
+meme2/cocopry17.gif,meme2/cocopry17.img.png
+meme2/cocopry19.gif,meme2/cocopry19.img.png
+meme2/cocopry23.gif,meme2/cocopry23.img.png
+meme2/cocopry24.gif,meme2/cocopry24.img.png

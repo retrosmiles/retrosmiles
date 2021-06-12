@@ -19,3 +19,4 @@ cyanide1/cyanide-37.gif,cyanide1/cyanide-37.img.png
 cyanide1/cyanide-39.gif,cyanide1/cyanide-39.img.png
 cyanide1/cyanide-40.gif,cyanide1/cyanide-40.img.png
 cyanide1/cyanide_1.gif,cyanide1/cyanide_1.img.png
+meme2/cocopry18.gif,meme2/cocopry18.img.png

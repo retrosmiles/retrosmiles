@@ -97,6 +97,8 @@
 	}
 
 	function loadTabCSV(e,format) {
+		console.log('loading tab '+e);
+		
 		$('.cell').removeClass('selectedcell');
 		$('#' + e).addClass('selectedcell');
 		$('#dtext').html($('#' + e).html());
