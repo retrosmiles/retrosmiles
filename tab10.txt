@@ -1,4 +1,13 @@
 #bbcode,img
+21/aroosi.gif,21/aroosi.gif
+21/baz.gif,21/baz.gif
+21/dishtrin.gif,21/dishtrin.gif
+21/gher.gif,21/gher.gif
+21/hame.gif,21/hame.gif
+21/lipak.gif,21/lipak.gif
+21/rikht.gif,21/rikht.gif
+21/shadim.gif,21/shadim.gif
+21/zolf.gif,21/zolf.gif
 19/mardetanha.gif,19/mardetanha.gif
 20/bitcoin.gif,20/bitcoin.gif
 20/cheghadr.gif,20/cheghadr.gif
