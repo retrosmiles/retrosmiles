@@ -1,4 +1,11 @@
 #bbcode,img
+21/azkhod.gif,21/azkhod.gif
+21/dom.gif,21/dom.gif
+21/khab.gif,21/khab.gif
+21/post.gif,21/post.gif
+21/sandis.gif,21/sandis.gif
+21/shakh.gif,21/shakh.gif
+21/topic.gif,21/topic.gif
 21/aroosi.gif,21/aroosi.gif
 21/baz.gif,21/baz.gif
 21/dishtrin.gif,21/dishtrin.gif
@@ -8,6 +15,8 @@
 21/rikht.gif,21/rikht.gif
 21/shadim.gif,21/shadim.gif
 21/zolf.gif,21/zolf.gif
+16/805.gif,16/805.gif
+16/742.gif,16/742.gif
 19/mardetanha.gif,19/mardetanha.gif
 20/bitcoin.gif,20/bitcoin.gif
 20/cheghadr.gif,20/cheghadr.gif

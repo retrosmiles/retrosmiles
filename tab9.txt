@@ -1,6 +1,7 @@
 #bbcode,img
 15/t1339.gif,15/t1339.gif
 15/t1306.gif,15/t1306.gif
+21/Kopfball.gif,21/Kopfball.gif
 15/h0189.gif,15/h0189.gif
 15/h0198.gif,15/h0198.gif
 15/h01100.gif,15/h01100.gif
@@ -73,8 +74,6 @@
 9/k06207.gif,9/k06207.gif
 16/756.gif,16/756.gif
 16/779.gif,16/779.gif
-16/805.gif,16/805.gif
-16/742.gif,16/742.gif
 16/748.gif,16/748.gif
 16/757.gif,16/757.gif
 16/653.gif,16/653.gif
