@@ -40,7 +40,7 @@ pepe2/pepe1.gif,pepe2/pepe1.img.png
 pepe2/pepe13.gif,pepe2/pepe13.img.png
 pepe2/pepe15.gif,pepe2/pepe15.img.png
 pepe2/pepe16.gif,pepe2/pepe16.img.png
-pepe2/pepe17.gif,pepe2/pepe17.img.png
+pepe2/sticker1.png,pepe2/sticker1.png
 pepe2/pepe18.gif,pepe2/pepe18.img.png
 pepe2/pepe22.gif,pepe2/pepe22.img.png
 pepe2/pepe23.gif,pepe2/pepe23.img.png
