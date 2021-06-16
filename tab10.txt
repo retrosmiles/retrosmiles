@@ -1,4 +1,12 @@
 #bbcode,img
+21/bekhar.gif,21/bekhar.gif
+21/irani.gif,21/irani.gif
+21/man.gif,21/man.gif
+21/mehraban.gif,21/mehraban.gif
+21/pahlevan.gif,21/pahlevan.gif
+21/parcham.gif,21/parcham.gif
+21/shir.gif,21/shir.gif
+21/vatan.gif,21/vatan.gif
 21/azkhod.gif,21/azkhod.gif
 21/dom.gif,21/dom.gif
 21/khab.gif,21/khab.gif
