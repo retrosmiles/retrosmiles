@@ -1,4 +1,10 @@
 #bbcode,img
+21/150fs127095.gif,21/150fs127095.gif
+21/155fs505059.gif,21/155fs505059.gif
+21/165fs459976.gif,21/165fs459976.gif
+21/499kfok.gif,21/499kfok.gif
+21/svnxo5.gif,21/svnxo5.gif
+
 18/opasnie210.gif,18/opasnie210.gif
 18/opasnie152.gif,18/opasnie152.gif
 18/opasnie156.gif,18/opasnie156.gif
