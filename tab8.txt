@@ -65,6 +65,7 @@
 12/cowsleep_gif.gif,12/cowsleep_gif.gif
 12/frog.gif,12/frog.gif
 12/happy.gif,12/happy.gif
+21/sam.gif,21/sam.gif
 12/mini-panda-21.gif,12/mini-panda-21.gif
 12/mini-vache-danse.gif,12/mini-vache-danse.gif
 12/mmy7me.gif,12/mmy7me.gif

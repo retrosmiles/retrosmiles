@@ -1,4 +1,12 @@
 #bbcode,img
+22/baste.gif,22/baste.gif
+22/dast.gif,22/dast.gif
+22/khodesho.gif,22/khodesho.gif
+22/nemifahme.gif,22/nemifahme.gif
+22/rad.gif,22/rad.gif
+22/taghas.gif,22/taghas.gif
+22/baz.gif,22/baz.gif
+22/bit.gif,22/bit.gif
 21/bekhar.gif,21/bekhar.gif
 21/irani.gif,21/irani.gif
 21/man.gif,21/man.gif
