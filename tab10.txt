@@ -1,4 +1,8 @@
 #bbcode,img
+22/maraftim.gif,22/maraftim.gif
+22/felan.gif,22/felan.gif
+22/bibbib.gif,22/bibbib.gif
+22/bede2.gif,22/bede2.gif
 22/baste.gif,22/baste.gif
 22/dast.gif,22/dast.gif
 22/khodesho.gif,22/khodesho.gif
