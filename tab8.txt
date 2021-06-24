@@ -13,6 +13,10 @@
 18/opasnie224.gif,18/opasnie224.gif
 18/opasnie200.gif,18/opasnie200.gif
 18/opasnie201.gif,18/opasnie201.gif
+22/BTC.gif,22/BTC.gif
+22/bitcoin3.gif,22/bitcoin3.gif
+22/bitcoin4.gif,22/bitcoin4.gif
+22/bitcoin5.gif,22/bitcoin5.gif
 16/1.gif,16/1.gif
 16/2.gif,16/2.gif
 16/43.gif,16/43.gif
@@ -86,7 +90,6 @@
 12/vache.gif,12/vache.gif
 12/xpeople_llover.gif,12/xpeople_llover.gif
 12/zombismiley.gif,12/zombismiley.gif
-22/BTC.gif,22/BTC.gif
 12/h-sh.gif,12/h-sh.gif
 12/h-sh2.gif,12/h-sh2.gif
 12/looksmiley.gif,12/looksmiley.gif
