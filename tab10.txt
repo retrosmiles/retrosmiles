@@ -1,4 +1,13 @@
 #bbcode,img
+3/ampool.gif,23/ampool.gif
+23/bardar.gif,23/bardar.gif
+23/bimar.gif,23/bimar.gif
+23/deraz.gif,23/deraz.gif
+23/doctor.gif,23/doctor.gif
+23/dokhtar.gif,23/dokhtar.gif
+23/mariz.gif,23/mariz.gif
+23/pesar.gif,23/pesar.gif
+23/shab.gif,23/shab.gif
 22/maraftim.gif,22/maraftim.gif
 22/felan.gif,22/felan.gif
 22/bibbib.gif,22/bibbib.gif
@@ -44,6 +53,8 @@
 20/moo.gif,20/moo.gif
 20/soltan.gif,20/soltan.gif
 20/spammer.gif,20/spammer.gif
+23/azaton.gif,23/azaton.gif
+23/hate.gif,23/hate.gif
 20/dast.gif,20/dast.gif
 20/goolam.gif,20/goolam.gif
 19/posht.gif,19/posht.gif
