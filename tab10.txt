@@ -1,4 +1,15 @@
 #bbcode,img
+23/aaah.gif,23/aaah.gif
+23/didi.gif,23/didi.gif
+23/doon.gif,23/doon.gif
+23/ghatan.gif,23/ghatan.gif
+23/hasood.gif,23/hasood.gif
+23/khatere.gif,23/khatere.gif
+23/miner.gif,23/miner.gif
+23/multiuser.gif,23/multiuser.gif
+23/poolesho.gif,23/poolesho.gif
+23/sandis.gif,23/sandis.gif
+23/zoor.gif,23/zoor.gif
 3/ampool.gif,23/ampool.gif
 23/bardar.gif,23/bardar.gif
 23/bimar.gif,23/bimar.gif
