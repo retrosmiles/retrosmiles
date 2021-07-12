@@ -10,9 +10,8 @@
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/notify.js"></script>
-	<link rel="stylesheet" href="css/main.css?v=2">
+	<link rel="stylesheet" href="css/main.css?v=3">
 </head>
-
 <body>
 <div id="splash">RetroSmiles</div>
 	<script>
@@ -23,17 +22,13 @@
 	else
 		$('#splash').hide();
 
-	function playHint() {
-		try {
-			var snd = new Audio("coin.mp3");
-			snd.currentTime = 0;
-			snd.play();
-		} catch(e) {}
-	}
-	var count_smb = 0;
-	var count_sign = 0;
+	var currentTab = '';
+	var history_data = [];
+	var _tmp_h  = JSON.parse(localStorage.getItem("history_data"));
+	if(Array.isArray(_tmp_h)) 
+		history_data = _tmp_h;
+
 	if(!ClipboardJS.isSupported()) $.notify("Copy to clipboard is not supported for your browser!");
-	//var clipboard = new ClipboardJS('.btn');
 	var clipboard = new ClipboardJS('.btn', {
 		text: function(trigger) {
 			if(trigger.getAttribute('data-clipboard-text') == '' || trigger.getAttribute('data-clipboard-text') == null) {
@@ -48,6 +43,16 @@
 				tbbcode = tbbcode.replace("[/url]","</a>");
 				tbbcode = tbbcode.replace("]","'>");
 			}
+			
+			if(currentTab != 'tab0-tab') {
+						var _tmp_arr = [cleanUrl(tbbcode2) , cleanUrl(trigger.src)];
+						if(not_in(history_data,_tmp_arr[0])) {
+				//			console.log(_tmp_arr);
+							history_data.push(_tmp_arr);
+							if(history_data.length > 60) history_data.shift();
+							localStorage.setItem("history_data", JSON.stringify(history_data));
+					}
+			}
 
 			if(tbbcode2.toString().replace("[img]","").replace("[/img]","") != trigger.src && typeof trigger.src !== 'undefined' && trigger.src !== false) {
 				trigger.src =  tbbcode2.toString().replace("[img]","").replace("[/img]","");
@@ -57,13 +62,6 @@
 		}
 	});
 	clipboard.on('success', function(e) {
-		count_sign++;
-		count_smb++;
-		if(count_smb > 2 && count_smb < 6) {
-			//$("#smb").fadeOut();
-			//$("#smb").fadeIn();
-			//playHint();
-		}
 		$.notify("Copied to clipboard!", {
 					autoHideDelay: 500
 				});
@@ -72,6 +70,21 @@
 	clipboard.on('error', function(e) {
 		$.notify("Error: Could not copy to clipboard!");
 	});
+
+	function cleanUrl(url) {
+		return url.replace("[img]","").replace("https://retrosmiles.github.io/retrosmiles/QuickSmiles/","").replace("http://localhost/retrosmiles/QuickSmiles/","").replace("[/img]","")
+	}
+	
+	function not_in(arr,val) {
+		if(arr.length < 1) return true;
+		
+		for (var i = 0;i < history_data.length; i++) {
+			if(arr[i][0] == val)
+				return false;
+		}
+		
+		return true;
+	}
 
 	function loadImages() {
 		let imgs = $("img");
@@ -97,6 +110,7 @@
 	}
 
 	function loadTabCSV(e,format) {
+		currentTab = e;
 		console.log('loading tab '+e);
 		
 		$('.cell').removeClass('selectedcell');
@@ -104,7 +118,7 @@
 		$('#dtext').html($('#' + e).html());
 		$('#selText').html($('#' + e).html());
 		if(e.toString() != 'tab999-tab' && e.toString() != 'tab998-tab') localStorage.setItem('lasttab', e.toString());
-		var targ = '#maintab'; //'#' + e.replace('-tab', '');
+		var targ = '#maintab';
 		$(targ).html('<p>Loading, please wait...</p>');
 		$(targ).addClass('active');
 		$(targ).addClass('show');
@@ -114,29 +128,49 @@
 			$.notify("loading...", {
 				autoHideDelay: 1000
 			});
-			try {
-				$.get(loadurl, function(data) {
-					if(format=='html')
-						$(targ).html(data);
-					else
-						$(targ).html(renderCSV(data));
+			
+			if(e == 'tab0-tab') {
+				
+				if(Array.isArray(history_data) && history_data.length > 0) {
+					var _tmp_data = "";
+					//console.log(history_data);
+					for (var i = history_data.length - 1; i >= 0; i--) {
+						_tmp_data+="\n"+history_data[i][0]+","+history_data[i][1];
+					}
+					$(targ).html(renderCSV(_tmp_data));
 					loadImages();
-				}).fail(function() {
-					$.notify("error, try later.", {
-						autoHideDelay: 1000
-					});
-				});
-			} catch(e) {
-				$.notify("error, try later.", {
-					autoHideDelay: 1000
-				});
-			}
+				} else {
+					$(targ).html("<p style='padding:1em'>no smiley clicked! <img src='./QuickSmiles/0/162.gif'></p>");
+				}
+				
+			} else {
+			
+					try {
+						$.get(loadurl, function(data) {
+							if(format=='html')
+								$(targ).html(data);
+							else
+								$(targ).html(renderCSV(data));
+							loadImages();
+						}).fail(function() {
+							$.notify("error, try later.", {
+								autoHideDelay: 1000
+							});
+						});
+					} catch(e) {
+						$.notify("error, try later.", {
+							autoHideDelay: 1000
+						});
+					}
+
+		}
+		
 		$(window).scrollTop(0);
 	}
 
 	function renderCSV(csv) {
 			var rows = csv.split(/\r\n|\n/);
-			var html = '';
+			var html = '', img = "", bbcode = "";
 			if(Array.isArray(rows)) {
 				for(var row=0;row<rows.length;row++) {
 					var cols = rows[row].split(',');
@@ -160,7 +194,7 @@
 						if(bbcode.indexOf('#') != 0) {
 							bbcode = bbcode.toString().trim();
 							img = img.toString().trim();
-							if(bbcode != '' && img != '') {
+							if(bbcode != '' && img != '') { 
 								html+='<div class="col-auto col-md-2"> <img class="btn" data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/'+bbcode+'[/img]" src="css/placeholder.png" ref-src="QuickSmiles/'+img+'"></div>';
 							}
 						}
@@ -179,18 +213,15 @@
 
 		$('.cell').removeClass('selectedcell');
         $('#' + e).addClass('selectedcell');
-//      $('.tab-pane').removeClass('active');
-//		$('.tab-pane').hide();
 		$('#dtext').html($('#' + e).html());
 		$('#selText').html($('#' + e).html());
 		if(e.toString() != 'tab999-tab' && e.toString() != 'tab998-tab') localStorage.setItem('lasttab', e.toString());
-		var targ = '#maintab'; //'#' + e.replace('-tab', '');
+		var targ = '#maintab';
     $(targ).html('<p>Loading, please wait...</p>');
 		$(targ).addClass('active');
 		$(targ).addClass('show');
 		$(targ).show();
 		var loadurl = e.replace('-tab', '.html') + '?' + Date.now();
-//		if($(targ).html().indexOf('class="row"') <= 0) {
 			$.notify("loading...", {
 				autoHideDelay: 1000
 			});
@@ -208,7 +239,6 @@
 					autoHideDelay: 1000
 				});
 			}
-//		}
 		$(window).scrollTop(0);
 	}
 
@@ -261,9 +291,6 @@
 				<button type="button" id="bbcode" class="btn btn-sm btn-toggle active" data-toggle="button" aria-pressed="true" autocomplete="off">
         <div class="handle"></div>
 			</div>
-			<div id="smb" style="display:none;position:absolute;float:right;left:45%;top:-10px;">
-				<a href="https://retrosmiles.github.io/retrosmb/"> <img style="width:42px;height:50px;" src="https://retrosmiles.github.io/retrosmb/smb.gif"> </a>
-			</div>
 		</div>
 		<div class="row tabl">
 			<div class="col-12">
@@ -280,5 +307,4 @@
 		</div>
 	</div>
 </body>
-
 </html>

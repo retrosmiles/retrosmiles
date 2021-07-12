@@ -13,6 +13,10 @@ body {
 	background-color: white
 }
 
+#myTabContent {
+	min-width: 99%!important;
+}
+
 #myTabContent .row {
     max-width: 100%!important;
 }

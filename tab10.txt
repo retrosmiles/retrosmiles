@@ -64,6 +64,7 @@
 20/moo.gif,20/moo.gif
 20/soltan.gif,20/soltan.gif
 20/spammer.gif,20/spammer.gif
+23/kooft.gif,23/kooft.gif
 23/azaton.gif,23/azaton.gif
 23/hate.gif,23/hate.gif
 20/dast.gif,20/dast.gif
