@@ -256,6 +256,7 @@
 	}
 	
 	function rebuild_profile() {
+		try {
 		var jj, ii;
 		var _t = createMatrix(10, profile_max);
 		
@@ -280,7 +281,7 @@
 		}
 	
 		profile_data = _t;
-		
+		} catch(e) {}
 	}
 
 	function loadTabCSV(e,format) {
