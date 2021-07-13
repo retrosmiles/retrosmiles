@@ -255,46 +255,42 @@
 		
 	}
 	
-	function rebuild_profile() {
-		var jj, ii;
-		var _t = createMatrix(10, profile_max);
-		
-		if(Array.isArray(profile_data)) {
-		
+function rebuild_profile() {
+	var jj, ii;
+	var _t = createMatrix(10, profile_max);
+
+	if(Array.isArray(profile_data)) {
+
 		ii = 0;
 		for(i=0;i<profile_data.length;i++) {
 			jj  = 0;
-			
-			if(Array.isArray(profile_data[i])) {
-			
-			for(j=0;j<profile_data[i].length;j++) {
-			if(Array.isArray(profile_data[i][j])) {	
-				if(profile_data[i][j].length >= 2) {
-				
-				var _t0 = cleanUrl2(profile_data[i][j][0]);
-				var _t1 = cleanUrl2(profile_data[i][j][1]);
-				
-				if(_t0 != '' && _t0 != null && _t0 != 'undefined') {
-					_t[i][jj][0] = _t0;
-					_t[i][jj][1] = _t1;
-					jj++;
+				if(Array.isArray(profile_data[i])) {
+					for(j=0;j<profile_data[i].length;j++) {
+						if(Array.isArray(profile_data[i][j])) {	
+							if(profile_data[i][j].length >= 2) {
+
+								var _t0 = cleanUrl2(profile_data[i][j][0]);
+								var _t1 = cleanUrl2(profile_data[i][j][1]);
+
+								if(_t0 != '' && _t0 != null && _t0 != 'undefined') {
+									_t[i][jj][0] = _t0;
+									_t[i][jj][1] = _t1;
+									jj++;
+								}
+
+							}
+						}
+					}
 				}
-				
-			}
+
+			ii++;	
 		}
-				
-			}
-			
-		}
-		
-		ii++;	
-		}
-		
-		}
-	
-		profile_data = _t;
-		
+
 	}
+
+	profile_data = _t;
+
+}
 
 	function loadTabCSV(e,format) {
 		currentProfile = localStorage.getItem('last_profile');

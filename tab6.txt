@@ -1,4 +1,5 @@
 #bbcode,img
+23/magas.gif,23/magas.gif
 21/2cnbex2.gif,21/2cnbex2.gif
 21/6ugt8ah_th.gif,21/6ugt8ah_th.gif
 21/127fs3884126.gif,21/127fs3884126.gif
