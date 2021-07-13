@@ -10,7 +10,7 @@
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/notify.js"></script>
-	<link rel="stylesheet" href="css/main.css?v=3">
+	<link rel="stylesheet" href="css/main.css?v=4">
 </head>
 <body>
 <div id="splash">RetroSmiles</div>
@@ -22,11 +22,26 @@
 	else
 		$('#splash').hide();
 
-	var currentTab = '';
+	var currentTab = '', currentProfile = -1, csvContent = '';
 	var history_data = [];
+	var profile_data = createMatrix(10,profile_max );
+	var profile_max = 60;
+	var profile_msg = "<p style='text-align:center'>No smiley in this profile! <img src='./QuickSmiles/0/162.gif'><br>You can use tools above to add smiles from any website you like to this profile for quick access! <img src='https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/69.gif'><br>You could also backup your profiles as a collection and share your collections with friends! <img src='./QuickSmiles/2/4.gif'></p>";
+	
 	var _tmp_h  = JSON.parse(localStorage.getItem("history_data"));
 	if(Array.isArray(_tmp_h)) 
 		history_data = _tmp_h;
+	
+	var _tmp_p  = JSON.parse(localStorage.getItem("profile_data"));
+	try {
+		if(Array.isArray(_tmp_p))
+			if(_tmp_p.length == 10)
+				if(_tmp_p[0].length == profile_max )
+					profile_data = _tmp_p;
+	} catch(e) {}
+	
+	rebuild_profile();
+//	console.log(profile_data);
 
 	if(!ClipboardJS.isSupported()) $.notify("Copy to clipboard is not supported for your browser!");
 	var clipboard = new ClipboardJS('.btn', {
@@ -52,6 +67,8 @@
 							if(history_data.length > 60) history_data.shift();
 							localStorage.setItem("history_data", JSON.stringify(history_data));
 					}
+			} else {
+						$('#smiley_url').val(tbbcode2);
 			}
 
 			if(tbbcode2.toString().replace("[img]","").replace("[/img]","") != trigger.src && typeof trigger.src !== 'undefined' && trigger.src !== false) {
@@ -71,8 +88,31 @@
 		$.notify("Error: Could not copy to clipboard!");
 	});
 
+	function createMatrix(N, M) {
+		var matrix = new Array(N); 
+
+		for (var i = 0; i < N; ++i) {
+			matrix[i] = new Array(M);
+
+				for (var j = 0; j < M; ++j) {
+					matrix[i][j] = new Array(2);
+				}
+
+
+		}
+
+		return matrix;
+	}
+
 	function cleanUrl(url) {
-		return url.replace("[img]","").replace("https://retrosmiles.github.io/retrosmiles/QuickSmiles/","").replace("http://localhost/retrosmiles/QuickSmiles/","").replace("[/img]","")
+		if(url == null || url == 'undefined') return '';
+		return url.replace("[img]","").replace("https://retrosmiles.github.io/retrosmiles/QuickSmiles/","").replace("http://localhost/retrosmiles/QuickSmiles/","").replace("[/img]","");
+	}
+	
+	function cleanUrl2(url) {
+		if(url == null || url == 'undefined') return '';
+		url = cleanUrl(url);
+		return url.replace("<","").replace(">","").replace("#","");
 	}
 	
 	function not_in(arr,val) {
@@ -105,11 +145,147 @@
 			}
 		}
 	}
-	function loadTab2(e) {
-		loadTab(e,'html');
+	
+	function add_smiley() {
+		var smiley_url = $("#smiley_url").val();
+		smiley_url =  cleanUrl2(smiley_url);
+
+		if(smiley_url == '') {alert("No URL entered. Please enter URL of a smiley!"); return true;}
+		
+		for(i=0;i<profile_data[currentProfile].length;i++) {
+			if(profile_data[currentProfile][i][0]==smiley_url) {
+				alert("Smiley already exists!"); return true;
+			}
+		}
+		
+		for(i=0;i<profile_data[currentProfile].length;i++) {
+		
+			if(profile_data[currentProfile][i][0]=='' || profile_data[currentProfile][i][0]==null || profile_data[currentProfile][i][0]=='undefined') {
+				profile_data[currentProfile][i][0] = cleanUrl2(smiley_url);
+				profile_data[currentProfile][i][1] = cleanUrl2(smiley_url);
+				break;
+			}
+			//if(profile_data[currentProfile].length > profile_max ) profile_data[currentProfile].shift();
+		
+		}
+//				console.log(profile_data[currentProfile]);
+		rebuild_profile();
+		localStorage.setItem("profile_data", JSON.stringify(profile_data));
+		loadTab('tab0-tab');
+	}
+	
+	function import_smiley(event) {
+
+			var reader = new FileReader();
+			reader.onload = function(){
+			  var dataURL = reader.result;
+				if(confirm("All smiles in this list will be deleted. Are you sure?")) {
+					renderCSVArray(dataURL);
+					rebuild_profile();
+					localStorage.setItem("profile_data", JSON.stringify(profile_data));
+					loadTab('tab0-tab');
+				}
+			};
+			reader.readAsText(document.getElementById('import_smiley').files[0]);
+		return true;
+	}
+
+	function delete_smiley(event) {
+
+		if(confirm("Delete all smiles in this list?")) {
+			profile_data[currentProfile] = new Array(profile_max );
+			for(i=0;i<profile_data[currentProfile].length;i++) {
+				profile_data[currentProfile][i] = new Array(2);
+			}
+			rebuild_profile();
+			localStorage.setItem("profile_data", JSON.stringify(profile_data));
+			loadTab('tab0-tab');
+		}
+		return true;
+	}
+
+	function download(data, filename, type) {
+		var file = new Blob([data], {type: type});
+		if (window.navigator.msSaveOrOpenBlob) // IE10+
+			window.navigator.msSaveOrOpenBlob(file, filename);
+		else { // Others
+			var a = document.createElement("a"),
+					url = URL.createObjectURL(file);
+			a.href = url;
+			a.download = filename;
+			document.body.appendChild(a);
+			a.click();
+			setTimeout(function() {
+				document.body.removeChild(a);
+				window.URL.revokeObjectURL(url);  
+			}, 0); 
+		}
+	}
+
+	function export_smiley() {
+			var _c = currentProfile;
+			_c++;
+			download(csvContent,"retrosmiles_profile_"+_c+".retro","text/plain");
+	}
+	
+	function remove_smiley() {
+		var smiley_url = $("#smiley_url").val();
+		smiley_url =  cleanUrl2(smiley_url);
+
+		try {
+			
+			if(profile_data[currentProfile].length <= 0 ) return true;
+			if(smiley_url == '') {alert("Select smiley from the list first."); return true;}
+			
+			if(confirm("Delete this smiley from the list?")) {
+				for(i=0;i< profile_data[currentProfile].length;i++) {
+					if(profile_data[currentProfile][i][0] == smiley_url || profile_data[currentProfile][i][0] == '' || profile_data[currentProfile][i][0] == cleanUrl(smiley_url) || profile_data[currentProfile][i][0] == 'undefined') {
+						profile_data[currentProfile][i][0] = '';//.splice(i,1);
+						profile_data[currentProfile][i][1] = '';//.push(new Array(2));
+					}
+				}
+//				console.log(profile_data[currentProfile]);
+				rebuild_profile();
+				localStorage.setItem("profile_data", JSON.stringify(profile_data));
+
+			}
+		} catch(e) {}
+
+		loadTab('tab0-tab');
+		
+	}
+	
+	function rebuild_profile() {
+		var jj, ii;
+		var _t = createMatrix(10, profile_max);
+		
+		ii = 0;
+		for(i=0;i<profile_data.length;i++) {
+			jj  = 0;
+			
+			for(j=0;j<profile_data[i].length;j++) {
+				
+				var _t0 = cleanUrl2(profile_data[i][j][0]);
+				var _t1 = cleanUrl2(profile_data[i][j][1]);
+				
+				if(_t0 != '' && _t0 != null && _t0 != 'undefined') {
+					_t[i][jj][0] = _t0;
+					_t[i][jj][1] = _t1;
+					jj++;
+				}
+				
+			}
+		
+		ii++;	
+		}
+	
+		profile_data = _t;
+		
 	}
 
 	function loadTabCSV(e,format) {
+		currentProfile = localStorage.getItem('last_profile');
+		if(currentProfile < -1 || currentProfile > 9 || currentProfile == null || currentProfile == 'undefined') currentProfile = -1;
 		currentTab = e;
 		console.log('loading tab '+e);
 		
@@ -130,18 +306,135 @@
 			});
 			
 			if(e == 'tab0-tab') {
+
+				if(currentProfile < 0) {
 				
-				if(Array.isArray(history_data) && history_data.length > 0) {
-					var _tmp_data = "";
-					//console.log(history_data);
-					for (var i = history_data.length - 1; i >= 0; i--) {
-						_tmp_data+="\n"+history_data[i][0]+","+history_data[i][1];
-					}
-					$(targ).html(renderCSV(_tmp_data));
-					loadImages();
+							if(Array.isArray(history_data) && history_data.length > 0) {
+								var _tmp_data = "";
+								//console.log(history_data);
+								for (var i = history_data.length - 1; i >= 0; i--) {
+									_tmp_data+="\n"+history_data[i][0]+","+history_data[i][1];
+								}
+
+
+								var loadurl = 'ext_profile.html' + '?' + Date.now();
+								var _tmp_html = '';
+								try {
+									$.get(loadurl, function(data2) {
+										_tmp_html = data2;
+										_tmp_html+= renderCSV(_tmp_data);
+										$(targ).html(_tmp_html);
+										$('#ext_uploader').hide();
+										loadImages();
+									}).fail(function() {
+										$.notify("error, try later.", {
+											autoHideDelay: 1000
+										});
+									});
+								} catch(e) {
+									$.notify("error, try later.", {
+										autoHideDelay: 1000
+									});
+								}
+								
+
+							} else {
+
+								var loadurl = 'ext_profile.html' + '?' + Date.now();
+								var _tmp_html = '';
+								try {
+									$.get(loadurl, function(data2) {
+										_tmp_html = data2;
+										_tmp_html+=  "<p  style='text-align:center'>No smiley clicked! <img src='./QuickSmiles/0/162.gif'></p>";
+										$(targ).html(_tmp_html);
+										loadImages();
+									}).fail(function() {
+										$.notify("error, try later.", {
+											autoHideDelay: 1000
+										});
+									});
+								} catch(e) {
+									$.notify("error, try later.", {
+										autoHideDelay: 1000
+									});
+								}
+
+							}
+
 				} else {
-					$(targ).html("<p style='padding:1em'>no smiley clicked! <img src='./QuickSmiles/0/162.gif'></p>");
+					
+						// profiles
+						try {
+							var countEmpty = 0;
+							if(Array.isArray(profile_data[currentProfile]) && profile_data[currentProfile].length > 0) {
+								var _tmp_data = "";
+								for (var i = profile_data[currentProfile].length - 1; i >= 0; i--) {
+									if(profile_data[currentProfile][i][0]!= null && profile_data[currentProfile][i][1] != null && profile_data[currentProfile][i][0]!= '' && profile_data[currentProfile][i][1] != '' && profile_data[currentProfile][i][0]!= 'undefined' && profile_data[currentProfile][i][1] != 'undefined')
+										_tmp_data+="\n"+profile_data[currentProfile][i][0]+","+profile_data[currentProfile][i][1];
+									else
+										countEmpty++;
+								}
+								
+								csvContent = "#exported by RetroSmiles\n"+"#bbcode,img\n"+_tmp_data;
+
+
+								var loadurl = 'ext_profile.html' + '?' + Date.now();
+								var _tmp_html = '';
+								try {
+									$.get(loadurl, function(data2) {
+										_tmp_html = data2;
+										_tmp_html+= renderCSV(_tmp_data);
+										if(countEmpty >(profile_max -1))
+										_tmp_html+=  profile_msg;
+										$(targ).html(_tmp_html);
+										$('#ext_uploader').show();
+										$('#ext_profile ').val(currentProfile);
+										loadImages();
+									}).fail(function() {
+										$.notify("error, try later.", {
+											autoHideDelay: 1000
+										});
+									});
+								} catch(e) {
+									$.notify("error, try later.", {
+										autoHideDelay: 1000
+									});
+								}
+								
+
+							} else {
+
+								var loadurl = 'ext_profile.html' + '?' + Date.now();
+								var _tmp_html = '';
+								try {
+									$.get(loadurl, function(data2) {
+										_tmp_html = data2;
+										_tmp_html+=  profile_msg;
+										$(targ).html(_tmp_html);
+										$('#ext_uploader').show();
+										$('#ext_profile ').val(currentProfile);
+										loadImages();
+									}).fail(function() {
+										$.notify("error, try later.", {
+											autoHideDelay: 1000
+										});
+									});
+								} catch(e) {
+									$.notify("error, try later.", {
+										autoHideDelay: 1000
+									});
+								}
+
+							}
+							
+						} catch(e) {
+							alert(e);
+							currentProfile = -1;
+							ext_profile();
+						}
+					
 				}
+
 				
 			} else {
 			
@@ -166,6 +459,53 @@
 		}
 		
 		$(window).scrollTop(0);
+	}
+
+	function renderCSVArray(csv) {
+			var rows = csv.split(/\r\n|\n/);
+			var  img = "", bbcode = "";
+			var cc=0;
+			
+			profile_data[currentProfile] = new Array(profile_max );
+			
+			for(i=0;i<profile_data[currentProfile].length;i++) {
+				profile_data[currentProfile][i] = new Array(2);
+			}
+			
+			if(Array.isArray(rows) && rows.length>0) {
+				for(var row=rows.length-1;row>=0;row--) {
+					var cols = rows[row].split(',');
+					if(Array.isArray(cols)) {
+						for(var i=0;i<cols.length;i++) {
+							cols[i] = cols[i].replace('"','').trim().toString();
+							switch (i) {
+								case 0:
+									var bbcode = cols[i].toString();
+									break;
+
+									case 1:
+									var img = cols[i].toString();
+									break;
+
+								default:
+
+							}
+						}
+
+						if(bbcode.indexOf('#') != 0) {
+							bbcode = bbcode.toString().trim();
+							img = img.toString().trim();
+							if(bbcode != '' && img != '') { 
+									profile_data[currentProfile][cc]= new Array(cleanUrl2(bbcode),cleanUrl2(img));
+									cc++;
+									if(cc>(profile_max -1)) return true;
+								}
+							}
+						}
+
+					}
+				}
+
 	}
 
 	function renderCSV(csv) {
@@ -195,7 +535,11 @@
 							bbcode = bbcode.toString().trim();
 							img = img.toString().trim();
 							if(bbcode != '' && img != '') { 
-								html+='<div class="col-auto col-md-2"> <img class="btn" data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/'+bbcode+'[/img]" src="css/placeholder.png" ref-src="QuickSmiles/'+img+'"></div>';
+								if(bbcode.indexOf('https://')!=-1 || bbcode.indexOf('http://')!=-1) {
+									html+='<div class="col-auto col-md-2"> <img class="btn" data-clipboard-text="[img]'+bbcode+'[/img]" src="css/placeholder.png" ref-src="'+img+'"></div>';
+								} else {
+									html+='<div class="col-auto col-md-2"> <img class="btn" data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/'+bbcode+'[/img]" src="css/placeholder.png" ref-src="QuickSmiles/'+img+'"></div>';
+								}
 							}
 						}
 
@@ -210,36 +554,12 @@
 
 	function loadTab(e,t) {
 		return loadTabCSV(e,t);
+}
 
-		$('.cell').removeClass('selectedcell');
-        $('#' + e).addClass('selectedcell');
-		$('#dtext').html($('#' + e).html());
-		$('#selText').html($('#' + e).html());
-		if(e.toString() != 'tab999-tab' && e.toString() != 'tab998-tab') localStorage.setItem('lasttab', e.toString());
-		var targ = '#maintab';
-    $(targ).html('<p>Loading, please wait...</p>');
-		$(targ).addClass('active');
-		$(targ).addClass('show');
-		$(targ).show();
-		var loadurl = e.replace('-tab', '.html') + '?' + Date.now();
-			$.notify("loading...", {
-				autoHideDelay: 1000
-			});
-			try {
-				$.get(loadurl, function(data) {
-					$(targ).html(data);
-					loadImages();
-				}).fail(function() {
-					$.notify("error, try later.", {
-						autoHideDelay: 1000
-					});
-				});
-			} catch(e) {
-				$.notify("error, try later.", {
-					autoHideDelay: 1000
-				});
-			}
-		$(window).scrollTop(0);
+
+	function ext_profile() {
+		localStorage.setItem('last_profile', $('#ext_profile').val());
+		return loadTab('tab0-tab');
 	}
 
 	function loadTabs() {
