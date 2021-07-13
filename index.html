@@ -21,7 +21,12 @@
 		document.getElementById('splash').style.backgroundImage = "url('./QuickSmiles/0/"+ Math.floor(Math.random() * 100) +".gif')";
 	else
 		$('#splash').hide();
-
+	
+	var device_id = '';
+	if (window.location.href.indexOf("android") > -1) {
+		device_id = 'android';
+	}
+	
 	var currentTab = '', currentProfile = -1, csvContent = '';
 	var history_data = [];
 	var profile_data = createMatrix(10,profile_max );
@@ -174,6 +179,16 @@
 		loadTab('tab0-tab');
 	}
 	
+	function start_upload() {
+		if(device_id == 'android') {
+			alert('Sorry this feature is not available in app. use website instead.');
+			return true;
+		}
+
+		$('#import_smiley').trigger('click');
+		return true;
+	}
+	
 	function import_smiley(event) {
 
 			var reader = new FileReader();
@@ -223,6 +238,12 @@
 	}
 
 	function export_smiley() {
+		
+		if(device_id == 'android') {
+			alert('Sorry this feature is not available in app. use website instead.');
+			return true;
+		}
+		
 			var _c = currentProfile;
 			_c++;
 			download(csvContent,"retrosmiles_profile_"+_c+".retro","text/plain");
