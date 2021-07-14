@@ -10,7 +10,7 @@
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/notify.js"></script>
-	<link rel="stylesheet" href="css/main.css?v=4">
+	<link rel="stylesheet" href="css/main.css?v=6">
 </head>
 <body>
 <div id="splash">RetroSmiles</div>
@@ -54,6 +54,13 @@
 			if(trigger.getAttribute('data-clipboard-text') == '' || trigger.getAttribute('data-clipboard-text') == null) {
 				return '';
 			}
+			
+			var _id = trigger.id;
+			if($('#'+_id.replace('block_','sel_')).is(":visible")) {
+				$('#'+_id.replace('block_','sel_')).prop("checked", !$('#'+_id.replace('block_','sel_')).prop("checked"));
+				return '';
+			}
+			
 			var tbbcode = trigger.getAttribute('data-clipboard-text');
 			var tbbcode2 = tbbcode;
 			if(!$("#bbcode").hasClass('active')) {
@@ -73,7 +80,7 @@
 							localStorage.setItem("history_data", JSON.stringify(history_data));
 					}
 			} else {
-						$('#smiley_url').val(tbbcode2);
+						//$('#smiley_url').val(tbbcode2);
 			}
 
 			if(tbbcode2.toString().replace("[img]","").replace("[/img]","") != trigger.src && typeof trigger.src !== 'undefined' && trigger.src !== false) {
@@ -249,30 +256,64 @@
 			download(csvContent,"retrosmiles_profile_"+_c+".retro","text/plain");
 	}
 	
-	function remove_smiley() {
-		var smiley_url = $("#smiley_url").val();
+	function remove_smiley(src) {
+		var smiley_url = '';
+		if(src!='')
+			smiley_url = src;
+		else
+			smiley_url = $("#smiley_url").val();
 		smiley_url =  cleanUrl2(smiley_url);
-
+		
 		try {
-			
-			if(profile_data[currentProfile].length <= 0 ) return true;
-			if(smiley_url == '') {alert("Select smiley from the list first."); return true;}
-			
-			if(confirm("Delete this smiley from the list?")) {
-				for(i=0;i< profile_data[currentProfile].length;i++) {
-					if(profile_data[currentProfile][i][0] == smiley_url || profile_data[currentProfile][i][0] == '' || profile_data[currentProfile][i][0] == cleanUrl(smiley_url) || profile_data[currentProfile][i][0] == 'undefined') {
-						profile_data[currentProfile][i][0] = '';//.splice(i,1);
-						profile_data[currentProfile][i][1] = '';//.push(new Array(2));
-					}
-				}
-//				console.log(profile_data[currentProfile]);
-				rebuild_profile();
-				localStorage.setItem("profile_data", JSON.stringify(profile_data));
+			if(currentProfile==-1) {
+						
+						if(history_data.length <= 0 ) return true;
+						if(smiley_url == '') {if(src=='') alert("Select smiley from the list first."); return true;}
+						var _conf = false;
+						if(src=='') {
+							_conf = confirm("Delete this smiley from the list?");
+						} else {
+							_conf = true;
+						}
+						if(_conf) {
+							for(i=0;i< history_data.length;i++) {
+								if(history_data[i][0] == smiley_url || history_data[i][0] == '' || history_data[i][0] == smiley_url || history_data[i][0] == 'undefined') {
+									history_data.splice(i,1);
+								}
+							}
+							console.log(history_data);
+							localStorage.setItem("history_data", JSON.stringify(history_data));
 
-			}
+						}
+				
+			} else {
+			
+						if(profile_data[currentProfile].length <= 0 ) return true;
+						if(smiley_url == '') {if(src=='') alert("Select smiley from the list first."); return true;}
+						var _conf = false;
+						if(src=='') {
+							_conf = confirm("Delete this smiley from the list?");
+						} else {
+							_conf = true;
+						}
+						if(_conf) {
+							for(i=0;i< profile_data[currentProfile].length;i++) {
+								if(profile_data[currentProfile][i][0] == smiley_url || profile_data[currentProfile][i][0] == '' || profile_data[currentProfile][i][0] == smiley_url || profile_data[currentProfile][i][0] == 'undefined') {
+									profile_data[currentProfile][i][0] = '';
+									profile_data[currentProfile][i][1] = '';
+								}
+							}
+			//				console.log(profile_data[currentProfile]);
+							rebuild_profile();
+							localStorage.setItem("profile_data", JSON.stringify(profile_data));
+
+						}
+						
+					}
+
 		} catch(e) {}
 
-		loadTab('tab0-tab');
+		if(src=='') loadTab('tab0-tab');
 		
 	}
 	
@@ -355,6 +396,7 @@ function rebuild_profile() {
 										_tmp_html+= renderCSV(_tmp_data);
 										$(targ).html(_tmp_html);
 										$('#ext_uploader').hide();
+										$('#ext_tools').show();
 										loadImages();
 									}).fail(function() {
 										$.notify("error, try later.", {
@@ -417,6 +459,7 @@ function rebuild_profile() {
 										if(countEmpty >(profile_max -1))
 										_tmp_html+=  profile_msg;
 										$(targ).html(_tmp_html);
+										$('#ext_tools').hide();
 										$('#ext_uploader').show();
 										$('#ext_profile ').val(currentProfile);
 										loadImages();
@@ -441,6 +484,7 @@ function rebuild_profile() {
 										_tmp_html = data2;
 										_tmp_html+=  profile_msg;
 										$(targ).html(_tmp_html);
+										$('#ext_tools').hide();
 										$('#ext_uploader').show();
 										$('#ext_profile ').val(currentProfile);
 										loadImages();
@@ -539,6 +583,7 @@ function rebuild_profile() {
 	}
 
 	function renderCSV(csv) {
+			var id_count = 0;
 			var rows = csv.split(/\r\n|\n/);
 			var html = '', img = "", bbcode = "";
 			if(Array.isArray(rows)) {
@@ -565,10 +610,11 @@ function rebuild_profile() {
 							bbcode = bbcode.toString().trim();
 							img = img.toString().trim();
 							if(bbcode != '' && img != '') { 
+								id_count++;
 								if(bbcode.indexOf('https://')!=-1 || bbcode.indexOf('http://')!=-1) {
-									html+='<div class="col-auto col-md-2"> <img class="btn" data-clipboard-text="[img]'+bbcode+'[/img]" src="css/placeholder.png" ref-src="'+img+'"></div>';
+									html+='<div class="col-auto col-md-2"><input class="float_input" type="checkbox" id="sel_'+id_count+'"/><img id="block_'+id_count+'" class="btn" data-clipboard-text="[img]'+bbcode+'[/img]" src="css/placeholder.png" ref-src="'+img+'"></div>';
 								} else {
-									html+='<div class="col-auto col-md-2"> <img class="btn" data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/'+bbcode+'[/img]" src="css/placeholder.png" ref-src="QuickSmiles/'+img+'"></div>';
+									html+='<div class="col-auto col-md-2"><input class="float_input" type="checkbox" id="sel_'+id_count+'"/><img id="block_'+id_count+'" class="btn" data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/'+bbcode+'[/img]" src="css/placeholder.png" ref-src="QuickSmiles/'+img+'"></div>';
 								}
 							}
 						}
@@ -586,10 +632,33 @@ function rebuild_profile() {
 		return loadTabCSV(e,t);
 }
 
+	function toggle_selection() {
+		$('.float_input').toggle();
+		//$('#remove_selected').prop('disabled', function(i, v) { return !v; });
+		//$('#remove_selected2').prop('disabled', function(i, v) { return !v; });
+	}
 
 	function ext_profile() {
 		localStorage.setItem('last_profile', $('#ext_profile').val());
 		return loadTab('tab0-tab');
+	}
+	
+	function remove_selected() {
+		if($('input.float_input:checkbox:checked').length < 1) {
+			alert("No smiley selected!");
+			return true;
+		}
+		
+		if(confirm("Delete all selected smiles?")) {
+			$("input.float_input:checkbox").each(function(){
+				if(this.checked) {
+						var _id = this.id.replace("sel_","block_");
+						var _src = cleanUrl2($("#"+_id).attr("data-clipboard-text"));
+							remove_smiley(_src);
+				}
+			});
+		}
+		loadTab('tab0-tab');
 	}
 
 	function loadTabs() {

@@ -13,6 +13,11 @@ body {
 	background-color: white
 }
 
+.float_input {
+	position:absolute;
+	display:none;
+}
+
 #myTabContent {
 	min-width: 99%!important;
 }
@@ -32,6 +37,7 @@ body {
 	background-image: linear-gradient(#F3F8FF, #fff 50%, #F3F8FF);
 	-webkit-filter: none;
 	filter: none;
+	margin-bottom:2px!important;
 }
 
 

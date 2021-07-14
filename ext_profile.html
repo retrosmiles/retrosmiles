@@ -1,5 +1,5 @@
 <div class="row">
-	<div class="col-6">
+	<div class="col-4">
 		<select id="ext_profile" class="btn btn-sm btn-clear" onchange="return ext_profile();">
 			<option value="-1">Recents</option>
 			<option value="0">Profile 1</option>
@@ -14,22 +14,31 @@
 			<option value="9">Profile 10</option>
 		</select>
 	</div>
-	<div class="col-6" id="ext_uploader" style="font-size:0.8em">
-		<div class="row">
-			<div class="col-auto">
-						<div class="input-group input-group-sm mb-3">
-						  <div class="input-group-prepend">
-							<span class="input-group-text" id="inputGroup-sizing-sm">URL</span>
-						  </div>
-						  <input type="text" id="smiley_url" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-						  <button class="btn btn-sm btn-clear" onclick="add_smiley();">Add</button>&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-clear" onclick="remove_smiley();">Remove</button>
-						</div>
+	<div class="col-8" style="font-size:0.8em">
+			<div  id="ext_tools">
+				<div class="row">
+					<div class="col-auto">
+								  <button class="btn btn-sm btn-clear" onclick="toggle_selection();">Toggle Select</button><button class="btn btn-sm btn-clear" onclick="remove_selected();" id="remove_selected">Remove</button>
+					</div>
+				</div>
 			</div>
-			<div class="col-auto">
-				<input type="file" name="import_smiley" id="import_smiley" style="display:none" onchange="return import_smiley(event);"/><button class="btn btn-sm btn-clear" onclick="export_smiley();">Backup</button> <button class="btn btn-sm btn-clear " onclick="return start_upload();">Restore</button> <button class="btn btn-sm btn-clear" onclick="delete_smiley();">Delete</button>
+			<div  id="ext_uploader">
+				<div class="row">
+					<div class="col-auto">
+								<div class="input-group input-group-sm mb-3">
+								  <div class="input-group-prepend">
+									<span class="input-group-text" id="inputGroup-sizing-sm">URL</span>
+								  </div>
+								  <input type="text" id="smiley_url" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+								  <button class="btn btn-sm btn-clear" onclick="add_smiley();">Add</button>
+								</div>
+					</div>
+					<div class="col-auto">
+						<button class="btn btn-sm btn-clear" onclick="toggle_selection();">Toggle Select</button><button class="btn btn-sm btn-clear" onclick="remove_selected();" id="remove_selected2">Remove</button><br>
+						<input type="file" name="import_smiley" id="import_smiley" style="display:none" onchange="return import_smiley(event);"/><button class="btn btn-sm btn-clear" onclick="export_smiley();">Backup</button> <button class="btn btn-sm btn-clear " onclick="return start_upload();">Restore</button> <button class="btn btn-sm btn-clear" onclick="delete_smiley();">Delete Profile</button>
+					</div>
+				</div>
 			</div>
-		</div>
-
 	</div>
 </div>
 <hr>
