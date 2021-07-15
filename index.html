@@ -10,6 +10,7 @@
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/notify.js"></script>
+	<script src="js/sweetalert.min.js"></script>
 	<link rel="stylesheet" href="css/main.css?v=6">
 </head>
 <body>
@@ -23,7 +24,7 @@
 		$('#splash').hide();
 	
 	var device_id = '';
-	if (window.location.href.indexOf("android") > -1) {
+	if (window.location.href.indexOf("android") > -1 || window.location.href.indexOf("apk") > -1) {
 		device_id = 'android';
 	}
 	
@@ -162,11 +163,11 @@
 		var smiley_url = $("#smiley_url").val();
 		smiley_url =  cleanUrl2(smiley_url);
 
-		if(smiley_url == '') {alert("No URL entered. Please enter URL of a smiley!"); return true;}
+		if(smiley_url == '') {swal("", "No URL entered. Please enter URL of a smiley!", "info"); return true;}
 		
 		for(i=0;i<profile_data[currentProfile].length;i++) {
 			if(profile_data[currentProfile][i][0]==smiley_url) {
-				alert("Smiley already exists!"); return true;
+				swal("", "Smiley already exists!", "info"); return true;
 			}
 		}
 		
@@ -188,25 +189,35 @@
 	
 	function start_upload() {
 		if(device_id == 'android') {
-			alert('Sorry this feature is not available in app. use website instead.');
+			swal("", "Sorry this feature is not available in app. use website instead.", "info");
 			return true;
 		}
 
 		$('#import_smiley').trigger('click');
 		return true;
 	}
-	
+
 	function import_smiley(event) {
 
 			var reader = new FileReader();
 			reader.onload = function(){
 			  var dataURL = reader.result;
-				if(confirm("All smiles in this list will be deleted. Are you sure?")) {
-					renderCSVArray(dataURL);
-					rebuild_profile();
-					localStorage.setItem("profile_data", JSON.stringify(profile_data));
-					loadTab('tab0-tab');
+
+				swal({
+				text: "All smiles in this list will be deleted. Are you sure?",
+				icon: "warning",
+				buttons: ["No", "Yes"],
+				dangerMode: true,
+				})
+				.then((value) => {
+				if (value==true) {
+								renderCSVArray(dataURL);
+								rebuild_profile();
+								localStorage.setItem("profile_data", JSON.stringify(profile_data));
+								loadTab('tab0-tab');
 				}
+				});
+
 			};
 			reader.readAsText(document.getElementById('import_smiley').files[0]);
 		return true;
@@ -214,15 +225,24 @@
 
 	function delete_smiley(event) {
 
-		if(confirm("Delete all smiles in this list?")) {
-			profile_data[currentProfile] = new Array(profile_max );
-			for(i=0;i<profile_data[currentProfile].length;i++) {
-				profile_data[currentProfile][i] = new Array(2);
-			}
-			rebuild_profile();
-			localStorage.setItem("profile_data", JSON.stringify(profile_data));
-			loadTab('tab0-tab');
-		}
+		swal({
+		  text: "Delete all smiles in this list?",
+		  icon: "warning",
+		  buttons: ["No", "Yes"],
+		  dangerMode: true,
+		})
+		.then((value) => {
+		  if (value==true) {
+					profile_data[currentProfile] = new Array(profile_max );
+					for(i=0;i<profile_data[currentProfile].length;i++) {
+						profile_data[currentProfile][i] = new Array(2);
+					}
+					rebuild_profile();
+					localStorage.setItem("profile_data", JSON.stringify(profile_data));
+					loadTab('tab0-tab');
+		  }
+		});
+
 		return true;
 	}
 
@@ -247,7 +267,7 @@
 	function export_smiley() {
 		
 		if(device_id == 'android') {
-			alert('Sorry this feature is not available in app. use website instead.');
+			swal("", "Sorry this feature is not available in app. use website instead.", "info");
 			return true;
 		}
 		
@@ -268,14 +288,29 @@
 			if(currentProfile==-1) {
 						
 						if(history_data.length <= 0 ) return true;
-						if(smiley_url == '') {if(src=='') alert("Select smiley from the list first."); return true;}
+						if(smiley_url == '') {if(src=='') swal("", "Select smiley from the list first.", "info"); return true;}
 						var _conf = false;
 						if(src=='') {
-							_conf = confirm("Delete this smiley from the list?");
+								swal({
+								  text: "Delete this smiley from the list?",
+								  icon: "warning",
+								  buttons: ["No", "Yes"],
+								  dangerMode: true,
+								})
+								.then((value) => {
+								  if (value==true) {
+											for(i=0;i< history_data.length;i++) {
+												if(history_data[i][0] == smiley_url || history_data[i][0] == '' || history_data[i][0] == smiley_url || history_data[i][0] == 'undefined') {
+													history_data.splice(i,1);
+												}
+											}
+											console.log(history_data);
+											localStorage.setItem("history_data", JSON.stringify(history_data));
+								  }
+								});
+
 						} else {
-							_conf = true;
-						}
-						if(_conf) {
+
 							for(i=0;i< history_data.length;i++) {
 								if(history_data[i][0] == smiley_url || history_data[i][0] == '' || history_data[i][0] == smiley_url || history_data[i][0] == 'undefined') {
 									history_data.splice(i,1);
@@ -283,20 +318,36 @@
 							}
 							console.log(history_data);
 							localStorage.setItem("history_data", JSON.stringify(history_data));
-
+						
 						}
 				
 			} else {
 			
 						if(profile_data[currentProfile].length <= 0 ) return true;
-						if(smiley_url == '') {if(src=='') alert("Select smiley from the list first."); return true;}
+						if(smiley_url == '') {if(src=='') swal("", "Select smiley from the list first.", "info"); return true;}
 						var _conf = false;
 						if(src=='') {
-							_conf = confirm("Delete this smiley from the list?");
+								swal({
+								  text: "Delete this smiley from the list?",
+								  icon: "warning",
+								  buttons: ["No", "Yes"],
+								  dangerMode: true,
+								})
+								.then((value) => {
+								  if (value) {
+										for(i=0;i< profile_data[currentProfile].length;i++) {
+											if(profile_data[currentProfile][i][0] == smiley_url || profile_data[currentProfile][i][0] == '' || profile_data[currentProfile][i][0] == smiley_url || profile_data[currentProfile][i][0] == 'undefined') {
+												profile_data[currentProfile][i][0] = '';
+												profile_data[currentProfile][i][1] = '';
+											}
+										}
+						//				console.log(profile_data[currentProfile]);
+										rebuild_profile();
+										localStorage.setItem("profile_data", JSON.stringify(profile_data));
+								  }
+								});
+
 						} else {
-							_conf = true;
-						}
-						if(_conf) {
 							for(i=0;i< profile_data[currentProfile].length;i++) {
 								if(profile_data[currentProfile][i][0] == smiley_url || profile_data[currentProfile][i][0] == '' || profile_data[currentProfile][i][0] == smiley_url || profile_data[currentProfile][i][0] == 'undefined') {
 									profile_data[currentProfile][i][0] = '';
@@ -306,7 +357,6 @@
 			//				console.log(profile_data[currentProfile]);
 							rebuild_profile();
 							localStorage.setItem("profile_data", JSON.stringify(profile_data));
-
 						}
 						
 					}
@@ -359,14 +409,18 @@ function rebuild_profile() {
 		if(currentProfile < -1 || currentProfile > 9 || currentProfile == null || currentProfile == 'undefined') currentProfile = -1;
 		currentTab = e;
 		console.log('loading tab '+e);
-		
+
+		$('#ext_uploader').hide();
+		$('#ext_tools').hide();
+
+
 		$('.cell').removeClass('selectedcell');
 		$('#' + e).addClass('selectedcell');
 		$('#dtext').html($('#' + e).html());
 		$('#selText').html($('#' + e).html());
 		if(e.toString() != 'tab999-tab' && e.toString() != 'tab998-tab') localStorage.setItem('lasttab', e.toString());
 		var targ = '#maintab';
-		$(targ).html('<p>Loading, please wait...</p>');
+		$(targ).html("<p style='text-align:center'>Loading, please wait... <img src='./QuickSmiles/0/165.gif'/></p>");
 		$(targ).addClass('active');
 		$(targ).addClass('show');
 		$(targ).show();
@@ -379,6 +433,7 @@ function rebuild_profile() {
 			if(e == 'tab0-tab') {
 
 				if(currentProfile < 0) {
+
 				
 							if(Array.isArray(history_data) && history_data.length > 0) {
 								var _tmp_data = "";
@@ -419,6 +474,8 @@ function rebuild_profile() {
 										_tmp_html = data2;
 										_tmp_html+=  "<p  style='text-align:center'>No smiley clicked! <img src='./QuickSmiles/0/162.gif'></p>";
 										$(targ).html(_tmp_html);
+										$('#ext_uploader').hide();
+										$('#ext_tools').show();
 										loadImages();
 									}).fail(function() {
 										$.notify("error, try later.", {
@@ -436,6 +493,7 @@ function rebuild_profile() {
 				} else {
 					
 						// profiles
+
 						try {
 							var countEmpty = 0;
 							if(Array.isArray(profile_data[currentProfile]) && profile_data[currentProfile].length > 0) {
@@ -502,7 +560,7 @@ function rebuild_profile() {
 							}
 							
 						} catch(e) {
-							alert(e);
+							swal("", e, "info");
 							currentProfile = -1;
 							ext_profile();
 						}
@@ -645,20 +703,30 @@ function rebuild_profile() {
 	
 	function remove_selected() {
 		if($('input.float_input:checkbox:checked').length < 1) {
-			alert("No smiley selected!");
+			swal("", "No smiley selected!", "info");
 			return true;
 		}
 		
-		if(confirm("Delete all selected smiles?")) {
-			$("input.float_input:checkbox").each(function(){
-				if(this.checked) {
-						var _id = this.id.replace("sel_","block_");
-						var _src = cleanUrl2($("#"+_id).attr("data-clipboard-text"));
-							remove_smiley(_src);
-				}
-			});
-		}
-		loadTab('tab0-tab');
+
+		swal({
+		  text: "Delete all selected smiles?",
+		  icon: "warning",
+		   buttons: ["No", "Yes"],
+		  dangerMode: true,
+		})
+		.then((value) => {
+		  if (value==true) {
+					$("input.float_input:checkbox").each(function(){
+						if(this.checked) {
+								var _id = this.id.replace("sel_","block_");
+								var _src = cleanUrl2($("#"+_id).attr("data-clipboard-text"));
+									remove_smiley(_src);
+						}
+					});
+				loadTab('tab0-tab');
+		  }
+		});
+
 	}
 
 	function loadTabs() {
@@ -722,7 +790,7 @@ function rebuild_profile() {
 	</div>
 	<div class="tab-content" id="myTabContent">
 		<div class="tab-pane fade" id="maintab" role="tabpanel" aria-labelledby="maintab-tab">
-			<p>Loading...</p>
+			<p style='text-align:center'>Loading...</p>
 		</div>
 	</div>
 </body>
