@@ -51,3 +51,4 @@ meme2/cocopry17.gif,meme2/cocopry17.img.png
 meme2/cocopry19.gif,meme2/cocopry19.img.png
 meme2/cocopry23.gif,meme2/cocopry23.img.png
 meme2/cocopry24.gif,meme2/cocopry24.img.png
+meme2/atish.gif,meme2/atish.img.png
