@@ -38,6 +38,7 @@ meme1/sticker32.png,meme1/sticker32.img.png
 12/g13.gif,12/g13.img.png
 meme1/1621774233087s.jpg,meme1/1621774233087s.img.png
 meme1/1621773704313s.jpg,meme1/1621773704313s.img.png
+23/deki.jpg,23/deki.jpg
 meme2/cocopry1.gif,meme2/cocopry1.img.png
 meme2/cocopry3.gif,meme2/cocopry3.img.png
 meme2/cocopry4.gif,meme2/cocopry4.img.png

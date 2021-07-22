@@ -48,7 +48,7 @@ var _tmp_p  = JSON.parse(localStorage.getItem("profile_data"));
 try {
     if(Array.isArray(_tmp_p))
         if(_tmp_p.length == 10)
-            if(_tmp_p[0].length == profile_max )
+            if(_tmp_p[0].length >= profile_max )
                 profile_data = _tmp_p;
 } catch(e) {}
 
