@@ -10,7 +10,7 @@
 23/poolesho.gif,23/poolesho.gif
 23/sandis.gif,23/sandis.gif
 23/zoor.gif,23/zoor.gif
-3/ampool.gif,23/ampool.gif
+23/ampool.gif,23/ampool.gif
 23/bardar.gif,23/bardar.gif
 23/bimar.gif,23/bimar.gif
 23/deraz.gif,23/deraz.gif
