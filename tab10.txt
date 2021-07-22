@@ -1,4 +1,10 @@
 #bbcode,img
+23/chand.gif,23/chand.gif
+23/dard.gif,23/dard.gif
+23/doret.gif,23/doret.gif
+23/negaran.gif,23/negaran.gif
+23/niz.gif,23/niz.gif
+23/shenghel.gif,23/shenghel.gif
 23/aaah.gif,23/aaah.gif
 23/didi.gif,23/didi.gif
 23/doon.gif,23/doon.gif
