@@ -60,7 +60,6 @@
 21/9g0hy03gh8iexioo.gif,21/9g0hy03gh8iexioo.gif
 21/10i8gfa.gif,21/10i8gfa.gif
 21/23mptea.gif,21/23mptea.gif
-21/30jtfgn.png,21/30jtfgn.png
 21/091kvsdojmoxdbafcrda.gif,21/091kvsdojmoxdbafcrda.gif
 21/148fs367817.gif,21/148fs367817.gif
 21/153xw0n.gif,21/153xw0n.gif
@@ -99,7 +98,6 @@
 0/catnap2.gif,0/catnap2.gif
 0/goodsigh.gif,0/goodsigh.gif
 0/duck.gif,0/duck.gif
-0/f2k6er6pvtcdun11ioqr.gif,0/f2k6er6pvtcdun11ioqr.gif
 0/129fs3248893.gif,0/129fs3248893.gif
 0/128fs4765852.gif,0/128fs4765852.gif
 0/cerevat.gif,0/cerevat.gif

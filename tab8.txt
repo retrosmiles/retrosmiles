@@ -115,7 +115,6 @@
 12/witchdrum.gif,12/witchdrum.gif
 12/200.gif,12/200.gif
 12/evil2.gif,12/evil2.gif
-12/TAEL_SmileyCenteds.gif,12/TAEL_SmileyCenteds.gif
 10/heartbroken.gif,10/heartbroken.gif
 10/atingheart.gif,10/atingheart.gif
 10/hubbahubba.gif,10/hubbahubba.gif
@@ -134,5 +133,3 @@
 16/meme_me_gusta.png,16/meme_me_gusta.png
 16/meme_okayfaceplz.png,16/meme_okayfaceplz.png
 16/meme_trollface.png,16/meme_trollface.png
-16/b9d6a.gif,16/b9d6a.gif
-16/ehh3.png,16/ehh3.png
