@@ -70,6 +70,7 @@
 20/moo.gif,20/moo.gif
 20/soltan.gif,20/soltan.gif
 20/spammer.gif,20/spammer.gif
+23/ot0837h0nn8zfqu8ult.gif,23/ot0837h0nn8zfqu8ult.gif
 23/kooft.gif,23/kooft.gif
 23/azaton.gif,23/azaton.gif
 23/hate.gif,23/hate.gif
