@@ -37,7 +37,7 @@ if (window.location.href.indexOf("?reset") > -1) {
 var currentTab = '', currentProfile = -1, csvContent = '';
 var history_data = [];
 var profile_data = createMatrix(10,profile_max );
-var profile_max = 60;
+var profile_max = 120, history_max = 120;
 var profile_msg = "<p style='text-align:center'>No smiley in this package! <img src='./QuickSmiles/0/162.gif'><br>You can use tools above to add smiles from <b>any website</b> to this package for quick access! <img src='https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/69.gif'><br>You could then backup your package and share it with friends! <img src='./QuickSmiles/2/4.gif'></p>";
 
 var _tmp_h  = JSON.parse(localStorage.getItem("history_data"));
@@ -83,7 +83,7 @@ text: function(trigger) {
             if(not_in(history_data,_tmp_arr[0])) {
                 //			console.log(_tmp_arr);
                 history_data.push(_tmp_arr);
-                if(history_data.length > 60) history_data.shift();
+                if(history_data.length > history_max) history_data.shift();
                 localStorage.setItem("history_data", JSON.stringify(history_data));
             }
         } else {
