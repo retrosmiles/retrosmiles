@@ -1,4 +1,6 @@
 #bbcode,img
+23/hyenas.gif,23/hyenas.gif
+23/4381.gif,23/4381.gif
 23/magas.gif,23/magas.gif
 21/2cnbex2.gif,21/2cnbex2.gif
 21/6ugt8ah_th.gif,21/6ugt8ah_th.gif
