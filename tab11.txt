@@ -1,55 +1,65 @@
 #bbcode,img
-meme1/peepee_poopoo-1.gif,meme1/peepee_poopoo-1.img.png
-meme1/peepee_poopoo-2.gif,meme1/peepee_poopoo-2.img.png
-meme1/peepee_poopoo-5.gif,meme1/peepee_poopoo-5.img.png
-meme1/peepee_poopoo-6.gif,meme1/peepee_poopoo-6.img.png
-meme1/sticker3.png,meme1/sticker3.img.png
-meme1/sticker4.png,meme1/sticker4.img.png
-meme1/sticker5.png,meme1/sticker5.img.png
-meme1/sticker6.png,meme1/sticker6.img.png
-meme1/sticker7.png,meme1/sticker7.img.png
-meme1/sticker8.png,meme1/sticker8.img.png
-meme1/sticker11.png,meme1/sticker11.img.png
-meme1/sticker12.png,meme1/sticker12.img.png
-meme1/sticker13.png,meme1/sticker13.img.png
-meme1/sticker14.png,meme1/sticker14.img.png
-meme1/sticker15.png,meme1/sticker15.img.png
-meme1/sticker16.png,meme1/sticker16.img.png
-meme1/sticker17.png,meme1/sticker17.img.png
-meme1/sticker18.png,meme1/sticker18.img.png
-meme1/sticker19.png,meme1/sticker19.img.png
-meme1/sticker20.png,meme1/sticker20.img.png
-meme1/sticker21.png,meme1/sticker21.img.png
-meme1/sticker22.png,meme1/sticker22.img.png
-meme1/sticker24.png,meme1/sticker24.img.png
-meme1/sticker25.png,meme1/sticker25.img.png
-meme1/sticker26.png,meme1/sticker26.img.png
-meme1/sticker27.png,meme1/sticker27.img.png
-meme1/sticker28.png,meme1/sticker28.img.png
-meme1/sticker29.png,meme1/sticker29.img.png
-meme1/sticker30.png,meme1/sticker30.img.png
-meme1/sticker31.png,meme1/sticker31.img.png
-meme1/sticker32.png,meme1/sticker32.img.png
-19/qq.gif,19/qq.img.png
-16/197.gif,16/197.img.png
-16/198.gif,16/198.img.png
-16/199.gif,16/199.img.png
-16/3ba774ed.gif,16/3ba774ed.img.png
-12/g13.gif,12/g13.img.png
-meme1/1621774233087s.jpg,meme1/1621774233087s.img.png
-meme1/1621773704313s.jpg,meme1/1621773704313s.img.png
-23/deki.jpg,23/deki.jpg
-meme2/cocopry1.gif,meme2/cocopry1.img.png
-meme2/cocopry3.gif,meme2/cocopry3.img.png
-meme2/cocopry4.gif,meme2/cocopry4.img.png
-meme2/cocopry5.gif,meme2/cocopry5.img.png
-meme2/cocopry7.gif,meme2/cocopry7.img.png
-meme2/cocopry12.gif,meme2/cocopry12.img.png
-meme2/cocopry13.gif,meme2/cocopry13.img.png
-meme2/cocopry15.gif,meme2/cocopry15.img.png
-meme2/cocopry16.gif,meme2/cocopry16.img.png
-meme2/cocopry17.gif,meme2/cocopry17.img.png
-meme2/cocopry19.gif,meme2/cocopry19.img.png
-meme2/cocopry23.gif,meme2/cocopry23.img.png
-meme2/cocopry24.gif,meme2/cocopry24.img.png
-meme2/atish.gif,meme2/atish.img.png
+meme1/peepee_poopoo-1.gif,meme1/peepee_poopoo-1.img.png,خنده اشک
+meme1/peepee_poopoo-2.gif,meme1/peepee_poopoo-2.img.png,گربه دهن داد
+meme1/peepee_poopoo-5.gif,meme1/peepee_poopoo-5.img.png,نابود ریزش بورس
+meme1/peepee_poopoo-6.gif,meme1/peepee_poopoo-6.img.png,بالا بورس آرامش
+meme1/sticker3.png,meme1/sticker3.img.png,گریه گربه
+meme1/sticker4.png,meme1/sticker4.img.png,میمون فرار
+meme1/sticker5.png,meme1/sticker5.img.png,میمون زیرچشم
+meme1/sticker6.png,meme1/sticker6.img.png,گربه آخه چرا
+meme1/sticker7.png,meme1/sticker7.img.png,خودکشی ناامید
+meme1/sticker8.png,meme1/sticker8.img.png,اشک گریه خون
+meme1/sticker11.png,meme1/sticker11.img.png,خنده
+meme1/sticker12.png,meme1/sticker12.img.png,خنده
+meme1/sticker13.png,meme1/sticker13.img.png,خنده
+meme1/sticker14.png,meme1/sticker14.img.png,خنده
+meme1/sticker15.png,meme1/sticker15.img.png,خنده چاق
+meme1/sticker16.png,meme1/sticker16.img.png,فریاد فرار
+meme1/sticker17.png,meme1/sticker17.img.png,مغز تفکر نفهم
+meme1/sticker18.png,meme1/sticker18.img.png,گریه دستمال
+meme1/sticker19.png,meme1/sticker19.img.png,دمپایی پرتاب
+meme1/sticker20.png,meme1/sticker20.img.png,گربه ناز گریه خواب
+meme1/sticker21.png,meme1/sticker21.img.png,کرمیت قورباغه موبایل نگاه
+meme1/sticker22.png,meme1/sticker22.img.png,کرمیت قورباغه موبایل بقل
+meme1/sticker24.png,meme1/sticker24.img.png,گریه
+meme1/sticker25.png,meme1/sticker25.img.png,میمون ناامید
+meme1/sticker26.png,meme1/sticker26.img.png,میمون تعجب
+meme1/sticker27.png,meme1/sticker27.img.png,میمون تعجب نگاه عاقل
+meme1/sticker28.png,meme1/sticker28.img.png,میمون نگران
+meme1/sticker29.png,meme1/sticker29.img.png,میمون دماغ بینی گنده بزرگ
+meme1/sticker30.png,meme1/sticker30.img.png,ویتالیک بوترین اتریوم پیر کی میاد
+meme1/sticker31.png,meme1/sticker31.img.png,همه چیز اوکیه سگ آتش
+meme1/sticker32.png,meme1/sticker32.img.png,نود نه درصد کرش خنده سیگار
+19/qq.gif,19/qq.img.png,ریزش بورس
+16/197.gif,16/197.img.png,خنده
+16/198.gif,16/198.img.png,خنده
+16/199.gif,16/199.img.png,خنده
+16/3ba774ed.gif,16/3ba774ed.img.png,زبون درازی دختر
+12/g13.gif,12/g13.img.png,خرس پرتاب جارو
+meme1/1621774233087s.jpg,meme1/1621774233087s.img.png,قورباغه دراز گوش پپه
+meme1/1621773704313s.jpg,meme1/1621773704313s.img.png,پپه پولدار مشروب
+23/deki.jpg,23/deki.jpg,دکی حشمت فردوس
+meme2/cocopry1.gif,meme2/cocopry1.img.png,دختر راه راه قدم
+meme2/cocopry3.gif,meme2/cocopry3.img.png,دختر بنفش قدم
+meme2/cocopry4.gif,meme2/cocopry4.img.png,دختر آبی قدم
+meme2/cocopry5.gif,meme2/cocopry5.img.png,دختر آبی قدم
+meme2/cocopry7.gif,meme2/cocopry7.img.png,بیخیال چایی
+meme2/cocopry12.gif,meme2/cocopry12.img.png,برو اتاق به کارای بدت فکر کن
+meme2/cocopry13.gif,meme2/cocopry13.img.png,ههه مسخره
+meme2/cocopry15.gif,meme2/cocopry15.img.png,خرگوش تکون گوش
+meme2/cocopry16.gif,meme2/cocopry16.img.png,آره
+meme2/cocopry17.gif,meme2/cocopry17.img.png,خیخیخی خنده
+meme2/cocopry19.gif,meme2/cocopry19.img.png,عجب تعجب
+meme2/cocopry23.gif,meme2/cocopry23.img.png,دوچرخه خرگوش سرتکون
+meme2/cocopry24.gif,meme2/cocopry24.img.png,دوچرخه خرگوش سرتکون
+meme2/atish.gif,meme2/atish.img.png,آتش بنزین خودکشی
+meme4/animation_0_1-128px-1.gif,meme4/animation_0_1-128px-1.img.png,عجب
+meme4/animation_0_1-128px-2.gif,meme4/animation_0_1-128px-2.img.png,ببخشید معذرت
+meme4/animation_0_1-128px-6.gif,meme4/animation_0_1-128px-6.img.png,خنده شدید
+meme4/animation_0_1-128px-18.gif,meme4/animation_0_1-128px-18.img.png,عجب باشه راست میگی
+meme4/animation_0_1-128px-21.gif,meme4/animation_0_1-128px-21.img.png,خودکشی دار اعدام
+meme4/animation_0_1-128px-33.gif,meme4/animation_0_1-128px-33.img.png,عجب کامپیوتر
+meme4/animation_0_1-128px-4.gif,meme4/animation_0_1-128px-4.img.png,چشم بالا ابرو خنده هیز
+meme4/animation_0_1-128px-12.gif,meme4/animation_0_1-128px-12.img.png,کلاغ رقص تکون
+meme4/animation_0_1-128px-22.gif,meme4/animation_0_1-128px-22.img.png,ناراحت
+meme4/animation_0_1-128px-35.gif,meme4/animation_0_1-128px-35.img.png,خنده

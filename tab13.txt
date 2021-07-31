@@ -1,22 +1,26 @@
 #bbcode,img
-cyanide1/cyanide-3.gif,cyanide1/cyanide-3.img.png
-cyanide1/cyanide-5.gif,cyanide1/cyanide-5.img.png
-cyanide1/cyanide-7.gif,cyanide1/cyanide-7.img.png
-cyanide1/cyanide-8.gif,cyanide1/cyanide-8.img.png
-cyanide1/cyanide-9.gif,cyanide1/cyanide-9.img.png
-cyanide1/cyanide-10.gif,cyanide1/cyanide-10.img.png
-cyanide1/cyanide-13.gif,cyanide1/cyanide-13.img.png
-cyanide1/cyanide-16.gif,cyanide1/cyanide-16.img.png
-cyanide1/cyanide-17.gif,cyanide1/cyanide-17.img.png
-cyanide1/cyanide-18.gif,cyanide1/cyanide-18.img.png
-cyanide1/cyanide-22.gif,cyanide1/cyanide-22.img.png
-cyanide1/cyanide-24.gif,cyanide1/cyanide-24.img.png
-cyanide1/cyanide-25.gif,cyanide1/cyanide-25.img.png
-cyanide1/cyanide-26.gif,cyanide1/cyanide-26.img.png
-cyanide1/cyanide-28.gif,cyanide1/cyanide-28.img.png
-cyanide1/cyanide-36.gif,cyanide1/cyanide-36.img.png
-cyanide1/cyanide-37.gif,cyanide1/cyanide-37.img.png
-cyanide1/cyanide-39.gif,cyanide1/cyanide-39.img.png
-cyanide1/cyanide-40.gif,cyanide1/cyanide-40.img.png
-cyanide1/cyanide_1.gif,cyanide1/cyanide_1.img.png
-meme2/cocopry18.gif,meme2/cocopry18.img.png
+cyanide1/cyanide-3.gif,cyanide1/cyanide-3.img.png,رقص شادی
+cyanide1/cyanide-5.gif,cyanide1/cyanide-5.img.png,آخجون شاد خوشحال
+cyanide1/cyanide-7.gif,cyanide1/cyanide-7.img.png,چشمک اخم اوکی
+cyanide1/cyanide-8.gif,cyanide1/cyanide-8.img.png,شرت افسرده
+cyanide1/cyanide-9.gif,cyanide1/cyanide-9.img.png,چرخش صندلی گیج
+cyanide1/cyanide-10.gif,cyanide1/cyanide-10.img.png,تعجب
+cyanide1/cyanide-13.gif,cyanide1/cyanide-13.img.png,دست زدن
+cyanide1/cyanide-16.gif,cyanide1/cyanide-16.img.png,شلاق کتک ناراحت کمربند
+cyanide1/cyanide-17.gif,cyanide1/cyanide-17.img.png,هم-دردی گریه
+cyanide1/cyanide-18.gif,cyanide1/cyanide-18.img.png,دفاع دختر
+cyanide1/cyanide-22.gif,cyanide1/cyanide-22.img.png,قلیون
+cyanide1/cyanide-24.gif,cyanide1/cyanide-24.img.png,سینه بزن
+cyanide1/cyanide-25.gif,cyanide1/cyanide-25.img.png,سینه بزن
+cyanide1/cyanide-26.gif,cyanide1/cyanide-26.img.png,سینه بزن محکم تر
+cyanide1/cyanide-28.gif,cyanide1/cyanide-28.img.png,خودکشی
+cyanide1/cyanide-36.gif,cyanide1/cyanide-36.img.png,اینقدر دوست دارم عشق لاو
+cyanide1/cyanide-37.gif,cyanide1/cyanide-37.img.png,خوردن لاو دوست عشق
+cyanide1/cyanide-39.gif,cyanide1/cyanide-39.img.png,بمیر
+cyanide1/cyanide-40.gif,cyanide1/cyanide-40.img.png,کتک پیرمرد بچه خفه
+cyanide1/cyanide_1.gif,cyanide1/cyanide_1.img.png,سوسیس رقص شادی
+meme2/cocopry18.gif,meme2/cocopry18.img.png,دستمو ببوس آشتی دوستی
+meme4/animation_0_1-128px-14.gif,meme4/animation_0_1-128px-14.img.png,بازی افسرده
+meme4/animation_0_1-128px-20.gif,meme4/animation_0_1-128px-20.img.png,چادری خانوم
+meme4/animation_0_1-128px-34.gif,meme4/animation_0_1-128px-34.img.png,قتل کشتن
+meme4/animation_0_1-128px-49.gif,meme4/animation_0_1-128px-49.img.png,آها بیا وسط

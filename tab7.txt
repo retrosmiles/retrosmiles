@@ -1,92 +1,92 @@
 #bbcode,img
-green/l114.gif,green/l114.gif
-green/623.gif,green/623.gif
-green/s066.gif,green/s066.gif
-green/s498.gif,green/s498.gif
-green/993.gif,green/993.gif
-green/996.gif,green/996.gif
-green/997.gif,green/997.gif
-green/1048.gif,green/1048.gif
-green/s106.gif,green/s106.gif
-green/s244.gif,green/s244.gif
-green/s267.gif,green/s267.gif
-green/s503.gif,green/s503.gif
-green/s513.gif,green/s513.gif
-green/s519.gif,green/s519.gif
-15/h0509.gif,15/h0509.gif
-15/h0531.gif,15/h0531.gif
-15/t1302.gif,15/t1302.gif
-green/ff.gif,green/ff.gif
-green/film.gif,green/film.gif
-green/gif.gif,green/gif.gif
-green/konjed.gif,green/konjed.gif
-green/bitcoin.gif,green/bitcoin.gif
-green/yessss.gif,green/yessss.gif
-14/cpumikhai.gif,14/cpumikhai.gif
-12/1053.gif,12/1053.gif
-12/741.gif,12/741.gif
-green/s199.gif,green/s199.gif
-green/1052.gif,green/1052.gif
-green/2dh9nid.gif,green/2dh9nid.gif
-green/2u96f00.gif,green/2u96f00.gif
-green/2z6in9g.gif,green/2z6in9g.gif
-green/3z9jamu.gif,green/3z9jamu.gif
-green/3zc1qvs.gif,green/3zc1qvs.gif
-green/47splvo.gif,green/47splvo.gif
-green/126fs4379327.gif,green/126fs4379327.gif
-green/126fs4397821.gif,green/126fs4397821.gif
-green/127fs1502911.gif,green/127fs1502911.gif
-green/127fs2088029.gif,green/127fs2088029.gif
-green/127fs2651037.gif,green/127fs2651037.gif
-green/900.gif,green/900.gif
-green/905.gif,green/905.gif
-green/1676.gif,green/1676.gif
-green/2779.gif,green/2779.gif
-green/3925.gif,green/3925.gif
-green/4003.gif,green/4003.gif
-green/ugly_bigboy.gif,green/ugly_bigboy.gif
-green/ugly_cafe.gif,green/ugly_cafe.gif
-green/ugly_confused2.gif,green/ugly_confused2.gif
-12/1378302158532.gif,12/1378302158532.gif
-green/eugly.gif,green/eugly.gif
-green/hammer.gif,green/hammer.gif
-green/hmm.gif,green/hmm.gif
-green/hugly.gif,green/hugly.gif
-green/nanu.gif,green/nanu.gif
-green/noe.gif,green/noe.gif
-green/rain_remix.gif,green/rain_remix.gif
-green/sorry.gif,green/sorry.gif
-green/staunugly.gif,green/staunugly.gif
-green/sugly.gif,green/sugly.gif
-green/teeth.gif,green/teeth.gif
-green/tiredugly.gif,green/tiredugly.gif
-green/ugly.gif,green/ugly.gif
-green/ugly_devil.gif,green/ugly_devil.gif
-green/ugly_lol.gif,green/ugly_lol.gif
-green/ugly_paranoid.gif,green/ugly_paranoid.gif
-green/ugly_reversed.gif,green/ugly_reversed.gif
-green/ugly2_002.gif,green/ugly2_002.gif
-green/ugly5.gif,green/ugly5.gif
-green/ugly7.gif,green/ugly7.gif
-green/ugly8.gif,green/ugly8.gif
-green/ugly9.gif,green/ugly9.gif
-green/ugly10.gif,green/ugly10.gif
-green/ugly11.gif,green/ugly11.gif
-green/ugly13.gif,green/ugly13.gif
-green/ugly14.gif,green/ugly14.gif
-green/ugly15.gif,green/ugly15.gif
-green/ugly17.gif,green/ugly17.gif
-green/ugly18.gif,green/ugly18.gif
-green/ugly21.gif,green/ugly21.gif
-green/ugly22_002.gif,green/ugly22_002.gif
-green/ugly24.gif,green/ugly24.gif
-green/ugly25.gif,green/ugly25.gif
-green/ugly26.gif,green/ugly26.gif
-green/ugly29.gif,green/ugly29.gif
-green/ugly30.gif,green/ugly30.gif
-green/ugly33.gif,green/ugly33.gif
-green/uglyking.gif,green/uglyking.gif
-green/xugly.gif,green/xugly.gif
-15/pashe.gif,15/pashe.gif
-16/614.gif,16/614.gif
-16/765.gif,16/765.gif
+green/l114.gif,green/l114.gif,لیزر منفجر
+green/623.gif,green/623.gif,بچه خنگ منگول
+green/s066.gif,green/s066.gif,خرگوش اوگلی بیریخت
+green/s498.gif,green/s498.gif,ماشین راننده دنده فرار
+green/993.gif,green/993.gif,اخم خشم ناراحت تعجب
+green/996.gif,green/996.gif,خواب منگل افسرده
+green/997.gif,green/997.gif,تعجب خاروندن عجب
+green/1048.gif,green/1048.gif,ای وای خرابکاری اشتباه
+green/s106.gif,green/s106.gif,منگل گیج پرش چشم چرخش
+green/s244.gif,green/s244.gif,باتوم کتک عصبانی خشم
+green/s267.gif,green/s267.gif,قوی نیرومند ورزشی
+green/s503.gif,green/s503.gif,گل بیریخت آشتی دوست
+green/s513.gif,green/s513.gif,شلاق کتک بیریخت ابرو کلفت
+green/s519.gif,green/s519.gif,رگ خودکشی خون خنده مشنگ روانی
+15/h0509.gif,15/h0509.gif,پیر دانا منگل عصا
+15/h0531.gif,15/h0531.gif,خفاش
+15/t1302.gif,15/t1302.gif,فرشته بیریخت بال پرواز مهربان مهربون
+green/ff.gif,green/ff.gif,بگ آپ بروکی میخوای بیاه
+green/film.gif,green/film.gif,فیلم سوسکی میخوای بیاه
+green/gif.gif,green/gif.gif,گیف میخوای بیاه
+green/konjed.gif,green/konjed.gif,کنجد میخوای بیاه
+green/bitcoin.gif,green/bitcoin.gif,بیت کوین میخوای بیاه بیتکوین
+green/yessss.gif,green/yessss.gif,یک دو سه بیاه
+14/cpumikhai.gif,14/cpumikhai.gif,سی پی یو میخوی بیاه
+12/1053.gif,12/1053.gif,ماشین لباس شویی خنگ اشتباه ببخشید
+12/741.gif,12/741.gif,ها چی شد
+green/s199.gif,green/s199.gif,عجب تعجب سرخاروندن
+green/1052.gif,green/1052.gif,عجب تعجب سرخاروندن
+green/2dh9nid.gif,green/2dh9nid.gif,بیاه
+green/2u96f00.gif,green/2u96f00.gif,سوسک زناشویی
+green/2z6in9g.gif,green/2z6in9g.gif,بیاه انگشت
+green/3z9jamu.gif,green/3z9jamu.gif,رقص شادی منگل خنگ
+green/3zc1qvs.gif,green/3zc1qvs.gif,اتصال اشتباه برق
+green/47splvo.gif,green/47splvo.gif,ببخشید اشتباه
+green/126fs4379327.gif,green/126fs4379327.gif,اعتراض خشم عصبانی
+green/126fs4397821.gif,green/126fs4397821.gif,اعتراض خشم عصبانی
+green/127fs1502911.gif,green/127fs1502911.gif,آفرین خوش آمدی گل پرتاب
+green/127fs2088029.gif,green/127fs2088029.gif,کتک سیبیل پس گردن منگل خنگ
+green/127fs2651037.gif,green/127fs2651037.gif,ایول ویی پیروزی منگل
+green/900.gif,green/900.gif,دکتر منگل اوگلی
+green/905.gif,green/905.gif,هرهر خنده شاد
+green/1676.gif,green/1676.gif,تفکر خنگ اشتباه
+green/2779.gif,green/2779.gif,سوسک زناشویی
+green/3925.gif,green/3925.gif,علاقه قلب لاو عشق
+green/4003.gif,green/4003.gif,فحش دریوری اعتراض عصبانی
+green/ugly_bigboy.gif,green/ugly_bigboy.gif,گوه شت شیت اشتباه منگل چندش
+green/ugly_cafe.gif,green/ugly_cafe.gif,قهوه کافی مطالعه حواس منگل
+green/ugly_confused2.gif,green/ugly_confused2.gif,تعجب علامت سوال
+12/1378302158532.gif,12/1378302158532.gif,ریدی آب قطعه
+green/eugly.gif,green/eugly.gif,تعجب علامت
+green/hammer.gif,green/hammer.gif,چکش خودزنی اشتباه ببخشید
+green/hmm.gif,green/hmm.gif,همم عجب چطور فریز
+green/hugly.gif,green/hugly.gif,دالی منگل
+green/nanu.gif,green/nanu.gif,تعجب علامت سوال
+green/noe.gif,green/noe.gif,نه خیر اشتباه
+green/rain_remix.gif,green/rain_remix.gif,له شده داغون
+green/sorry.gif,green/sorry.gif,ببخشید بوس عشق قلب لاو
+green/staunugly.gif,green/staunugly.gif,چشم تعجب عجب ترس
+green/sugly.gif,green/sugly.gif,خواب ززز
+green/teeth.gif,green/teeth.gif,دندان دندون کشیده تعجب :دی دی
+green/tiredugly.gif,green/tiredugly.gif,خسته افسرده
+green/ugly.gif,green/ugly.gif,اوگلی منگل سبز
+green/ugly_devil.gif,green/ugly_devil.gif,منگل اوگلی شیطان
+green/ugly_lol.gif,green/ugly_lol.gif,لول
+green/ugly_paranoid.gif,green/ugly_paranoid.gif,عجب تعجب دودل پارانوید
+green/ugly_reversed.gif,green/ugly_reversed.gif,برعکس تعجب خنگ منگل
+green/ugly2_002.gif,green/ugly2_002.gif,منگل قرمز
+green/ugly5.gif,green/ugly5.gif,پرش مرگ ورزش
+green/ugly7.gif,green/ugly7.gif,پادشاه کتک
+green/ugly8.gif,green/ugly8.gif,انفجار بمب منفجر
+green/ugly9.gif,green/ugly9.gif,بن لطفا مسدود بستن
+green/ugly10.gif,green/ugly10.gif,کریزی تابلو
+green/ugly11.gif,green/ugly11.gif,لامپ انفجار بمب زرد مسابقه رقابت
+green/ugly13.gif,green/ugly13.gif,دست تشویق آفرین
+green/ugly14.gif,green/ugly14.gif,لاو عشق
+green/ugly15.gif,green/ugly15.gif,پنگوئن تابلو منگل
+green/ugly17.gif,green/ugly17.gif,ببر اوگلی سگ
+green/ugly18.gif,green/ugly18.gif,کلاه بابانوئل
+green/ugly21.gif,green/ugly21.gif,چکش پتک خودزنی داغون ببخشید
+green/ugly22_002.gif,green/ugly22_002.gif,ورزش رقص منگل
+green/ugly24.gif,green/ugly24.gif,کم داری کلاه بابانوئل
+green/ugly25.gif,green/ugly25.gif,لول
+green/ugly26.gif,green/ugly26.gif,هدل هودل صبر
+green/ugly29.gif,green/ugly29.gif,علاقه عشق لاو قلب
+green/ugly30.gif,green/ugly30.gif,تانک جنگ
+green/ugly33.gif,green/ugly33.gif,گل موقشنگ آشتی
+green/uglyking.gif,green/uglyking.gif,پادشاه
+green/xugly.gif,green/xugly.gif,مرگ فریز تعجب سیخ
+15/pashe.gif,15/pashe.gif,سوسک پشه سیبیل زناشویی
+16/614.gif,16/614.gif,کتک خودزنی داغون
+16/765.gif,16/765.gif,ردیفه

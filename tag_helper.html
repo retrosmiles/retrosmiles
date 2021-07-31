@@ -34,14 +34,11 @@ if (window.location.href.indexOf("?reset") > -1) {
     window.location  = window.location.href.replace("?reset","");
 }
 
-var search_tabs = [2, 4, 6, 8, 9, 10, 7, 11,12,13, 16, 14, 15, 3, 1, 5];
 var currentTab = '', currentProfile = -1, csvContent = '';
-var arr_tags = [];
 var history_data = [];
 var profile_data = createMatrix(10,profile_max );
 var profile_max = 120, history_max = 120;
 var profile_msg = "<p style='text-align:center'>No smiley in this package! <img src='./QuickSmiles/0/162.gif'><br>You can use tools above to add smiles from <b>any website</b> to this package for quick access! <img src='https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/69.gif'><br>You could then backup your package and share it with friends! <img src='./QuickSmiles/2/4.gif'></p>";
-var _find_cache = "";
 
 var _tmp_h  = JSON.parse(localStorage.getItem("history_data"));
 if(Array.isArray(_tmp_h))
@@ -97,25 +94,11 @@ text: function(trigger) {
             trigger.src =  tbbcode2.toString().replace("[img]","").replace("[/img]","");
         }
 		
-		if(currentTab!='tab0-tab' && currentTab!='tab997-tab') {
 		
-			try {
-			console.log(arr_tags[parseInt(_id.replace('block_',''))-1]);
-			var _tmp_tag = arr_tags[parseInt(_id.replace('block_',''))-1][1];
-			
-			if(_tmp_tag != '' && _tmp_tag != null && _tmp_tag != 'undefined') {
-				$.notify(_tmp_tag.trim().replace(/\s/g,","), {
-					className: 'info',
-					autoHideDelay: 1200,
-					position:"bottom right"
-				});
-			}
+		$("#helper").html(tbbcode);
+		$("#taghelper_txt").focus();
 		
-			} catch(e) {}
-
-		}
-
-        return tbbcode;
+        return "";//tbbcode;
     }
 });
 clipboard.on('success', function(e) {
@@ -338,7 +321,7 @@ dangerMode: true,
                                 history_data.splice(i,1);
                             }
                         }
-                        //console.log(history_data);
+                        console.log(history_data);
                         localStorage.setItem("history_data", JSON.stringify(history_data));
                     }
                 });
@@ -350,7 +333,7 @@ dangerMode: true,
                         history_data.splice(i,1);
                     }
                 }
-                //console.log(history_data);
+                console.log(history_data);
                 localStorage.setItem("history_data", JSON.stringify(history_data));
 
             }
@@ -439,44 +422,6 @@ function rebuild_profile() {
 
     profile_data = _t;
 
-}
-
- function filterResults(list, keyword) {
-    return list.filter(x => {
-      const arr = x[1].trim().replace(/\s+/g," ").split(' ');
-      return arr.some(y => keyword.includes(y) && y.trim().length>0)
-
-    });
- }
-
-function find_smiley() {
-	var keywords = $('#smiley_keyword').val().replace(/,/g," ").replace(/\s+/g," ");
-	if(keywords.trim().length < 2) {
-        swal("", "Please type a keyword.", "info");
-        return true;
-	}
-	
-	var total=0;
-
-	$("#find_div").html("");
-	//console.log(_find_cache);
-	var _tmp_html = '', _tmp_arr;
-	try {
-			renderCSV(_find_cache,true);
-			_tmp_arr = filterResults(arr_tags, keywords);
-			//console.log(_tmp_arr);
-			total+=_tmp_arr.length;
-			if(_tmp_arr.length>0 && total<history_max) {
-				$("#find_div").append(renderArray(_tmp_arr));
-				loadImages();
-			}
-	} catch(e) {}
-
-	
-	if(total == 0) {
-		$("#find_div").html("<div class='col-12'><p  style='text-align:center'>Not found! <img src='./QuickSmiles/0/162.gif'></p></div>");
-	}
-	
 }
 
 function loadTabCSV(e,format) {
@@ -643,36 +588,16 @@ function loadTabCSV(e,format) {
         }
 
 
-    } else  if(e == 'tab997-tab') {
-
-                var loadurl = 'ext_search.html' + '?' + Date.now();
-                var _tmp_html = '';
-                try {
-                    $.get(loadurl, function(data2) {
-                            _tmp_html = data2;
-                            $(targ).html(_tmp_html);
-                    }).fail(function() {
-                        $.notify("error, try later.", {
-                            autoHideDelay: 1000
-                        });
-                    });
-                } catch(e) {
-                    $.notify("error, try later.", {
-                        autoHideDelay: 1000
-                    });
-                }
-
-
-
-
     } else {
 
         try {
             $.get(loadurl, function(data) {
                 if(format=='html')
                     $(targ).html(data);
-                else
+                else {
+						$("#taghelper_txt").val(data);
                     $(targ).html(renderCSV(data));
+				}
                 loadImages();
             }).fail(function() {
                 $.notify("error, try later.", {
@@ -706,7 +631,7 @@ function renderCSVArray(csv) {
             var cols = rows[row].split(',');
             if(Array.isArray(cols)) {
                 for(var i=0; i<cols.length; i++) {
-                    cols[i] = cols[i].replace(/"/g,'').trim().toString();
+                    cols[i] = cols[i].replace('"','').trim().toString();
                     switch (i) {
                     case 0:
                         var bbcode = cols[i].toString();
@@ -737,17 +662,16 @@ function renderCSVArray(csv) {
 
 }
 
-function renderArray(arr_t) {
+function renderCSV(csv) {
     var id_count = 0;
-    var rows = arr_t;
+    var rows = csv.split(/\r\n|\n/);
     var html = '', img = "", bbcode = "";
     if(Array.isArray(rows)) {
         for(var row=0; row<rows.length; row++) {
-            var cols = rows[row][0].split(',');
+            var cols = rows[row].split(',');
             if(Array.isArray(cols)) {
                 for(var i=0; i<cols.length; i++) {
-					tags='';
-                    cols[i] = cols[i].replace(/"/g,'').trim().toString();
+                    cols[i] = cols[i].replace('"','').trim().toString();
                     switch (i) {
                     case 0:
                         var bbcode = cols[i].toString();
@@ -756,7 +680,7 @@ function renderArray(arr_t) {
                     case 1:
                         var img = cols[i].toString();
                         break;
-					
+
                     default:
 
                     }
@@ -767,7 +691,6 @@ function renderArray(arr_t) {
                     img = img.toString().trim();
                     if(bbcode != '' && img != '') {
                         id_count++;
-                        
                         if(bbcode.indexOf('https://')!=-1 || bbcode.indexOf('http://')!=-1) {
                             html+='<div class="col-auto col-md-2"><input class="float_input" type="checkbox" id="sel_'+id_count+'"/><img id="block_'+id_count+'" class="btn" data-clipboard-text="[img]'+bbcode+'[/img]" src="css/placeholder.png" ref-src="'+img+'"></div>';
                         } else {
@@ -779,75 +702,10 @@ function renderArray(arr_t) {
             }
         }
 
-        html = html;
-    }
-
-	return html;
-}
-
-function renderCSV(csv,nohtml=false) {
-	arr_tags = [];
-    var id_count = 0;
-    var rows = csv.split(/\r\n|\n/);
-    var html = '', img = "", bbcode = "";
-    var tags = '';
-    if(Array.isArray(rows)) {
-        for(var row=0; row<rows.length; row++) {
-            var cols = rows[row].split(',');
-            if(Array.isArray(cols)) {
-                for(var i=0; i<cols.length; i++) {
-					tags='';
-                    cols[i] = cols[i].replace(/"/g,'').trim().toString();
-                    switch (i) {
-                    case 0:
-                        var bbcode = cols[i].toString();
-                        break;
-
-                    case 1:
-                        var img = cols[i].toString();
-                        break;
-					
-					case 2:
-					var bbcode3_t = bbcode.split("/");
-					var bbcode3 ='';
-					tags=cols[i].toString();
-					if(Array.isArray(bbcode3_t) && bbcode3_t.length>1) {
-						bbcode3 = bbcode3_t[1];
-						tags= tags.replace(/-/g," ").replace(/_/g," ")+" ";//+bbcode3.toLowerCase().replace(".gif","").replace(".jpeg","").replace(".jpg","").replace(".webp","").replace(".png","").replace(".bmp","").replace("-"," ").replace("_"," ").replace("("," ").replace(")"," ").replace(new RegExp("[0-9]", "g"),"").replace(new RegExp("\D+", "g"), "");
-						
-						//console.log(tags);
-					}
-                    default:
-
-                    }
-                }
-
-                if(bbcode.indexOf('#') != 0) {
-                    bbcode = bbcode.toString().trim();
-                    img = img.toString().trim();
-                    if(bbcode != '' && img != '') {
-                        id_count++;
-                        arr_tags.push([bbcode+","+img, tags]);
-                        if(bbcode.indexOf('https://')!=-1 || bbcode.indexOf('http://')!=-1 && !nohtml) {
-                            html+='<div class="col-auto col-md-2"><input class="float_input" type="checkbox" id="sel_'+id_count+'"/><img id="block_'+id_count+'" class="btn" data-clipboard-text="[img]'+bbcode+'[/img]" src="css/placeholder.png" ref-src="'+img+'"></div>';
-                        } else {
-                            html+='<div class="col-auto col-md-2"><input class="float_input" type="checkbox" id="sel_'+id_count+'"/><img id="block_'+id_count+'" class="btn" data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/'+bbcode+'[/img]" src="css/placeholder.png" ref-src="QuickSmiles/'+img+'"></div>';
-                        }
-                    }
-                }
-
-            }
-        }
-
-		//console.log(arr_tags);
-
         html = '<div class="row">' + html + '</div>';
     }
 
-	if(nohtml)
-		return arr_tags;
-	else
-		return html;
+    return html;
 }
 
 function loadTab(e,t) {
@@ -916,18 +774,6 @@ function loadTabs() {
                     $('#splash').fadeOut();
                 localStorage.setItem('lastsplash', n);
 
-				for(i=0;i<search_tabs.length;i++) {
-							
-							var _loadurl = 'tab'+search_tabs[i].toString()+'.txt' + '?' + Date.now();
-							try {
-								$.get(_loadurl, function(data2) {
-									_find_cache +="\n"+ data2;
-								});
-							} catch(e) {}
-
-				}
-
-
             }).fail(function() {
                 $.notify("error, try later.", {
                     autoHideDelay: 1000
@@ -949,7 +795,7 @@ top: ($('#header').offset().top + $('#header').height() + $('.tabl').offset().to
 </script>
 	<div id="header">
 		<div class="logo row">
-			<div class="col-8 col-md-8 col-sm-8">
+			<div class="col-8 col-md-8 col-sm-8" id="helper">
 				RetroSmiles<span class="btn" style="cursor:pointer" data-clipboard-text="[url=https://retrosmiles.github.io/retrosmiles]Visit RetroSmiles[/url]"><img src="copy.png"/></span>
 			</div>
 			<div class="col-4 col-md-4 col-sm-4 text-right">
@@ -966,10 +812,13 @@ top: ($('#header').offset().top + $('#header').height() + $('.tabl').offset().to
 			</div>
 		</div>
 	</div>
-	<div class="tab-content" id="myTabContent">
+	<div class="tab-content" id="myTabContent" style="padding-bottom:200px">
 		<div class="tab-pane fade" id="maintab" role="tabpanel" aria-labelledby="maintab-tab">
 			<p style='text-align:center'>Loading...</p>
 		</div>
+	</div>
+	<div id="taghelper" style="position:fixed;bottom:0;width:100%;left:0;z-index:100000000">
+		<textarea id="taghelper_txt" style="width:100%;height:200px" spellcheck="false"></textarea>
 	</div>
 </body>
 </html>

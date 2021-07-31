@@ -1,39 +1,39 @@
 #bbcode,img
-yellow/sticker1.png,yellow/sticker1.png
-yellow/sticker2.png,yellow/sticker2.png
-yellow/sticker3.png,yellow/sticker3.png
-yellow/sticker4.png,yellow/sticker4.png
-yellow/sticker5.png,yellow/sticker5.png
-yellow/sticker6.png,yellow/sticker6.png
-yellow/sticker7.png,yellow/sticker7.png
-yellow/sticker8.png,yellow/sticker8.png
-yellow/sticker9.png,yellow/sticker9.png
-yellow/sticker10.png,yellow/sticker10.png
-yellow/sticker11.png,yellow/sticker11.png
-yellow/sticker12.png,yellow/sticker12.png
-yellow/sticker13.png,yellow/sticker13.png
-yellow/sticker14.png,yellow/sticker14.png
-yellow/sticker15.png,yellow/sticker15.png
-yellow/sticker16.png,yellow/sticker16.png
-yellow/sticker17.png,yellow/sticker17.png
-yellow/sticker18.png,yellow/sticker18.png
-yellow/sticker19.png,yellow/sticker19.png
-yellow/sticker20.png,yellow/sticker20.png
-yellow/sticker21.png,yellow/sticker21.png
-yellow/sticker22.png,yellow/sticker22.png
-yellow/sticker23.png,yellow/sticker23.png
-yellow/sticker24.png,yellow/sticker24.png
-yellow/sticker25.png,yellow/sticker25.png
-yellow/sticker26.png,yellow/sticker26.png
-yellow/sticker27.png,yellow/sticker27.png
-yellow/sticker28.png,yellow/sticker28.png
-yellow/sticker29.png,yellow/sticker29.png
-yellow/sticker30.png,yellow/sticker30.png
-yellow/sticker31.png,yellow/sticker31.png
-yellow/sticker32.png,yellow/sticker32.png
-yellow/sticker33.png,yellow/sticker33.png
-yellow/sticker34.png,yellow/sticker34.png
-yellow/sticker35.png,yellow/sticker35.png
-yellow/sticker36.png,yellow/sticker36.png
-yellow/sticker37.png,yellow/sticker37.png
-yellow/sticker38.png,yellow/sticker38.png
+yellow/sticker1.png,yellow/sticker1.png,خسته
+yellow/sticker2.png,yellow/sticker2.png,مسافرت
+yellow/sticker3.png,yellow/sticker3.png,بچه شیردادن مواظبت
+yellow/sticker4.png,yellow/sticker4.png,مواظب بچه
+yellow/sticker5.png,yellow/sticker5.png,سگ ورزش
+yellow/sticker6.png,yellow/sticker6.png,جنگ مبارزه
+yellow/sticker7.png,yellow/sticker7.png,سرفه بالاآوردن
+yellow/sticker8.png,yellow/sticker8.png,تعجب گرسنه
+yellow/sticker9.png,yellow/sticker9.png,ماهیگیری
+yellow/sticker10.png,yellow/sticker10.png,دستشویی مستراح
+yellow/sticker11.png,yellow/sticker11.png,ورزش
+yellow/sticker12.png,yellow/sticker12.png,مشت کتک
+yellow/sticker13.png,yellow/sticker13.png,فرار ترس
+yellow/sticker14.png,yellow/sticker14.png,اسب پادشاه
+yellow/sticker15.png,yellow/sticker15.png,سگ کشاندن بیا
+yellow/sticker16.png,yellow/sticker16.png,چاق
+yellow/sticker17.png,yellow/sticker17.png,چاق خوراکی خوردن
+yellow/sticker18.png,yellow/sticker18.png,سوسک
+yellow/sticker19.png,yellow/sticker19.png,صبح خواب خسته
+yellow/sticker20.png,yellow/sticker20.png,شب خواب
+yellow/sticker21.png,yellow/sticker21.png,تله موش
+yellow/sticker22.png,yellow/sticker22.png,حرفه ای هیپتونیزم
+yellow/sticker23.png,yellow/sticker23.png,کتاب مطالعه
+yellow/sticker24.png,yellow/sticker24.png,آزار کتاب
+yellow/sticker25.png,yellow/sticker25.png,شنا
+yellow/sticker26.png,yellow/sticker26.png,فیل
+yellow/sticker27.png,yellow/sticker27.png,ماهی آکواریوم
+yellow/sticker28.png,yellow/sticker28.png,بابانوئل
+yellow/sticker29.png,yellow/sticker29.png,سینما فیلم
+yellow/sticker30.png,yellow/sticker30.png,دکتر
+yellow/sticker31.png,yellow/sticker31.png,عشق قلب لاو
+yellow/sticker32.png,yellow/sticker32.png,نظافت
+yellow/sticker33.png,yellow/sticker33.png,مترو
+yellow/sticker34.png,yellow/sticker34.png,رقص خوراکی
+yellow/sticker35.png,yellow/sticker35.png,پیداکردن
+yellow/sticker36.png,yellow/sticker36.png,کمک بیخیال
+yellow/sticker37.png,yellow/sticker37.png,ژست
+yellow/sticker38.png,yellow/sticker38.png,مورچه

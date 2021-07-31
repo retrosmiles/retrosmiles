@@ -1,24 +1,24 @@
 #bbcode,img
-shiba/sticker1.png,shiba/sticker1.png
-shiba/sticker2.png,shiba/sticker2.png
-shiba/sticker3.png,shiba/sticker3.png
-shiba/sticker4.png,shiba/sticker4.png
-shiba/sticker5.png,shiba/sticker5.png
-shiba/sticker6.png,shiba/sticker6.png
-shiba/sticker7.png,shiba/sticker7.png
-shiba/sticker8.png,shiba/sticker8.png
-shiba/sticker9.png,shiba/sticker9.png
-shiba/sticker10.png,shiba/sticker10.png
-shiba/sticker11.png,shiba/sticker11.png
-shiba/sticker12.png,shiba/sticker12.png
-shiba/sticker13.png,shiba/sticker13.png
-shiba/sticker14.png,shiba/sticker14.png
-shiba/sticker15.png,shiba/sticker15.png
-shiba/sticker16.png,shiba/sticker16.png
-shiba/sticker17.png,shiba/sticker17.png
-shiba/sticker18.png,shiba/sticker18.png
-shiba/sticker19.png,shiba/sticker19.png
-shiba/sticker20.png,shiba/sticker20.png
-shiba/sticker21.png,shiba/sticker21.png
-shiba/sticker22.png,shiba/sticker22.png
-shiba/sticker23.png,shiba/sticker23.png
+shiba/sticker1.png,shiba/sticker1.png,قهوه ریلکس اوکی
+shiba/sticker2.png,shiba/sticker2.png,خجالت اشتباه
+shiba/sticker3.png,shiba/sticker3.png,زنبور
+shiba/sticker4.png,shiba/sticker4.png,مدرسه
+shiba/sticker5.png,shiba/sticker5.png,مسافرت
+shiba/sticker6.png,shiba/sticker6.png,طب مریض
+shiba/sticker7.png,shiba/sticker7.png,آهنگ گیتار
+shiba/sticker8.png,shiba/sticker8.png,خجالت
+shiba/sticker9.png,shiba/sticker9.png,گرم آب
+shiba/sticker10.png,shiba/sticker10.png,عنکبوت
+shiba/sticker11.png,shiba/sticker11.png,لاو عشق قلب
+shiba/sticker12.png,shiba/sticker12.png,چایی فلاکس
+shiba/sticker13.png,shiba/sticker13.png,شادی تولد
+shiba/sticker14.png,shiba/sticker14.png,گل دختر منتظر
+shiba/sticker15.png,shiba/sticker15.png,منتظر دیرکردن نگران
+shiba/sticker16.png,shiba/sticker16.png,توقع اشتباه عجب
+shiba/sticker17.png,shiba/sticker17.png,خرچنگ
+shiba/sticker18.png,shiba/sticker18.png,نگران مضطرب
+shiba/sticker19.png,shiba/sticker19.png,مسافرت
+shiba/sticker20.png,shiba/sticker20.png,کفش دوز
+shiba/sticker21.png,shiba/sticker21.png,موفقیت
+shiba/sticker22.png,shiba/sticker22.png,مزاحم نشو
+shiba/sticker23.png,shiba/sticker23.png,نه خطا داوری

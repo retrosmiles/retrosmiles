@@ -1,135 +1,133 @@
 #bbcode,img
-21/150fs127095.gif,21/150fs127095.gif
-21/155fs505059.gif,21/155fs505059.gif
-21/165fs459976.gif,21/165fs459976.gif
-21/499kfok.gif,21/499kfok.gif
-21/svnxo5.gif,21/svnxo5.gif
-18/opasnie210.gif,18/opasnie210.gif
-18/opasnie152.gif,18/opasnie152.gif
-18/opasnie156.gif,18/opasnie156.gif
-18/opasnie170.gif,18/opasnie170.gif
-18/opasnie296.gif,18/opasnie296.gif
-18/opasnie303.gif,18/opasnie303.gif
-18/opasnie224.gif,18/opasnie224.gif
-18/opasnie200.gif,18/opasnie200.gif
-18/opasnie201.gif,18/opasnie201.gif
-22/BTC.gif,22/BTC.gif
-22/bitcoin3.gif,22/bitcoin3.gif
-22/bitcoin4.gif,22/bitcoin4.gif
-22/bitcoin5.gif,22/bitcoin5.gif
-16/1.gif,16/1.gif
-16/2.gif,16/2.gif
-16/43.gif,16/43.gif
-16/44.gif,16/44.gif
-16/45.gif,16/45.gif
-16/46.gif,16/46.gif
-16/47.gif,16/47.gif
-16/48.gif,16/48.gif
-16/49.gif,16/49.gif
-16/50.gif,16/50.gif
-16/51.gif,16/51.gif
-16/119.gif,16/119.gif
-16/767.gif,16/767.gif
-16/775.gif,16/775.gif
-16/776.gif,16/776.gif
-16/780.gif,16/780.gif
-16/790.gif,16/790.gif
-16/792.gif,16/792.gif
-16/793.gif,16/793.gif
-16/768.gif,16/768.gif
-14/pepe_1.png,14/pepe_1.png
-14/pepe_2.png,14/pepe_2.png
-14/pepe_3.png,14/pepe_3.png
-14/pepe_4.png,14/pepe_4.png
-14/pepe_5.png,14/pepe_5.png
-14/tus_facepalm.gif,14/tus_facepalm.gif
-12/bunnythrust.gif,12/bunnythrust.gif
-12/02.gif,12/02.gif
-12/2dsfeoi.gif,12/2dsfeoi.gif
-12/2isf6hj.gif,12/2isf6hj.gif
-12/2lxwef8.gif,12/2lxwef8.gif
-12/2mq18pc.gif,12/2mq18pc.gif
-12/2ms2h5g.gif,12/2ms2h5g.gif
-12/2zhmej9.gif,12/2zhmej9.gif
-12/4dqpeus.gif,12/4dqpeus.gif
-12/4hkvlgi.gif,12/4hkvlgi.gif
-12/7_1_118_1.gif,12/7_1_118_1.gif
-12/14.gif,12/14.gif
-12/14jxnrk.gif,12/14jxnrk.gif
-12/15.gif,12/15.gif
-12/16.gif,12/16.gif
-12/16lk8wg.gif,12/16lk8wg.gif
-12/30upn9j.gif,12/30upn9j.gif
-12/33kau05.jpg,12/33kau05.jpg
-12/44hhkwo.gif,12/44hhkwo.gif
-12/127fs2361263.gif,12/127fs2361263.gif
-12/145.gif,12/145.gif
-12/47145s5.gif,12/47145s5.gif
-12/bighug.gif,12/bighug.gif
-12/cowsleep_gif.gif,12/cowsleep_gif.gif
-12/frog.gif,12/frog.gif
-12/happy.gif,12/happy.gif
-21/sam.gif,21/sam.gif
-12/mini-panda-21.gif,12/mini-panda-21.gif
-12/mini-vache-danse.gif,12/mini-vache-danse.gif
-12/mmy7me.gif,12/mmy7me.gif
-12/moooom.gif,12/moooom.gif
-12/mouse.jpg,12/mouse.jpg
-12/MouseDance.gif,12/MouseDance.gif
-12/mousehug.gif,12/mousehug.gif
-12/mouton_corde.gif,12/mouton_corde.gif
-12/mouton1.gif,12/mouton1.gif
-12/nnani055.gif,12/nnani055.gif
-12/offre_fleur.gif,12/offre_fleur.gif
-12/petit-singe-bascule.gif,12/petit-singe-bascule.gif
-12/pollito1.gif,12/pollito1.gif
-12/purr.gif,12/purr.gif
-12/streit.gif,12/streit.gif
-12/turkydance1.gif,12/turkydance1.gif
-12/tute.gif,12/tute.gif
-12/vache.gif,12/vache.gif
-12/xpeople_llover.gif,12/xpeople_llover.gif
-12/zombismiley.gif,12/zombismiley.gif
-12/h-sh.gif,12/h-sh.gif
-12/h-sh2.gif,12/h-sh2.gif
-12/looksmiley.gif,12/looksmiley.gif
-12/looksmiley2.gif,12/looksmiley2.gif
-12/4teckna.gif,12/4teckna.gif
-12/13z71b6.gif,12/13z71b6.gif
-12/14mdz03.gif,12/14mdz03.gif
-12/chickwalk.gif,12/chickwalk.gif
-12/docduck.gif,12/docduck.gif
-12/earwings.gif,12/earwings.gif
-12/gee.gif,12/gee.gif
-12/gehor.gif,12/gehor.gif
-12/hairry.gif,12/hairry.gif
-12/laughdog.gif,12/laughdog.gif
-12/litengr.gif,12/litengr.gif
-12/loverboy.gif,12/loverboy.gif
-12/nicetoad.gif,12/nicetoad.gif
-12/rumpa.gif,12/rumpa.gif
-12/sag.gif,12/sag.gif
-12/tangry.gif,12/tangry.gif
-12/toupee.gif,12/toupee.gif
-12/witchbrew.gif,12/witchbrew.gif
-12/witchdrum.gif,12/witchdrum.gif
-12/200.gif,12/200.gif
-12/evil2.gif,12/evil2.gif
-10/heartbroken.gif,10/heartbroken.gif
-10/atingheart.gif,10/atingheart.gif
-10/hubbahubba.gif,10/hubbahubba.gif
-10/inlove.gif,10/inlove.gif
-10/kisses.gif,10/kisses.gif
-12/54491015660004484803.gif,12/54491015660004484803.gif
-12/1370264351852.gif,12/1370264351852.gif
-0/bala3.gif,0/bala3.gif
-10/pcheers1.gif,10/pcheers1.gif
-11/broki.gif,11/broki.gif
-12/ugly-man-laugh-smiley-emoticon.gif,12/ugly-man-laugh-smiley-emoticon.gif
-15/yoda2.gif,15/yoda2.gif
-16/meme_awesome_smiley.png,16/meme_awesome_smiley.png
-16/meme_cg2.png,16/meme_cg2.png
-16/meme_fsjal.png,16/meme_fsjal.png
-16/meme_me_gusta.png,16/meme_me_gusta.png
-16/meme_okayfaceplz.png,16/meme_okayfaceplz.png
-16/meme_trollface.png,16/meme_trollface.png
+21/150fs127095.gif,21/150fs127095.gif,سیگار سیبیل ابرو کلفت دود معتاد کریزی
+21/155fs505059.gif,21/155fs505059.gif,سیگار سیبیل ابرو کلفت دود معتاد زن چادر کریزی
+21/165fs459976.gif,21/165fs459976.gif,کریزی توسری کتک
+21/499kfok.gif,21/499kfok.gif,کریزی بچه قنداق
+21/svnxo5.gif,21/svnxo5.gif,سیبیل کریزی چکش پتک قتل خفه
+18/opasnie210.gif,18/opasnie210.gif,قاتل خون عصبانی
+18/opasnie152.gif,18/opasnie152.gif,طلسم جادو سوزن
+18/opasnie156.gif,18/opasnie156.gif,تفنگ شلیک ترس
+18/opasnie170.gif,18/opasnie170.gif,کتک نون خفه
+18/opasnie296.gif,18/opasnie296.gif,مسخره تمسخر خندین
+18/opasnie303.gif,18/opasnie303.gif,کتک لگد های
+18/opasnie224.gif,18/opasnie224.gif,توسری سیبیل کریزی اوگلی سبز
+18/opasnie200.gif,18/opasnie200.gif,توسری کلاه سیبیل
+18/opasnie201.gif,18/opasnie201.gif,توسری کلاه سیبیل کریزی ابرو کلفت
+22/BTC.gif,22/BTC.gif,بیتکوین بیت کوین
+22/bitcoin3.gif,22/bitcoin3.gif,بیتکوین بیت کوین کتک عصبانی
+22/bitcoin4.gif,22/bitcoin4.gif,بیتکوین بیت کوین کتک عصبانی شلیک
+22/bitcoin5.gif,22/bitcoin5.gif,بیتکوین بیت کوین کتک عصبانی گیوتین
+16/1.gif,16/1.gif,ریلکس آرام ماهیگیری راحت
+16/2.gif,16/2.gif,ریلکس آرام وان دوش حموم حمام راحت
+16/44.gif,16/44.gif,آره یسس درست بله yes موفقیت
+16/45.gif,16/45.gif,سیگار برگ ریلکس آرام
+16/46.gif,16/46.gif,پروانه گرفتن
+16/47.gif,16/47.gif,دنبال پروانه
+16/48.gif,16/48.gif,ستاره سبز پرش خوشحال شاد خنده
+16/49.gif,16/49.gif,قلب پرش خوشحال شاد خنده
+16/51.gif,16/51.gif,مطالعه کتاب خواندن مشغول سرگرم
+16/119.gif,16/119.gif,آرامش ریلکس مدیتیشن سکوت
+16/767.gif,16/767.gif,گریه ناراحت
+16/775.gif,16/775.gif,ریلکس سوت استراحت
+16/776.gif,16/776.gif,آواز شاد خواندن آهنگ
+16/780.gif,16/780.gif,گیج منگ تعجب
+16/790.gif,16/790.gif,مطالعه کتاب خواندن مشغول سرگرم
+16/792.gif,16/792.gif,شیطون شیطان وسوسه فرشته دودل
+16/793.gif,16/793.gif,دستشویی فرار سروصدا بو
+16/768.gif,16/768.gif,بفرمایید موقشنگ خواهش موفقیت
+14/pepe_1.png,14/pepe_1.png,ناراحت غمگین
+14/pepe_2.png,14/pepe_2.png,خنده خوشحال شاد
+14/pepe_3.png,14/pepe_3.png,خنده خوشحال شاد
+14/pepe_4.png,14/pepe_4.png,ترس استرس
+14/pepe_5.png,14/pepe_5.png,تعجب ترس
+14/tus_facepalm.gif,14/tus_facepalm.gif,خیر اصلا اشتباه
+12/bunnythrust.gif,12/bunnythrust.gif,خرگوش کوچک رقص آهنگ
+12/02.gif,12/02.gif,جوجه زرد رقص آهنگ
+12/2dsfeoi.gif,12/2dsfeoi.gif,خنده شاد خوشحال
+12/2isf6hj.gif,12/2isf6hj.gif,زبون تربیت
+12/2lxwef8.gif,12/2lxwef8.gif,نگاه عاقل عجب که اینطور اشتباه
+12/2mq18pc.gif,12/2mq18pc.gif,کلاه قرمز
+12/2ms2h5g.gif,12/2ms2h5g.gif,قرمز عصبانی خشم
+12/2zhmej9.gif,12/2zhmej9.gif,ناراحت گریه
+12/4dqpeus.gif,12/4dqpeus.gif,خنده خوشحال شاد
+12/4hkvlgi.gif,12/4hkvlgi.gif,خنده خوشحال شاد
+12/7_1_118_1.gif,12/7_1_118_1.gif,مدیتیشن ورزش یوگا آرامش استراحت
+12/14.gif,12/14.gif,جوجه زرد پرش رقص
+12/14jxnrk.gif,12/14jxnrk.gif,پنگوئن
+12/15.gif,12/15.gif,جوجه زرد تناب بازی
+12/16.gif,12/16.gif,جوجه زرد دم تکان
+12/16lk8wg.gif,12/16lk8wg.gif,خنده شاد سبز
+12/30upn9j.gif,12/30upn9j.gif,خنده شاد خوشحال موافق
+12/33kau05.jpg,12/33kau05.jpg,خنده شاد خوشحال
+12/44hhkwo.gif,12/44hhkwo.gif,دختر صورتی کوچک
+12/127fs2361263.gif,12/127fs2361263.gif,زرافه رقص خوشحال شاد
+12/145.gif,12/145.gif,خدا ریش مذهب
+12/47145s5.gif,12/47145s5.gif,چشمک
+12/bighug.gif,12/bighug.gif,بقل دلتنگ شادی
+12/cowsleep_gif.gif,12/cowsleep_gif.gif,گاو
+12/frog.gif,12/frog.gif,قورباغه
+12/happy.gif,12/happy.gif,روح سفید رقص پرش شاد خوشحال
+21/sam.gif,21/sam.gif,رقص سیبیل ایرانی باباکرم شاد خوشحال آهنگ
+12/mini-panda-21.gif,12/mini-panda-21.gif,رقص پاندا
+12/mini-vache-danse.gif,12/mini-vache-danse.gif,رقص گاو
+12/mmy7me.gif,12/mmy7me.gif,گربه
+12/moooom.gif,12/moooom.gif,تعجب متعجب
+12/mouse.jpg,12/mouse.jpg,موش موس
+12/MouseDance.gif,12/MouseDance.gif,موش موس رقص شاد
+12/mousehug.gif,12/mousehug.gif,موش موس خنده شاد
+12/mouton_corde.gif,12/mouton_corde.gif,گوسفند تناب خواب
+12/mouton1.gif,12/mouton1.gif,گوسفند شاش
+12/nnani055.gif,12/nnani055.gif,جوجه بال
+12/offre_fleur.gif,12/offre_fleur.gif,تقدیم گل کوچک لبخند :دی دی
+12/petit-singe-bascule.gif,12/petit-singe-bascule.gif,میمون بچه
+12/pollito1.gif,12/pollito1.gif,جوجه زرد پرش
+12/purr.gif,12/purr.gif,گربه
+12/streit.gif,12/streit.gif,کوتلاس آدمک دعوا مشت
+12/turkydance1.gif,12/turkydance1.gif,مرغ بوقلمون رقص شاد
+12/tute.gif,12/tute.gif,خارپشت قدم
+12/vache.gif,12/vache.gif,گاو سیاه
+12/xpeople_llover.gif,12/xpeople_llover.gif,ای روزگار پنجره آهه کجایی ریلکس آرامش
+12/zombismiley.gif,12/zombismiley.gif,زامبی قدم
+12/h-sh.gif,12/h-sh.gif,عجب تعجب
+12/h-sh2.gif,12/h-sh2.gif,عصبانی خشم
+12/looksmiley.gif,12/looksmiley.gif,:دی دی خندیدن
+12/looksmiley2.gif,12/looksmiley2.gif,:دی دی خندیدن
+12/4teckna.gif,12/4teckna.gif,مشق نقاشی مشغول نوشتن کتاب مطالعه
+12/13z71b6.gif,12/13z71b6.gif,جوجه رقص شاد
+12/14mdz03.gif,12/14mdz03.gif,گربه پروانه کارتون
+12/chickwalk.gif,12/chickwalk.gif,مرغ قدم
+12/docduck.gif,12/docduck.gif,مرغ اردک دکتر
+12/earwings.gif,12/earwings.gif,جادوگر
+12/gee.gif,12/gee.gif,ای وای اشتباه خجالت
+12/gehor.gif,12/gehor.gif,گوش آواز آهنگ خواننده
+12/hairry.gif,12/hairry.gif,پشم قلب سینه
+12/laughdog.gif,12/laughdog.gif,سگ خنده شاد خوشحال
+12/litengr.gif,12/litengr.gif,خوک ناراحت
+12/loverboy.gif,12/loverboy.gif,ای روزگار پنجره آهه کجایی ریلکس آرامش عشق قلب
+12/nicetoad.gif,12/nicetoad.gif,جادوگر قورباغه
+12/rumpa.gif,12/rumpa.gif,رقص پارتی عینک تکون
+12/sag.gif,12/sag.gif,ناف اسکل بازی
+12/tangry.gif,12/tangry.gif,شعار پیرمرد اعتراض اعتصاب
+12/toupee.gif,12/toupee.gif,آینه مو خنده
+12/witchbrew.gif,12/witchbrew.gif,جادوگر
+12/witchdrum.gif,12/witchdrum.gif,جادوگر طبل
+12/200.gif,12/200.gif,رقص کودک بچه 
+12/evil2.gif,12/evil2.gif,باسن یون سیپسون بارت
+10/heartbroken.gif,10/heartbroken.gif,شکست قلب عشق ناراحت اشک
+10/atingheart.gif,10/atingheart.gif,عشق عاشق لاو قلب
+10/hubbahubba.gif,10/hubbahubba.gif,به-به دهن باز
+10/inlove.gif,10/inlove.gif,عشق عاشق لاو قلب
+10/kisses.gif,10/kisses.gif,عشق عاشق لاو قلب بوس
+12/54491015660004484803.gif,12/54491015660004484803.gif,اعتراض اعتصاب پیرمرد شعار
+12/1370264351852.gif,12/1370264351852.gif,بروکی
+0/bala3.gif,0/bala3.gif,بلا
+10/pcheers1.gif,10/pcheers1.gif,بنوش به سلامتی
+11/broki.gif,11/broki.gif,بروکی
+12/ugly-man-laugh-smiley-emoticon.gif,12/ugly-man-laugh-smiley-emoticon.gif,خنده بیریخت
+15/yoda2.gif,15/yoda2.gif,یودا جنگ ستارگان سبز عصا
+16/meme_awesome_smiley.png,16/meme_awesome_smiley.png,دی :دی خنده شاد
+16/meme_cg2.png,16/meme_cg2.png,پووف تعجب
+16/meme_fsjal.png,16/meme_fsjal.png,یسس بله آره موفقیت
+16/meme_me_gusta.png,16/meme_me_gusta.png,گوستا زور گیج
+16/meme_okayfaceplz.png,16/meme_okayfaceplz.png,ناراحت افسرده
+16/meme_trollface.png,16/meme_trollface.png,ترول :دی دی خنده

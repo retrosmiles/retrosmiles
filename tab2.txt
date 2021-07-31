@@ -1,219 +1,210 @@
 #bbcode,img
-15/m1515.gif,15/m1515.gif
-15/t1310.gif,15/t1310.gif
-15/t1324.gif,15/t1324.gif
-15/t1319.gif,15/t1319.gif
-15/t1337.gif,15/t1337.gif
-15/t1340.gif,15/t1340.gif
-15/t9415.gif,15/t9415.gif
-15/t2805.gif,15/t2805.gif
-0/8.gif,0/8.gif
-0/83.gif,0/83.gif
-0/84.gif,0/84.gif
-0/85.gif,0/85.gif
-0/86.gif,0/86.gif
-0/87.gif,0/87.gif
-0/88.gif,0/88.gif
-0/89.gif,0/89.gif
-0/9.gif,0/9.gif
-0/90.gif,0/90.gif
-0/91.gif,0/91.gif
-0/92.gif,0/92.gif
-0/93.gif,0/93.gif
-0/94.gif,0/94.gif
-0/95.gif,0/95.gif
-0/96.gif,0/96.gif
-0/97.gif,0/97.gif
-0/98.gif,0/98.gif
-0/99.gif,0/99.gif
-0/wha_1.gif,0/wha_1.gif
-0/bawl.gif,0/bawl.gif
-0/sarcastic_hand.gif,0/sarcastic_hand.gif
-0/punish2.gif,0/punish2.gif
-0/garfield.gif,0/garfield.gif
-0/pokey.gif,0/pokey.gif
-0/hiya_1.gif,0/hiya_1.gif
-0/mamba.gif,0/mamba.gif
-0/nerves.gif,0/nerves.gif
-0/evil_grin.gif,0/evil_grin.gif
-0/sarcastic.gif,0/sarcastic.gif
-0/confused0072.gif,0/confused0072.gif
-0/snoozer_08.gif,0/snoozer_08.gif
-0/jealous.gif,0/jealous.gif
-10/32.gif,10/32.gif
-0/21.gif,0/21.gif
-0/216.gif,0/216.gif
-0/167.gif,0/167.gif
-0/168.gif,0/168.gif
-0/169.gif,0/169.gif
-0/17.gif,0/17.gif
-0/170.gif,0/170.gif
-0/171.gif,0/171.gif
-0/172.gif,0/172.gif
-0/173.gif,0/173.gif
-0/174.gif,0/174.gif
-0/175.gif,0/175.gif
-0/176.gif,0/176.gif
-0/177.gif,0/177.gif
-0/178.gif,0/178.gif
-0/179.gif,0/179.gif
-0/18.gif,0/18.gif
-0/180.gif,0/180.gif
-0/181.gif,0/181.gif
-0/182.gif,0/182.gif
-0/183.gif,0/183.gif
-0/184.gif,0/184.gif
-0/185.gif,0/185.gif
-0/186.gif,0/186.gif
-0/187.gif,0/187.gif
-0/188.gif,0/188.gif
-0/189.gif,0/189.gif
-0/19.gif,0/19.gif
-0/190.gif,0/190.gif
-0/191.gif,0/191.gif
-0/192.gif,0/192.gif
-0/193.gif,0/193.gif
-0/194.gif,0/194.gif
-0/195.gif,0/195.gif
-0/196.gif,0/196.gif
-0/197.gif,0/197.gif
-0/198.gif,0/198.gif
-0/199.gif,0/199.gif
-0/2.gif,0/2.gif
-0/20.gif,0/20.gif
-0/200.gif,0/200.gif
-0/201.gif,0/201.gif
-0/202.gif,0/202.gif
-0/203.gif,0/203.gif
-0/204.gif,0/204.gif
-0/205.gif,0/205.gif
-0/206.gif,0/206.gif
-0/207.gif,0/207.gif
-0/217.gif,0/217.gif
-0/218.gif,0/218.gif
-0/219.gif,0/219.gif
-0/22.gif,0/22.gif
-0/220.gif,0/220.gif
-0/221.gif,0/221.gif
-0/222.gif,0/222.gif
-0/223.gif,0/223.gif
-0/224.gif,0/224.gif
-0/225.gif,0/225.gif
-0/226.gif,0/226.gif
-0/227.gif,0/227.gif
-0/228.gif,0/228.gif
-0/229.gif,0/229.gif
-0/23.gif,0/23.gif
-0/230.gif,0/230.gif
-0/231.gif,0/231.gif
-0/232.gif,0/232.gif
-0/233.gif,0/233.gif
-10/slap_1gtk.gif,10/slap_1gtk.gif
-10/teef.gif,10/teef.gif
-10/tooth.gif,10/tooth.gif
-10/rex.gif,10/rex.gif
-10/matrix_2.gif,10/matrix_2.gif
-10/hypo.gif,10/hypo.gif
-10/jason2.gif,10/jason2.gif
-10/ghostface.gif,10/ghostface.gif
-10/crafty.gif,10/crafty.gif
-10/crazy_grin.gif,10/crazy_grin.gif
-10/apple.gif,10/apple.gif
-10/alien.gif,10/alien.gif
-10/wish.gif,10/wish.gif
-10/cat33.gif,10/cat33.gif
-10/ciao_imbarazzato.gif,10/ciao_imbarazzato.gif
-10/coffee(1).gif,10/coffee(1).gif
-9/confused.gif,9/confused.gif
-9/confused1.gif,9/confused1.gif
-9/doh.gif,9/doh.gif
-9/dontgetit.gif,9/dontgetit.gif
-9/dribble2.gif,9/dribble2.gif
-9/duh.gif,9/duh.gif
-9/ermm.gif,9/ermm.gif
-9/eyebrow.gif,9/eyebrow.gif
-9/head_hurts_kr_1.gif,9/head_hurts_kr_1.gif
-9/hmm_1.gif,9/hmm_1.gif
-9/hrmm_1.gif,9/hrmm_1.gif
-9/huh_1.gif,9/huh_1.gif
-9/hypo_1.gif,9/hypo_1.gif
-9/lookaround_1.gif,9/lookaround_1.gif
-9/nosebleed_1.gif,9/nosebleed_1.gif
-9/question_1.gif,9/question_1.gif
-9/shrug_1.gif,9/shrug_1.gif
-9/shy_1.gif,9/shy_1.gif
-9/uhhuh_1.gif,9/uhhuh_1.gif
-9/uhuh_1.gif,9/uhuh_1.gif
-9/upset_1.gif,9/upset_1.gif
-9/wacko_1.gif,9/wacko_1.gif
-9/wallbash_1.gif,9/wallbash_1.gif
-9/waycon1_1.gif,9/waycon1_1.gif
-9/wha_1.gif,9/wha_1.gif
-9/wtf1_1.gif,9/wtf1_1.gif
-9/yeaahh_1.gif,9/yeaahh_1.gif
-9/yeahright_1.gif,9/yeahright_1.gif
-8/ablow.gif,8/ablow.gif
-8/angry2.gif,8/angry2.gif
-8/annoyed.gif,8/annoyed.gif
-8/bann.gif,8/bann.gif
-8/bigwink_1.gif,8/bigwink_1.gif
-8/bounce4_1.gif,8/bounce4_1.gif
-8/censored.gif,8/censored.gif
-8/cursing.gif,8/cursing.gif
-8/dribble_1.gif,8/dribble_1.gif
-8/drool1_1.gif,8/drool1_1.gif
-8/drool_1.gif,8/drool_1.gif
-8/furious.gif,8/furious.gif
-8/gavel2.gif,8/gavel2.gif
-8/hyper_1.gif,8/hyper_1.gif
-8/idea_1.gif,8/idea_1.gif
-8/jump1_1.gif,8/jump1_1.gif
-8/jump_1.gif,8/jump_1.gif
-8/kicking_1.gif,8/kicking_1.gif
-8/Lighten_1.gif,8/Lighten_1.gif
-8/lock.gif,8/lock.gif
-8/msn-wink_1.gif,8/msn-wink_1.gif
-8/no3.gif,8/no3.gif
-8/nono.gif,8/nono.gif
-8/nono2.gif,8/nono2.gif
-8/ranting3.gif,8/ranting3.gif
-8/sleep1_1.gif,8/sleep1_1.gif
-8/sleep3_1.gif,8/sleep3_1.gif
-8/sleep_1.gif,8/sleep_1.gif
-8/spam.gif,8/spam.gif
-8/tiredsmiley_1.gif,8/tiredsmiley_1.gif
-8/w00t1_1.gif,8/w00t1_1.gif
-8/w00t_1.gif,8/w00t_1.gif
-8/yawn_1.gif,8/yawn_1.gif
-7/arms_1.gif,7/arms_1.gif
-7/arrowhead_1.gif,7/arrowhead_1.gif
-7/badair_1.gif,7/badair_1.gif
-7/bag_1.gif,7/bag_1.gif
-7/blahblah1_1.gif,7/blahblah1_1.gif
-7/blush-anim-cl_1.gif,7/blush-anim-cl_1.gif
-7/blush_1.gif,7/blush_1.gif
-7/crash_1.gif,7/crash_1.gif
-7/doofywave_1.gif,7/doofywave_1.gif
-7/evo_1.gif,7/evo_1.gif
-7/face3_1.gif,7/face3_1.gif
-7/flowers_1.gif,7/flowers_1.gif
-7/flower_2.gif,7/flower_2.gif
-7/Flush_1.gif,7/Flush_1.gif
-7/fool_1.gif,7/fool_1.gif
-7/gap_1.gif,7/gap_1.gif
-7/gba_1.gif,7/gba_1.gif
-7/goof_1.gif,7/goof_1.gif
-7/happydance_1.gif,7/happydance_1.gif
-7/hbeat_1.gif,7/hbeat_1.gif
-7/hug2_1.gif,7/hug2_1.gif
-7/hug_1.gif,7/hug_1.gif
-7/inlove_1.gif,7/inlove_1.gif
-7/kiss1_1.gif,7/kiss1_1.gif
-7/kiss2_1.gif,7/kiss2_1.gif
-7/kisss2_1.gif,7/kisss2_1.gif
-7/lamo_1.gif,7/lamo_1.gif
-7/laughbounce_1.gif,7/laughbounce_1.gif
-7/mushy_1.gif,7/mushy_1.gif
-7/serenade_1.gif,7/serenade_1.gif
-7/wub_1.gif,7/wub_1.gif
-16/331.gif,16/331.gif
+15/m1515.gif,15/m1515.gif,فرشته بال-شکسته angle
+15/t1310.gif,15/t1310.gif,فرشته angle  حلقه نورانی رژلب
+15/t1324.gif,15/t1324.gif,angle  حلقه نورانی تعجب
+15/t1319.gif,15/t1319.gif,angle  حلقه نورانی چشم-بالا-پایین
+15/t1337.gif,15/t1337.gif,angle  حلقه نورانی چرخش-چشم
+15/t1340.gif,15/t1340.gif,فرشته دختر
+15/t9415.gif,15/t9415.gif,دختر مبل
+15/t2805.gif,15/t2805.gif,خوشمزه
+0/8.gif,0/8.gif,cool کول عالی
+0/83.gif,0/83.gif,cool کول عالی
+0/84.gif,0/84.gif,شادی
+0/85.gif,0/85.gif,شادی دست-دست
+0/86.gif,0/86.gif,دلقک
+0/87.gif,0/87.gif,کلاه
+0/88.gif,0/88.gif,ورزش
+0/89.gif,0/89.gif,بچه پستونک
+0/9.gif,0/9.gif,گیتار
+0/90.gif,0/90.gif,مسواک
+0/91.gif,0/91.gif,غذا گرسنه
+0/92.gif,0/92.gif,مشروب شربت رفیق
+0/93.gif,0/93.gif,مشروب شربت رفیق
+0/94.gif,0/94.gif,خداحافظ بای-بای
+0/95.gif,0/95.gif,زبون-درازی
+0/96.gif,0/96.gif,کاپیتان یک-چشم
+0/97.gif,0/97.gif,عصبانی
+0/98.gif,0/98.gif,ورزش
+0/99.gif,0/99.gif,خداحافظ اشک گریه
+0/sarcastic_hand.gif,0/sarcastic_hand.gif,مسخره-کردن تمسخر خنده
+0/punish2.gif,0/punish2.gif,توسری دعوا
+0/garfield.gif,0/garfield.gif,گارفیلد
+0/pokey.gif,0/pokey.gif,دعوا چوب چشم انگولک
+0/mamba.gif,0/mamba.gif,آنگولایی سیاه
+0/nerves.gif,0/nerves.gif,استرس ترس لرز لرز ترس ببخشید
+0/evil_grin.gif,0/evil_grin.gif,خنده شیطان
+0/sarcastic.gif,0/sarcastic.gif,تمسخر مسخره خنده
+0/confused0072.gif,0/confused0072.gif,تعجب
+0/snoozer_08.gif,0/snoozer_08.gif,کاپیتان یک-دست
+0/jealous.gif,0/jealous.gif,گریه خیانت
+10/32.gif,10/32.gif,مخ-تعطیل دیوونه کم-داره قاطی
+0/21.gif,0/21.gif,:دی دی خنده
+0/216.gif,0/216.gif,کتک بادمجون ضربه
+0/167.gif,0/167.gif,کتک باتوم ضربه
+0/168.gif,0/168.gif,گریه دستمال
+0/169.gif,0/169.gif,تفکر فکر-کردن عجب
+0/17.gif,0/17.gif,عاشق قلب خجالت
+0/170.gif,0/170.gif,چشم عاقل خیلی-خوب
+0/171.gif,0/171.gif,خنده خندیدن شدید
+0/172.gif,0/172.gif,اطاعت سجده
+0/173.gif,0/173.gif,کولا نوشیدن
+0/174.gif,0/174.gif,راک رپ رقص
+0/175.gif,0/175.gif,تعجب چشم-گرد
+0/176.gif,0/176.gif,دهن گشاد
+0/177.gif,0/177.gif,صلح دوست
+0/178.gif,0/178.gif,مرگ پایان ویولن ویولون
+0/179.gif,0/179.gif,تعجب ابرو ناراحت تعجب عجب
+0/18.gif,0/18.gif,دانشگاه تحصیل دانش
+0/180.gif,0/180.gif,شیپور
+0/181.gif,0/181.gif,سیگار
+0/182.gif,0/182.gif,عصبانی
+0/183.gif,0/183.gif,:دی دی خوشحال ابرو پیوسته
+0/184.gif,0/184.gif,عجب اه وای شت
+0/185.gif,0/185.gif,مرگ
+0/188.gif,0/188.gif,مضطرب نگران
+0/189.gif,0/189.gif,بله درسته سر-تکان
+0/19.gif,0/19.gif,مهندس گیک پروفسور دانشمند عینک
+0/190.gif,0/190.gif,نه اصلا خیر
+0/191.gif,0/191.gif,آره بیا جان
+0/192.gif,0/192.gif,کف-کردن کیف خوشمزه آب-دهن
+0/193.gif,0/193.gif,عجب تعجب نرمال ساده
+0/194.gif,0/194.gif,بالا-آوردن استفراغ شت اه
+0/195.gif,0/195.gif,زبون
+0/196.gif,0/196.gif,عجب گمشو عصبانی
+0/197.gif,0/197.gif,گور گمشو عصبانی
+0/198.gif,0/198.gif,قحر ناراحت ناراحت غمگین لوس
+0/199.gif,0/199.gif,خندیدن خنده
+0/2.gif,0/2.gif,بابانوئل کلاه قرمز
+0/20.gif,0/20.gif,خنده :دی دی
+0/200.gif,0/200.gif,نینجا
+0/201.gif,0/201.gif,ماچ بوس
+0/202.gif,0/202.gif,بدم-اومد اه بد
+0/203.gif,0/203.gif,دعا
+0/204.gif,0/204.gif,نمی-دونم تعجب
+0/205.gif,0/205.gif,سیبیل
+0/206.gif,0/206.gif,دهن مثلث
+0/207.gif,0/207.gif,یک-چشم بچه
+0/217.gif,0/217.gif,بادمجون ضربه مشت چشم کتک
+0/218.gif,0/218.gif,ماچ بوس
+0/219.gif,0/219.gif,کتک قش منگ ضربه
+0/22.gif,0/22.gif,خنده خندیدن
+0/220.gif,0/220.gif,گیج ضربه مشنگ
+0/221.gif,0/221.gif,عنکبوت تعجب
+0/222.gif,0/222.gif,مو قشنگ آرایش
+0/223.gif,0/223.gif,خودکشی مرگ
+0/224.gif,0/224.gif,کافی اندازه دست ورزش
+0/225.gif,0/225.gif,عینک رقص شادی
+0/226.gif,0/226.gif,دست شادی
+0/227.gif,0/227.gif,رقص شادی
+0/228.gif,0/228.gif,ماچ بوس دوست
+0/229.gif,0/229.gif,دهن-باز تعجب
+0/23.gif,0/23.gif,چشمک
+0/230.gif,0/230.gif,ترس مضطرب وحشتناک
+0/231.gif,0/231.gif,سیبیل کلاه شیک ثروتمند
+0/232.gif,0/232.gif,شیطان شطیون
+0/233.gif,0/233.gif,خفه کتک پرتاب
+10/slap_1gtk.gif,10/slap_1gtk.gif,چک قهر دختر
+10/tooth.gif,10/tooth.gif,تک-دندون خنده
+10/rex.gif,10/rex.gif,404 ۴۰۴ خطا اشتباه
+10/matrix_2.gif,10/matrix_2.gif,ماتریکس
+10/hypo.gif,10/hypo.gif,هیپتونیزم جادو
+10/jason2.gif,10/jason2.gif,اره-برقی ترس
+10/ghostface.gif,10/ghostface.gif,ترس ماسک
+10/crafty.gif,10/crafty.gif,ترس جادو خطرناک
+10/crazy_grin.gif,10/crazy_grin.gif,خنده دیوونه شدید
+10/apple.gif,10/apple.gif,سیب
+10/alien.gif,10/alien.gif,فضایی بیگانه آلین
+10/wish.gif,10/wish.gif,تولد آرزو
+10/cat33.gif,10/cat33.gif,موش صورتی گربه
+10/ciao_imbarazzato.gif,10/ciao_imbarazzato.gif,خداحافظ خجالت
+10/coffee(1).gif,10/coffee(1).gif,جدی مطالعه قهوه روزنامه
+9/confused.gif,9/confused.gif,گیج منگ
+9/confused1.gif,9/confused1.gif,گیج تعجب منگ
+9/doh.gif,9/doh.gif,آخ وای آهان
+9/dontgetit.gif,9/dontgetit.gif,نمیفهمم درک فهم
+9/dribble2.gif,9/dribble2.gif,وحشت کف سیاهی چشم ترس عجب
+9/duh.gif,9/duh.gif,ناراحت تولد کلاه غم
+9/ermm.gif,9/ermm.gif,اوکی باشه عجب
+9/eyebrow.gif,9/eyebrow.gif,ابرو بالا عجب تعجب
+9/head_hurts_kr_1.gif,9/head_hurts_kr_1.gif,سردرد وای روی-مخ تعجب
+9/hmm_1.gif,9/hmm_1.gif,همم عجب اخم ناراحت نخیر عصبانی خشم
+9/hrmm_1.gif,9/hrmm_1.gif,همم عجب کج دهن
+9/huh_1.gif,9/huh_1.gif,عجب تعجب
+9/lookaround_1.gif,9/lookaround_1.gif,نگاه اطراف اوکی
+9/nosebleed_1.gif,9/nosebleed_1.gif,خون دماغ ضربه
+9/question_1.gif,9/question_1.gif,سوال
+9/shrug_1.gif,9/shrug_1.gif,گیج منگ تعطیل
+9/shy_1.gif,9/shy_1.gif,خجالت سرخ
+9/uhhuh_1.gif,9/uhhuh_1.gif,عجب تعجب اوه
+9/uhuh_1.gif,9/uhuh_1.gif,نه خیر اصلا
+9/upset_1.gif,9/upset_1.gif,نگران ترس
+9/wallbash_1.gif,9/wallbash_1.gif,آجر دیوار ضربه سر
+9/waycon1_1.gif,9/waycon1_1.gif,گیج چرخش-چشم تعجب
+9/wha_1.gif,9/wha_1.gif,چشم باد بزرگ ضربه تعجب عجب
+9/wtf1_1.gif,9/wtf1_1.gif,WTF چه-غلطا چی تعجب
+9/yeaahh_1.gif,9/yeaahh_1.gif,آره عمرا تعجب
+8/ablow.gif,8/ablow.gif,خشم عصبانی
+8/angry2.gif,8/angry2.gif,خشم عصبانی
+8/annoyed.gif,8/annoyed.gif,گیج عصبانی
+8/bann.gif,8/bann.gif,بن مسدود اعتراض
+8/bigwink_1.gif,8/bigwink_1.gif,چشمک
+8/bounce4_1.gif,8/bounce4_1.gif,بالا-پایین شادی
+8/censored.gif,8/censored.gif,سانسور بلاک بستن
+8/cursing.gif,8/cursing.gif,لعنت شت اه قرمز
+8/dribble_1.gif,8/dribble_1.gif,کف کیف شاد
+8/drool1_1.gif,8/drool1_1.gif,دهن بسته
+8/drool_1.gif,8/drool_1.gif,کف کیف شاد
+8/furious.gif,8/furious.gif,شعله آتش عصبانی
+8/gavel2.gif,8/gavel2.gif,ضربه چکش
+8/hyper_1.gif,8/hyper_1.gif,بالا-پایین پرش شاد
+8/idea_1.gif,8/idea_1.gif,فهمیدن ایده آهان یافتم
+8/jump1_1.gif,8/jump1_1.gif,بالا-پایین پرش شاد
+8/jump_1.gif,8/jump_1.gif,بالا-پایین :دی دی خنده شاد
+8/kicking_1.gif,8/kicking_1.gif,شاد خوشحال رقص
+8/Lighten_1.gif,8/Lighten_1.gif,یافتم فهمیدن ایده آهان
+8/lock.gif,8/lock.gif,قفل بستن مسدود خنده :دی دی
+8/msn-wink_1.gif,8/msn-wink_1.gif,چشمک
+8/no3.gif,8/no3.gif,نه خیر ناراحت نه اصلا بد
+8/nono.gif,8/nono.gif,نه خیر اصلا تکان
+8/nono2.gif,8/nono2.gif,عجب نه غیر-ممکن تعجب
+8/ranting3.gif,8/ranting3.gif,دعوا عصبانی فحش
+8/sleep1_1.gif,8/sleep1_1.gif,خواب استراحت ززز
+8/sleep3_1.gif,8/sleep3_1.gif,خواب استراحت ززز
+8/sleep_1.gif,8/sleep_1.gif,چشم-بسته خواب استراحت
+8/spam.gif,8/spam.gif,اسپم
+8/tiredsmiley_1.gif,8/tiredsmiley_1.gif,خسته افسرده
+8/w00t1_1.gif,8/w00t1_1.gif,شاد خوشحال لرزش عجب تعجب
+8/w00t_1.gif,8/w00t_1.gif,شاد خوشحال عجب تعجب
+8/yawn_1.gif,8/yawn_1.gif,خواب استراحت
+7/arms_1.gif,7/arms_1.gif,بقل آغوش بیا دست-باز دراز
+7/arrowhead_1.gif,7/arrowhead_1.gif,تیر کله تعجب عجب
+7/badair_1.gif,7/badair_1.gif,گوز بو سبز
+7/bag_1.gif,7/bag_1.gif,پاکت نقاب پنهان
+7/blahblah1_1.gif,7/blahblah1_1.gif,بلابلا
+7/blush-anim-cl_1.gif,7/blush-anim-cl_1.gif,خجالت وای گونه سرخ
+7/blush_1.gif,7/blush_1.gif,خجالت گونه سرخ
+7/crash_1.gif,7/crash_1.gif,ضربه داغون دعوا عصبانی چکش
+7/doofywave_1.gif,7/doofywave_1.gif,گیج بای-بای عجب چشم
+7/evo_1.gif,7/evo_1.gif,سه چشم تعجب
+7/face3_1.gif,7/face3_1.gif,اجازه اما تعجب
+7/flowers_1.gif,7/flowers_1.gif,گل آشتی ماچ بوس
+7/flower_2.gif,7/flower_2.gif,گل آشتی
+7/Flush_1.gif,7/Flush_1.gif,دستشویی خجالت آب آبرو سیفون ببخشید
+7/fool_1.gif,7/fool_1.gif,دلقک
+7/gap_1.gif,7/gap_1.gif,ضربه دندون متوجه حفره
+7/gba_1.gif,7/gba_1.gif,بازی گیم
+7/goof_1.gif,7/goof_1.gif,خجالت سرخ تعجب وای
+7/happydance_1.gif,7/happydance_1.gif,خوشحال شاد گیج رقص
+7/hbeat_1.gif,7/hbeat_1.gif,قلب عشق تپش
+7/hug2_1.gif,7/hug2_1.gif,آغوش آشتی دوست بقل
+7/hug_1.gif,7/hug_1.gif,آغوش آشتی دوست بقل
+7/inlove_1.gif,7/inlove_1.gif,عشق قلب سرخ قرمز
+7/kiss1_1.gif,7/kiss1_1.gif,بوس دوست
+7/kiss2_1.gif,7/kiss2_1.gif,بوس لب دوست
+7/kisss2_1.gif,7/kisss2_1.gif,بوس لب عروس
+7/lamo_1.gif,7/lamo_1.gif,خطا فضول لگد
+7/laughbounce_1.gif,7/laughbounce_1.gif,پرش شادی منگ خنده
+7/mushy_1.gif,7/mushy_1.gif,نگران عجب شاید دودل
+7/serenade_1.gif,7/serenade_1.gif,گیتار عشق دختر آواز
+7/wub_1.gif,7/wub_1.gif,خجالت قرمز سرخ
+16/331.gif,16/331.gif,دست لرز فرز

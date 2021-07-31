@@ -1,146 +1,146 @@
 #bbcode,img
-23/chand.gif,23/chand.gif
-23/dard.gif,23/dard.gif
-23/doret.gif,23/doret.gif
-23/negaran.gif,23/negaran.gif
-23/niz.gif,23/niz.gif
-23/shenghel.gif,23/shenghel.gif
-23/aaah.gif,23/aaah.gif
-23/didi.gif,23/didi.gif
-23/doon.gif,23/doon.gif
-23/ghatan.gif,23/ghatan.gif
-23/hasood.gif,23/hasood.gif
-23/khatere.gif,23/khatere.gif
-23/miner.gif,23/miner.gif
-23/multiuser.gif,23/multiuser.gif
-23/poolesho.gif,23/poolesho.gif
-23/sandis.gif,23/sandis.gif
-23/zoor.gif,23/zoor.gif
-23/ampool.gif,23/ampool.gif
-23/bardar.gif,23/bardar.gif
-23/bimar.gif,23/bimar.gif
-23/deraz.gif,23/deraz.gif
-23/doctor.gif,23/doctor.gif
-23/dokhtar.gif,23/dokhtar.gif
-23/mariz.gif,23/mariz.gif
-23/pesar.gif,23/pesar.gif
-23/shab.gif,23/shab.gif
-22/maraftim.gif,22/maraftim.gif
-22/felan.gif,22/felan.gif
-22/bibbib.gif,22/bibbib.gif
-22/bede2.gif,22/bede2.gif
-22/baste.gif,22/baste.gif
-22/dast.gif,22/dast.gif
-22/khodesho.gif,22/khodesho.gif
-22/nemifahme.gif,22/nemifahme.gif
-22/rad.gif,22/rad.gif
-22/taghas.gif,22/taghas.gif
-22/baz.gif,22/baz.gif
-22/bit.gif,22/bit.gif
-21/bekhar.gif,21/bekhar.gif
-21/irani.gif,21/irani.gif
-21/man.gif,21/man.gif
-21/mehraban.gif,21/mehraban.gif
-21/pahlevan.gif,21/pahlevan.gif
-21/parcham.gif,21/parcham.gif
-21/shir.gif,21/shir.gif
-21/vatan.gif,21/vatan.gif
-21/azkhod.gif,21/azkhod.gif
-21/dom.gif,21/dom.gif
-21/khab.gif,21/khab.gif
-21/post.gif,21/post.gif
-21/sandis.gif,21/sandis.gif
-21/shakh.gif,21/shakh.gif
-21/topic.gif,21/topic.gif
-21/aroosi.gif,21/aroosi.gif
-21/baz.gif,21/baz.gif
-21/dishtrin.gif,21/dishtrin.gif
-21/gher.gif,21/gher.gif
-21/hame.gif,21/hame.gif
-21/lipak.gif,21/lipak.gif
-21/rikht.gif,21/rikht.gif
-21/shadim.gif,21/shadim.gif
-21/zolf.gif,21/zolf.gif
-16/805.gif,16/805.gif
-16/742.gif,16/742.gif
-19/mardetanha.gif,19/mardetanha.gif
-20/bitcoin.gif,20/bitcoin.gif
-20/cheghadr.gif,20/cheghadr.gif
-20/kamtar.gif,20/kamtar.gif
-20/moo.gif,20/moo.gif
-20/soltan.gif,20/soltan.gif
-20/spammer.gif,20/spammer.gif
-23/ot0837h0nn8zfqu8ult.gif,23/ot0837h0nn8zfqu8ult.gif
-23/kooft.gif,23/kooft.gif
-23/azaton.gif,23/azaton.gif
-23/hate.gif,23/hate.gif
-20/dast.gif,20/dast.gif
-20/goolam.gif,20/goolam.gif
-19/posht.gif,19/posht.gif
-19/simkesh.gif,19/simkesh.gif
-19/kootah.gif,19/kootah.gif
-19/tak-khori.gif,19/tak-khori.gif
-19/kamtar.gif,19/kamtar.gif
-17/1615144137694.gif,17/1615144137694.gif
-17/1615144482101.gif,17/1615144482101.gif
-17/1615144495671.gif,17/1615144495671.gif
-17/aali.gif,17/aali.gif
-17/baste.gif,17/baste.gif
-17/boors.gif,17/boors.gif
-17/chizadi.gif,17/chizadi.gif
-17/deghat.gif,17/deghat.gif
-17/doost.gif,17/doost.gif
-17/dorogh.gif,17/dorogh.gif
-17/esraf.gif,17/esraf.gif
-17/gale.gif,17/gale.gif
-17/halak.gif,17/halak.gif
-17/hess.gif,17/hess.gif
-17/his.gif,17/his.gif
-17/javab.gif,17/javab.gif
-17/kharab.gif,17/kharab.gif
-17/love.gif,17/love.gif
-17/mihanv.gif,17/mihanv.gif
-17/rast.gif,17/rast.gif
-17/ray.gif,17/ray.gif
-17/sharbat3.gif,17/sharbat3.gif
-17/shitil2.gif,17/shitil2.gif
-17/shutup.gif,17/shutup.gif
-17/spam.gif,17/spam.gif
-17/tabrik.gif,17/tabrik.gif
-17/taghsir.gif,17/taghsir.gif
-19/rooze.gif,19/rooze.gif
-19/namaz.gif,19/namaz.gif
-19/eftari.gif,19/eftari.gif
-19/sosol.gif,19/sosol.gif
-19/googooli.gif,19/googooli.gif
-19/badghaza.gif,19/badghaza.gif
-19/zekr.gif,19/zekr.gif
-19/kofr.gif,19/kofr.gif
-17/lorafti.gif,17/lorafti.gif
-17/multiuser.gif,17/multiuser.gif
-17/sharbat.gif,17/sharbat.gif
-17/sharbat2.gif,17/sharbat2.gif
-17/smiley.gif,17/smiley.gif
-17/alaki.gif,17/alaki.gif
-17/bargharar.gif,17/bargharar.gif
-17/ghors.gif,17/ghors.gif
-17/sharbat3.gif,17/sharbat4.gif
-17/sheytoon.gif,17/sheytoon.gif
-17/jigar.gif,17/jigar.gif
-17/pare.gif,17/pare.gif
-17/osgol.gif,17/osgol.gif
-17/sharbat5.gif,17/sharbat5.gif
-17/eydi.gif,17/eydi.gif
-17/shitil3.gif,17/shitil3.gif
-18/gand.gif,18/gand.gif
-18/gand2.gif,18/gand2.gif
-19/bia.gif,19/bia.gif
-19/eshghi.gif,19/eshghi.gif
-19/halak2.gif,19/halak2.gif
-19/haleto.gif,19/haleto.gif
-19/nagerfte.gif,19/nagerfte.gif
-19/peyk.gif,19/peyk.gif
-19/salamati.gif,19/salamati.gif
-19/good.gif,19/good.gif
-19/javoonha.gif,19/javoonha.gif
-19/admin.gif,19/admin.gif
+23/chand.gif,23/chand.gif,خودتو جند فروختی
+23/dard.gif,23/dard.gif,درد داشت
+23/doret.gif,23/doret.gif,دورت بگردم
+23/negaran.gif,23/negaran.gif,نگران نباش
+23/niz.gif,23/niz.gif,این نیز بگذرد
+23/shenghel.gif,23/shenghel.gif,شنقل نباش
+23/aaah.gif,23/aaah.gif,آه در بساط نداره
+23/didi.gif,23/didi.gif,دیدی گفتم
+23/doon.gif,23/doon.gif,دون پاشی میکنه
+23/ghatan.gif,23/ghatan.gif,قطعا ضرر کرده
+23/hasood.gif,23/hasood.gif,حسودیش میشه
+23/khatere.gif,23/khatere.gif,خاطره بد داره
+23/miner.gif,23/miner.gif,خودش ماینر داره
+23/multiuser.gif,23/multiuser.gif,قطعا مولتی یوزره
+23/poolesho.gif,23/poolesho.gif,پولشو ندادن
+23/sandis.gif,23/sandis.gif,گمونم ساندیسیه
+23/zoor.gif,23/zoor.gif,زور بهش اومده
+23/ampool.gif,23/ampool.gif,آمپول میخوای
+23/bardar.gif,23/bardar.gif,بیمار بارداره
+23/bimar.gif,23/bimar.gif,بیمار نگو بلا بگو
+23/deraz.gif,23/deraz.gif,دراز بکش
+23/doctor.gif,23/doctor.gif,دکتر به اتاق عمل
+23/dokhtar.gif,23/dokhtar.gif,بچه دختره
+23/mariz.gif,23/mariz.gif,مریض مرد
+23/pesar.gif,23/pesar.gif,بچه پسره
+23/shab.gif,23/shab.gif,شب بیا مطب
+22/maraftim.gif,22/maraftim.gif,مارفتیم
+22/felan.gif,22/felan.gif,فعلا خداحافظ
+22/bibbib.gif,22/bibbib.gif,بیپ بیب
+22/bede2.gif,22/bede2.gif,بده دو دنده راننده
+22/baste.gif,22/baste.gif,خدایا بسته دیگه
+22/dast.gif,22/dast.gif,دست بندازم دهنتو جر بدم
+22/khodesho.gif,22/khodesho.gif,خودشو زده به نفهمی
+22/nemifahme.gif,22/nemifahme.gif,دست خودش نیست نمیفهمه
+22/rad.gif,22/rad.gif,من دیگه رد دادم
+22/taghas.gif,22/taghas.gif,این تقاص کدوم گناهه
+22/baz.gif,22/baz.gif,باز رفت بالا
+22/bit.gif,22/bit.gif,بیت کوین ریخت
+21/bekhar.gif,21/bekhar.gif,ایرانی بخر
+21/irani.gif,21/irani.gif,ایرانی قهرمان
+21/man.gif,21/man.gif,این نه منم من
+21/mehraban.gif,21/mehraban.gif,ایرانی مهربان
+21/pahlevan.gif,21/pahlevan.gif,ایرانی پهلوان
+21/parcham.gif,21/parcham.gif,پرچم بالاست
+21/shir.gif,21/shir.gif,ایران غرش شیران
+21/vatan.gif,21/vatan.gif,وطنم پاره تنم
+21/azkhod.gif,21/azkhod.gif,از خود بی خود شدم
+21/dom.gif,21/dom.gif,دمتو میچینم ها
+21/khab.gif,21/khab.gif,وقت خوابته ها
+21/post.gif,21/post.gif,با این پست زد
+21/sandis.gif,21/sandis.gif,ساندیسشو بدید بره
+21/shakh.gif,21/shakh.gif,اینم شاخ شده
+21/topic.gif,21/topic.gif,باز این تاپیک زد
+21/aroosi.gif,21/aroosi.gif,امشب شبه عروسیه
+21/baz.gif,21/baz.gif,باز رفت بالا
+21/dishtrin.gif,21/dishtrin.gif,دیشترین دیشترین
+21/gher.gif,21/gher.gif,قر تو کمر گیر کرده
+21/hame.gif,21/hame.gif,همه بیان وسط
+21/lipak.gif,21/lipak.gif,لیپاک لیلیلونه
+21/rikht.gif,21/rikht.gif,بازار ریخت
+21/shadim.gif,21/shadim.gif,شادیم میایه
+21/zolf.gif,21/zolf.gif,زلفای حنایی داره
+16/805.gif,16/805.gif,بیا وسط
+16/742.gif,16/742.gif,تکبیر
+19/mardetanha.gif,19/mardetanha.gif,من مرد تنهای شبم
+20/bitcoin.gif,20/bitcoin.gif,بیت کوین و کوفت
+20/cheghadr.gif,20/cheghadr.gif,چقدر میگیری اینجا نیای
+20/kamtar.gif,20/kamtar.gif,کمتر خالی ببند بابا
+20/moo.gif,20/moo.gif,تو مو بینی و من پیچش مو
+20/soltan.gif,20/soltan.gif,سلطان مولتی یوزرها اومد
+20/spammer.gif,20/spammer.gif,با این اسپمر اومد
+23/ot0837h0nn8zfqu8ult.gif,23/ot0837h0nn8zfqu8ult.gif,بی تربیت
+23/kooft.gif,23/kooft.gif,اسمایل و کوفت
+23/azaton.gif,23/azaton.gif,ازتون بدم میاد
+23/hate.gif,23/hate.gif,هیت یو آل
+20/dast.gif,20/dast.gif,دست به
+20/goolam.gif,20/goolam.gif,گولم زدی
+19/posht.gif,19/posht.gif,پشت فیوز
+19/simkesh.gif,19/simkesh.gif,سیم کش
+19/kootah.gif,19/kootah.gif,کوتاه بنویس
+19/tak-khori.gif,19/tak-khori.gif,تک خوری ممنوع
+19/kamtar.gif,19/kamtar.gif,کمتر بنویس
+17/1615144137694.gif,17/1615144137694.gif,تگری زدی
+17/1615144482101.gif,17/1615144482101.gif,فحش نده
+17/1615144495671.gif,17/1615144495671.gif,گونی بیارم
+17/aali.gif,17/aali.gif,خیلیم عالی
+17/baste.gif,17/baste.gif,بسته دیگه
+17/boors.gif,17/boors.gif,رفتی بورس
+17/chizadi.gif,17/chizadi.gif,چی زدی
+17/deghat.gif,17/deghat.gif,دقت کن
+17/doost.gif,17/doost.gif,دوست داری
+17/dorogh.gif,17/dorogh.gif,دروغ نگو
+17/esraf.gif,17/esraf.gif,اسراف نکن
+17/gale.gif,17/gale.gif,ببند گاله رو
+17/halak.gif,17/halak.gif,هالاک شدی
+17/hess.gif,17/hess.gif,حسش نیست
+17/his.gif,17/his.gif,هیس کن
+17/javab.gif,17/javab.gif,جوابگو باش
+17/kharab.gif,17/kharab.gif,خرابش کردی
+17/love.gif,17/love.gif,عاشق شدی
+17/mihanv.gif,17/mihanv.gif,میهن وی احسان
+17/rast.gif,17/rast.gif,راست بگو
+17/ray.gif,17/ray.gif,رای بی رای
+17/sharbat3.gif,17/sharbat3.gif,شربت بخور
+17/shitil2.gif,17/shitil2.gif,شیتیل بده
+17/shutup.gif,17/shutup.gif,شات آپ
+17/spam.gif,17/spam.gif,اسپم نکن
+17/tabrik.gif,17/tabrik.gif,تبریک بگو
+17/taghsir.gif,17/taghsir.gif,تقصیر توئه
+19/rooze.gif,19/rooze.gif,روزه بگیر
+19/namaz.gif,19/namaz.gif,نماز بخون
+19/eftari.gif,19/eftari.gif,افطاری بخور
+19/sosol.gif,19/sosol.gif,سوسول نباش
+19/googooli.gif,19/googooli.gif,گوگولی نباش
+19/badghaza.gif,19/badghaza.gif,بد غذا نباش
+19/zekr.gif,19/zekr.gif,ذکر بگو
+19/kofr.gif,19/kofr.gif,کفر نگو
+17/lorafti.gif,17/lorafti.gif,لو رفتی
+17/multiuser.gif,17/multiuser.gif,چقدر مولتی یوزر
+17/sharbat.gif,17/sharbat.gif,فقط شربت
+17/sharbat2.gif,17/sharbat2.gif,شربت میخوای
+17/smiley.gif,17/smiley.gif,اسمایل چی شد
+17/alaki.gif,17/alaki.gif,الگی نگو
+17/bargharar.gif,17/bargharar.gif,برقراری جون دل
+17/ghors.gif,17/ghors.gif,باز قرصاتو نخوردی
+17/sharbat3.gif,17/sharbat4.gif,شربت میخوای
+17/sheytoon.gif,17/sheytoon.gif,ای جون شیطون
+17/jigar.gif,17/jigar.gif,جیگرم سوخت
+17/pare.gif,17/pare.gif,پاره نشه حالا
+17/osgol.gif,17/osgol.gif,اسکل شدی
+17/sharbat5.gif,17/sharbat5.gif,شربت میخوای
+17/eydi.gif,17/eydi.gif,عیدی میخوای
+17/shitil3.gif,17/shitil3.gif,شیتیل میخوای
+18/gand.gif,18/gand.gif,گند زدم رفت شیت شت گوه
+18/gand2.gif,18/gand2.gif,آب قطعه شیت شت گوه
+19/bia.gif,19/bia.gif,بیا بغلم
+19/eshghi.gif,19/eshghi.gif,عشقی دادش
+19/halak2.gif,19/halak2.gif,هالاک شدیم
+19/haleto.gif,19/haleto.gif,حالتو خریدارم
+19/nagerfte.gif,19/nagerfte.gif,منو نگرفته
+19/peyk.gif,19/peyk.gif,پیک بزنیم
+19/salamati.gif,19/salamati.gif,سلامتی رفقا
+19/good.gif,19/good.gif,نه خوشم اومد
+19/javoonha.gif,19/javoonha.gif,آماشالا جوون ها
+19/admin.gif,19/admin.gif,ادمین وارد میشود احسان

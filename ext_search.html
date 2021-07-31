@@ -1,0 +1,18 @@
+<div class="row">
+	<div class="col-8">
+				<div class="row">
+					<div class="col-auto">
+								<div class="input-group input-group-sm mb-3" style="padding-left:12px">
+								  <div class="input-group-prepend">
+									<span class="input-group-text" id="inputGroup-sizing-sm">Search</span>
+								  </div>
+								  <input type="text" id="smiley_keyword" onkeypress="if (event.keyCode == 13) find_smiley(); return true;" style="font:tahoma;direction:rtl;text-align:center" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+								  <button class="btn btn-sm btn-clear" onclick="find_smiley();">Find</button>
+								</div>
+					</div>
+			</div>
+	</div>
+</div>
+<hr>
+<div class="row" id="find_div">
+</div>

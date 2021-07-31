@@ -1,34 +1,33 @@
 #bbcode,img
-6/baa_1.gif,6/baa_1.gif
-6/ban_1.gif,6/ban_1.gif
-6/beta_1.gif,6/beta_1.gif
-6/birthday_1.gif,6/birthday_1.gif
-6/boo_1.gif,6/boo_1.gif
-6/busted2_1.gif,6/busted2_1.gif
-6/chickawow_1.gif,6/chickawow_1.gif
-6/dots_1.gif,6/dots_1.gif
-6/idhitit_1.gif,6/idhitit_1.gif
-6/jerry_1.gif,6/jerry_1.gif
-6/kewlpics_1.gif,6/kewlpics_1.gif
-6/lame_1.gif,6/lame_1.gif
-6/nospam_1.gif,6/nospam_1.gif
-6/offtopic_1.gif,6/offtopic_1.gif
-6/onepointtwo_1.gif,6/onepointtwo_1.gif
-6/please_1.gif,6/please_1.gif
-6/rockon_1.gif,6/rockon_1.gif
-6/shibby_1.gif,6/shibby_1.gif
-6/shutup2_1.gif,6/shutup2_1.gif
-6/sorry_1.gif,6/sorry_1.gif
-6/sp_sign (2).gif,6/sp_sign (2).gif
-6/sp_sign (8).gif,6/sp_sign (8).gif
-6/sp_sign.gif,6/sp_sign.gif
-6/sss_1.gif,6/sss_1.gif
-6/stupid2_1.gif,6/stupid2_1.gif
-6/stupid_1.gif,6/stupid_1.gif
-6/wanted_1.gif,6/wanted_1.gif
-6/welcomeani_1.gif,6/welcomeani_1.gif
-6/welcome_1.gif,6/welcome_1.gif
-0/234.gif,0/234.gif
-0/235.gif,0/235.gif
-0/236.gif,0/236.gif
-0/237.gif,0/237.gif
+6/baa_1.gif,6/baa_1.gif,بااا
+6/ban_1.gif,6/ban_1.gif,بن مسدود بسته
+6/beta_1.gif,6/beta_1.gif,بتا
+6/birthday_1.gif,6/birthday_1.gif,تولدت مبارک
+6/boo_1.gif,6/boo_1.gif,بووو
+6/busted2_1.gif,6/busted2_1.gif,گیر افتاد
+6/chickawow_1.gif,6/chickawow_1.gif,دالی
+6/dots_1.gif,6/dots_1.gif,نقطه سه
+6/idhitit_1.gif,6/idhitit_1.gif,خوردم بهش
+6/jerry_1.gif,6/jerry_1.gif,جری
+6/kewlpics_1.gif,6/kewlpics_1.gif,تصویر
+6/lame_1.gif,6/lame_1.gif,دروغ
+6/nospam_1.gif,6/nospam_1.gif,اسپم ممنوع
+6/offtopic_1.gif,6/offtopic_1.gif,آف تاپیک
+6/onepointtwo_1.gif,6/onepointtwo_1.gif,یک ممیز دو
+6/please_1.gif,6/please_1.gif,لطفا
+6/rockon_1.gif,6/rockon_1.gif,ایول
+6/shibby_1.gif,6/shibby_1.gif,شیبی
+6/shutup2_1.gif,6/shutup2_1.gif,خفه
+6/sorry_1.gif,6/sorry_1.gif,متاسفم
+6/sp_sign (2).gif,6/sp_sign (2).gif,کويیک اسمایلی عاصف
+6/sp_sign (8).gif,6/sp_sign (8).gif,چشمک
+6/sp_sign.gif,6/sp_sign.gif,فحش
+6/sss_1.gif,6/sss_1.gif,سسس
+6/stupid2_1.gif,6/stupid2_1.gif,من احمقم
+6/stupid_1.gif,6/stupid_1.gif,من با احمق
+6/wanted_1.gif,6/wanted_1.gif,پیگرد
+6/welcomeani_1.gif,6/welcomeani_1.gif,خوش آمدید
+6/welcome_1.gif,6/welcome_1.gif,خوش آمدید
+0/235.gif,0/235.gif,اسپم
+0/236.gif,0/236.gif,اوپس ببخشید
+0/237.gif,0/237.gif,آف تاپیک

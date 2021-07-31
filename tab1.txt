@@ -1,74 +1,74 @@
 #bbcode,img
-10/after_boom.gif,10/after_boom.gif
-10/amazed.gif,10/amazed.gif
-10/amazing.gif,10/amazing.gif
-10/anger.gif,10/anger.gif
-10/go.gif,10/go.gif
-10/angry.gif,10/angry.gif
-10/bad_smelly.gif,10/bad_smelly.gif
-10/bad_smile.gif,10/bad_smile.gif
-10/baffle.gif,10/baffle.gif
-10/beaten.gif,10/beaten.gif
-10/beat_plaster.gif,10/beat_plaster.gif
-10/big_smile.gif,10/big_smile.gif
-10/big_smileb.gif,10/big_smileb.gif
-10/black_heart.gif,10/black_heart.gif
-10/boss.gif,10/boss.gif
-10/canny.gif,10/canny.gif
-10/choler.gif,10/choler.gif
-10/confident.gif,10/confident.gif
-10/confuse.gif,10/confuse.gif
-10/confused.gif,10/confused.gif
-10/cry(1).gif,10/cry(1).gif
-10/cry.gif,10/cry.gif
-10/doubt.gif,10/doubt.gif
-10/eek.gif,10/eek.gif
-10/electric_shock.gif,10/electric_shock.gif
-10/embarrassed.gif,10/embarrassed.gif
-10/exciting.gif,10/exciting.gif
-10/eyes_droped.gif,10/eyes_droped.gif
-10/fd.gif,10/fd.gif
-10/feel_good.gif,10/feel_good.gif
-10/ft.gif,10/ft.gif
-10/girl.gif,10/girl.gif
-10/greedy.gif,10/greedy.gif
-10/horror.gif,10/horror.gif
-10/look_down.gif,10/look_down.gif
-10/matrix.gif,10/matrix.gif
-10/misdoubt.gif,10/misdoubt.gif
-10/nosebleed.gif,10/nosebleed.gif
-10/nothing.gif,10/nothing.gif
-10/nothing_to_say.gif,10/nothing_to_say.gif
-10/ops.gif,10/ops.gif
-10/pudency.gif,10/pudency.gif
-10/question(1).gif,10/question(1).gif
-10/razz.gif,10/razz.gif
-10/sad(1).gif,10/sad(1).gif
-10/sad(2).gif,10/sad(2).gif
-10/scorn.gif,10/scorn.gif
-10/secret_smile.gif,10/secret_smile.gif
-10/s_girl.gif,10/s_girl.gif
-10/shame(1).gif,10/shame(1).gif
-10/shame.gif,10/shame.gif
-10/shameb.gif,10/shameb.gif
-10/shocked.gif,10/shocked.gif
-10/sleep(1).gif,10/sleep(1).gif
-10/smile(1).gif,10/smile(1).gif
-10/smile(2).gif,10/smile(2).gif
-10/still_dreaming.gif,10/still_dreaming.gif
-10/super_man.gif,10/super_man.gif
-10/sure.gif,10/sure.gif
-10/surrender.gif,10/surrender.gif
-10/sweat.gif,10/sweat.gif
-10/sweet_kiss.gif,10/sweet_kiss.gif
-10/the_iron_man.gif,10/the_iron_man.gif
-10/tong.gif,10/tong.gif
-10/unhappy.gif,10/unhappy.gif
-10/heart.gif,10/heart.gif
-10/victory.gif,10/victory.gif
-10/waaaht.gif,10/waaaht.gif
-10/what.gif,10/what.gif
-10/whatb.gif,10/whatb.gif
-10/grimace.gif,10/grimace.gif
-10/happy(1).gif,10/happy(1).gif
-10/bad_egg.gif,10/bad_egg.gif
+10/after_boom.gif,10/after_boom.gif,تعجب
+10/amazed.gif,10/amazed.gif,تعجب
+10/amazing.gif,10/amazing.gif,تعجب
+10/anger.gif,10/anger.gif,عصبانی
+10/go.gif,10/go.gif,خواب رفتن
+10/angry.gif,10/angry.gif,عصبانی
+10/bad_smelly.gif,10/bad_smelly.gif,اشتباه
+10/bad_smile.gif,10/bad_smile.gif,بدجنس
+10/baffle.gif,10/baffle.gif,اشتباه
+10/beaten.gif,10/beaten.gif,کتک ضربه
+10/beat_plaster.gif,10/beat_plaster.gif,کتک
+10/big_smile.gif,10/big_smile.gif,خنده
+10/big_smileb.gif,10/big_smileb.gif,خنده شاد
+10/black_heart.gif,10/black_heart.gif,قلب عشق سیاه
+10/boss.gif,10/boss.gif,عینک رییس
+10/canny.gif,10/canny.gif,مخفی مشکوک
+10/choler.gif,10/choler.gif,عصبانی مواظب
+10/confident.gif,10/confident.gif,مطمئن خشمگین
+10/confuse.gif,10/confuse.gif,گیج
+10/confused.gif,10/confused.gif,گیج
+10/cry(1).gif,10/cry(1).gif,گریه
+10/cry.gif,10/cry.gif,گریه
+10/doubt.gif,10/doubt.gif,ناراحت
+10/eek.gif,10/eek.gif,تعجب
+10/electric_shock.gif,10/electric_shock.gif,شک
+10/embarrassed.gif,10/embarrassed.gif,خجالت
+10/exciting.gif,10/exciting.gif,شاد
+10/eyes_droped.gif,10/eyes_droped.gif,افتادن اشتباه خسته
+10/fd.gif,10/fd.gif,بستن چشم
+10/feel_good.gif,10/feel_good.gif,ریلکس خوب
+10/ft.gif,10/ft.gif,گیج
+10/girl.gif,10/girl.gif,دختر گل سیاه
+10/greedy.gif,10/greedy.gif,کیف رضایت
+10/horror.gif,10/horror.gif,ترس
+10/look_down.gif,10/look_down.gif,مشکوک راضی
+10/matrix.gif,10/matrix.gif,ماتریکس مخفی
+10/misdoubt.gif,10/misdoubt.gif,اشتباه دررفتن
+10/nosebleed.gif,10/nosebleed.gif,دماغ آب
+10/nothing.gif,10/nothing.gif,هیچی
+10/nothing_to_say.gif,10/nothing_to_say.gif,اشتباه
+10/ops.gif,10/ops.gif,اوپس اشتباه
+10/pudency.gif,10/pudency.gif,ببخشید
+10/question(1).gif,10/question(1).gif,سوال
+10/razz.gif,10/razz.gif,بستن دهن ساکت
+10/sad(1).gif,10/sad(1).gif,ناراحت
+10/sad(2).gif,10/sad(2).gif,ناراحت نگران
+10/scorn.gif,10/scorn.gif,اشتباه ببخشید
+10/secret_smile.gif,10/secret_smile.gif,مخفی استاد عینک
+10/s_girl.gif,10/s_girl.gif,خون دماغ
+10/shame(1).gif,10/shame(1).gif,خجالت
+10/shame.gif,10/shame.gif,خجالت
+10/shameb.gif,10/shameb.gif,خجالت
+10/shocked.gif,10/shocked.gif,شوک تعجب
+10/sleep(1).gif,10/sleep(1).gif,خواب
+10/smile(1).gif,10/smile(1).gif,خجالت
+10/smile(2).gif,10/smile(2).gif,خنده
+10/still_dreaming.gif,10/still_dreaming.gif,آرزو خواب
+10/super_man.gif,10/super_man.gif,سوپرمن
+10/sure.gif,10/sure.gif,حتما
+10/surrender.gif,10/surrender.gif,موافق
+10/sweat.gif,10/sweat.gif,خجالت اشتباه
+10/sweet_kiss.gif,10/sweet_kiss.gif,بوس قلب
+10/the_iron_man.gif,10/the_iron_man.gif,آهنی
+10/tong.gif,10/tong.gif,زبون دارزی
+10/unhappy.gif,10/unhappy.gif,ناراحت
+10/heart.gif,10/heart.gif,قلب
+10/victory.gif,10/victory.gif,پیروزی
+10/waaaht.gif,10/waaaht.gif,عجب تعجب
+10/what.gif,10/what.gif,چطور
+10/whatb.gif,10/whatb.gif,چطور
+10/grimace.gif,10/grimace.gif,زبون درازی
+10/happy(1).gif,10/happy(1).gif,اوه خوشحال
+10/bad_egg.gif,10/bad_egg.gif,عصبانی
