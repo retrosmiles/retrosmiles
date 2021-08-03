@@ -7,6 +7,7 @@
 	<script src="js/clipboard.min.js"></script>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.lazy.min.js"></script>
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/notify.js"></script>
@@ -42,6 +43,7 @@ var profile_data = createMatrix(10,profile_max );
 var profile_max = 120, history_max = 120;
 var profile_msg = "<p style='text-align:center'>No smiley in this package! <img src='./QuickSmiles/0/162.gif'><br>You can use tools above to add smiles from <b>any website</b> to this package for quick access! <img src='https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/69.gif'><br>You could then backup your package and share it with friends! <img src='./QuickSmiles/2/4.gif'></p>";
 var _find_cache = "";
+var lazyobj = null;
 
 var _tmp_h  = JSON.parse(localStorage.getItem("history_data"));
 if(Array.isArray(_tmp_h))
@@ -167,23 +169,14 @@ function not_in(arr,val) {
 }
 
 function loadImages() {
-    let imgs = $("img");
-    for(let a=0; a<imgs.length; a++) {
-        loadImage(imgs[a]);
-    }
-
-    function loadImage(elem) {
-        let url = $(elem).attr("ref-src");
-
-        if (typeof url !== 'undefined' && url !== false) {
-            //console.log(url);
-            let newImg = new Image();
-            newImg.onload = function() {
-                $(elem).attr("src", url);
-            }
-            newImg.src = url;
-        }
-    }
+		
+		lazyobj = $('.lazy').Lazy({
+			effect: "fadeIn",
+			effectTime: 200,
+			threshold: ($('#maintab').height() * 2)
+		});
+			
+			
 }
 
 function add_smiley() {
@@ -480,6 +473,21 @@ function find_smiley() {
 }
 
 function loadTabCSV(e,format) {
+
+		try {
+			  window.stop();
+			  var images = $('.lazy');
+			  $.each(images, function() {
+				//$(this).removeAttr("src");
+				$(this).remove();
+			  });
+			  window.stop();
+		} catch(e) {
+			alert(e);
+		}
+
+
+
     currentProfile = localStorage.getItem('last_profile');
     if(currentProfile < -1 || currentProfile > 9 || currentProfile == null || currentProfile == 'undefined') currentProfile = -1;
     currentTab = e;
@@ -769,9 +777,9 @@ function renderArray(arr_t) {
                         id_count++;
                         
                         if(bbcode.indexOf('https://')!=-1 || bbcode.indexOf('http://')!=-1) {
-                            html+='<div class="col-auto col-md-2"><input class="float_input" type="checkbox" id="sel_'+id_count+'"/><img id="block_'+id_count+'" class="btn" data-clipboard-text="[img]'+bbcode+'[/img]" src="css/placeholder.png" ref-src="'+img+'"></div>';
+                            html+='<div class="col-auto col-md-2"><input class="float_input" type="checkbox" id="sel_'+id_count+'"/><img id="block_'+id_count+'" class="btn lazy" data-clipboard-text="[img]'+bbcode+'[/img]" src="css/placeholder.png" data-src="'+img+'"></div>';
                         } else {
-                            html+='<div class="col-auto col-md-2"><input class="float_input" type="checkbox" id="sel_'+id_count+'"/><img id="block_'+id_count+'" class="btn" data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/'+bbcode+'[/img]" src="css/placeholder.png" ref-src="QuickSmiles/'+img+'"></div>';
+                            html+='<div class="col-auto col-md-2"><input class="float_input" type="checkbox" id="sel_'+id_count+'"/><img id="block_'+id_count+'" class="btn lazy" data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/'+bbcode+'[/img]" src="css/placeholder.png" data-src="QuickSmiles/'+img+'"></div>';
                         }
                     }
                 }
@@ -828,9 +836,9 @@ function renderCSV(csv,nohtml=false) {
                         id_count++;
                         arr_tags.push([bbcode+","+img, tags]);
                         if(bbcode.indexOf('https://')!=-1 || bbcode.indexOf('http://')!=-1 && !nohtml) {
-                            html+='<div class="col-auto col-md-2"><input class="float_input" type="checkbox" id="sel_'+id_count+'"/><img id="block_'+id_count+'" class="btn" data-clipboard-text="[img]'+bbcode+'[/img]" src="css/placeholder.png" ref-src="'+img+'"></div>';
+                            html+='<div class="col-auto col-md-2"><input class="float_input" type="checkbox" id="sel_'+id_count+'"/><img id="block_'+id_count+'" class="btn lazy" data-clipboard-text="[img]'+bbcode+'[/img]" src="css/placeholder.png" data-src="'+img+'"></div>';
                         } else {
-                            html+='<div class="col-auto col-md-2"><input class="float_input" type="checkbox" id="sel_'+id_count+'"/><img id="block_'+id_count+'" class="btn" data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/'+bbcode+'[/img]" src="css/placeholder.png" ref-src="QuickSmiles/'+img+'"></div>';
+                            html+='<div class="col-auto col-md-2"><input class="float_input" type="checkbox" id="sel_'+id_count+'"/><img id="block_'+id_count+'" class="btn lazy" data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/'+bbcode+'[/img]" src="css/placeholder.png" data-src="QuickSmiles/'+img+'"></div>';
                         }
                     }
                 }
