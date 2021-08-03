@@ -43,6 +43,7 @@ var profile_data = createMatrix(10,profile_max );
 var profile_max = 120, history_max = 120;
 var profile_msg = "<p style='text-align:center'>No smiley in this package! <img src='./QuickSmiles/0/162.gif'><br>You can use tools above to add smiles from <b>any website</b> to this package for quick access! <img src='https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/69.gif'><br>You could then backup your package and share it with friends! <img src='./QuickSmiles/2/4.gif'></p>";
 var _find_cache = "";
+var lazyobj = null;
 
 var _tmp_h  = JSON.parse(localStorage.getItem("history_data"));
 if(Array.isArray(_tmp_h))
@@ -168,18 +169,24 @@ function not_in(arr,val) {
 }
 
 function loadImages() {
+		
+		try {
+			  var images = $('.lazy');
+			  $.each(images, function() {
+				$(this).removeAttr("src");
+			  });			  
+			  //lazyobj.destroy();
+		} catch(e) {
+			//alert(e);
+		}
 
-		loadImage();
-
-   }
-
-function loadImage(elem) {
-	$('.lazy').Lazy({
+		lazyobj = $('.lazy').Lazy({
 			effect: "fadeIn",
 			effectTime: 200,
 			threshold: ($('#maintab').height() * 2)
-			});
-
+		});
+			
+			
 }
 
 function add_smiley() {
