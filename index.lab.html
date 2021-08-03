@@ -170,16 +170,6 @@ function not_in(arr,val) {
 
 function loadImages() {
 		
-		try {
-			  var images = $('.lazy');
-			  $.each(images, function() {
-				$(this).removeAttr("src");
-			  });			  
-			  //lazyobj.destroy();
-		} catch(e) {
-			//alert(e);
-		}
-
 		lazyobj = $('.lazy').Lazy({
 			effect: "fadeIn",
 			effectTime: 200,
@@ -483,6 +473,21 @@ function find_smiley() {
 }
 
 function loadTabCSV(e,format) {
+
+		try {
+			  window.stop();
+			  var images = $('.lazy');
+			  $.each(images, function() {
+				//$(this).removeAttr("src");
+				$(this).remove();
+			  });
+			  window.stop();
+		} catch(e) {
+			alert(e);
+		}
+
+
+
     currentProfile = localStorage.getItem('last_profile');
     if(currentProfile < -1 || currentProfile > 9 || currentProfile == null || currentProfile == 'undefined') currentProfile = -1;
     currentTab = e;
