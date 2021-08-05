@@ -483,12 +483,12 @@ function loadTabCSV(e,format) {
 					console.log('stopable!');
 					window.stop();
 				}
+/*
 			  var images = $('.lazy');
 			  $.each(images, function() {
 				$(this).remove();
 			  });
-			  if(canStop > 1)
-					window.stop();
+*/
 		} catch(e) {
 			//alert(e);
 		}
@@ -963,10 +963,10 @@ function loadTabs() {
 					if( this.complete ) {
 						imageLoaded.call( this );
 					} else {
-						$(this).one('load', imageLoaded);
+						$(this).one('load error', imageLoaded);
 					}
-				});
-
+				})
+				
 				for(i=0;i<search_tabs.length;i++) {
 							
 							var _loadurl = 'tab'+search_tabs[i].toString()+'.txt' + '?' + Date.now();
