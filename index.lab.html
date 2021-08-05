@@ -934,6 +934,7 @@ function loadTabs() {
 				
 				
 				canStop = 0;
+/*
 				var deferreds = [];
 				$('img.shouldload').each(function() {
 					if (!this.complete) {
@@ -946,6 +947,25 @@ function loadTabs() {
 					canStop = 1;
 				});
 
+*/
+
+				function imageLoaded() {
+				   counter--; 
+				   if( counter === 0 ) {
+					   console.log('images loaded!');
+					   canStop = 1;
+				   }
+				}
+				var images = $('img.shouldload');
+				var counter = images.length;  // initialize the counter
+
+				images.each(function() {
+					if( this.complete ) {
+						imageLoaded.call( this );
+					} else {
+						$(this).one('load', imageLoaded);
+					}
+				});
 
 				for(i=0;i<search_tabs.length;i++) {
 							
