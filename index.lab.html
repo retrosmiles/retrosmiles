@@ -479,8 +479,10 @@ function find_smiley() {
 function loadTabCSV(e,format) {
 
 		try {
-			  if(canStop > 1)
+			  if(canStop > 1) {
+					console.log('stopable!');
 					window.stop();
+				}
 			  var images = $('.lazy');
 			  $.each(images, function() {
 				$(this).remove();
@@ -488,7 +490,7 @@ function loadTabCSV(e,format) {
 			  if(canStop > 1)
 					window.stop();
 		} catch(e) {
-			alert(e);
+			//alert(e);
 		}
 
 
