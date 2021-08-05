@@ -475,15 +475,14 @@ function find_smiley() {
 function loadTabCSV(e,format) {
 
 		try {
-			  window.stop();
+			  //window.stop();
 			  var images = $('.lazy');
 			  $.each(images, function() {
-				//$(this).removeAttr("src");
 				$(this).remove();
 			  });
-			  window.stop();
+			  //window.stop();
 		} catch(e) {
-			alert(e);
+			//alert(e);
 		}
 
 

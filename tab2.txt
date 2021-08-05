@@ -35,7 +35,7 @@
 0/evil_grin.gif,0/evil_grin.gif,خنده شیطان
 0/sarcastic.gif,0/sarcastic.gif,تمسخر مسخره خنده
 0/confused0072.gif,0/confused0072.gif,تعجب
-0/snoozer_08.gif,0/snoozer_08.gif,کاپیتان یک-دست
+0/snoozer_08.gif,0/snoozer_08.gif,کاپیتان یک-دست ناخدا
 0/jealous.gif,0/jealous.gif,گریه خیانت
 10/32.gif,10/32.gif,مخ-تعطیل دیوونه کم-داره قاطی
 0/21.gif,0/21.gif,:دی دی خنده
