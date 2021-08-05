@@ -479,19 +479,15 @@ function find_smiley() {
 function loadTabCSV(e,format) {
 
 		try {
-			  if(canStop > 1) {
-					console.log('stopable!');
-					window.stop();
-				}
-/*
 			  var images = $('.lazy');
 			  $.each(images, function() {
 				$(this).remove();
 			  });
-*/
-		} catch(e) {
-			//alert(e);
-		}
+			  if(canStop > 1) {
+					console.log('stopable!');
+					window.stop();
+				}
+		} catch(e) {}
 
 
 
