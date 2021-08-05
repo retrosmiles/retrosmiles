@@ -41,9 +41,10 @@ var arr_tags = [];
 var history_data = [];
 var profile_data = createMatrix(10,profile_max );
 var profile_max = 120, history_max = 120;
-var profile_msg = "<p style='text-align:center'>No smiley in this package! <img src='./QuickSmiles/0/162.gif'><br>You can use tools above to add smiles from <b>any website</b> to this package for quick access! <img src='https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/69.gif'><br>You could then backup your package and share it with friends! <img src='./QuickSmiles/2/4.gif'></p>";
+var profile_msg = "<p style='text-align:center'>No smiley in this package! <img class='shouldload' src='./QuickSmiles/0/162.gif'><br>You can use tools above to add smiles from <b>any website</b> to this package for quick access! <img src='https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/69.gif'><br>You could then backup your package and share it with friends! <img src='./QuickSmiles/2/4.gif'></p>";
 var _find_cache = "";
 var lazyobj = null;
+var canStop = 0;
 
 var _tmp_h  = JSON.parse(localStorage.getItem("history_data"));
 if(Array.isArray(_tmp_h))
@@ -66,12 +67,14 @@ text: function(trigger) {
         if(trigger.getAttribute('data-clipboard-text') == '' || trigger.getAttribute('data-clipboard-text') == null) {
             return '';
         }
-
-        var _id = trigger.id;
-        if($('#'+_id.replace('block_','sel_')).is(":visible")) {
-            $('#'+_id.replace('block_','sel_')).prop("checked", !$('#'+_id.replace('block_','sel_')).prop("checked"));
-            return '';
-        }
+		
+		try {
+			var _id = trigger.id;
+			if($('#'+_id.replace('block_','sel_')).is(":visible")) {
+				$('#'+_id.replace('block_','sel_')).prop("checked", !$('#'+_id.replace('block_','sel_')).prop("checked"));
+				return '';
+			}
+		} catch(e) {}
 
         var tbbcode = trigger.getAttribute('data-clipboard-text');
         var tbbcode2 = tbbcode;
@@ -82,6 +85,7 @@ text: function(trigger) {
             tbbcode = tbbcode.replace("[/url]","</a>");
             tbbcode = tbbcode.replace("]","'>");
         }
+        
 
         if(currentTab != 'tab0-tab') {
             var _tmp_arr = [cleanUrl(tbbcode2), cleanUrl(trigger.src)];
@@ -467,7 +471,7 @@ function find_smiley() {
 
 	
 	if(total == 0) {
-		$("#find_div").html("<div class='col-12'><p  style='text-align:center'>Not found! <img src='./QuickSmiles/0/162.gif'></p></div>");
+		$("#find_div").html("<div class='col-12'><p  style='text-align:center'>Not found! <img class='shouldload' src='./QuickSmiles/0/162.gif'></p></div>");
 	}
 	
 }
@@ -475,15 +479,15 @@ function find_smiley() {
 function loadTabCSV(e,format) {
 
 		try {
-			  //window.stop();
 			  var images = $('.lazy');
 			  $.each(images, function() {
 				$(this).remove();
 			  });
-			  //window.stop();
-		} catch(e) {
-			alert(e);
-		}
+			  if(canStop > 1) {
+					console.log('stopable!');
+					window.stop();
+				}
+		} catch(e) {}
 
 
 
@@ -502,7 +506,7 @@ function loadTabCSV(e,format) {
     $('#selText').html($('#' + e).html());
     if(e.toString() != 'tab999-tab' && e.toString() != 'tab998-tab') localStorage.setItem('lasttab', e.toString());
     var targ = '#maintab';
-    $(targ).html("<p style='text-align:center'>Loading, please wait... <img src='./QuickSmiles/0/165.gif'/></p>");
+    $(targ).html("<p style='text-align:center'>Loading, please wait... <img class='shouldload' src='./QuickSmiles/0/165.gif'/></p>");
     $(targ).addClass('active');
     $(targ).addClass('show');
     $(targ).show();
@@ -554,7 +558,7 @@ function loadTabCSV(e,format) {
                 try {
                     $.get(loadurl, function(data2) {
                         _tmp_html = data2;
-                        _tmp_html+=  "<p  style='text-align:center'>No smiley clicked! <img src='./QuickSmiles/0/162.gif'></p>";
+                        _tmp_html+=  "<p  style='text-align:center'>No smiley clicked! <img class='shouldload' src='./QuickSmiles/0/162.gif'></p>";
                         $(targ).html(_tmp_html);
                         $('#ext_uploader').hide();
                         $('#ext_tools').show();
@@ -857,6 +861,7 @@ function renderCSV(csv,nohtml=false) {
 }
 
 function loadTab(e,t) {
+	if(canStop == 1) canStop++;
     return loadTabCSV(e,t);
 }
 
@@ -907,6 +912,7 @@ function loadTabs() {
         try {
             $.get(loadurl, function(data) {
                 $(targ).html(data);
+
                 if(localStorage["lasttab"]) {
                     deftab = localStorage.getItem('lasttab');
                 }
@@ -921,7 +927,42 @@ function loadTabs() {
                 else
                     $('#splash').fadeOut();
                 localStorage.setItem('lastsplash', n);
+				
+				
+				canStop = 0;
+/*
+				var deferreds = [];
+				$('img.shouldload').each(function() {
+					if (!this.complete) {
+						var deferred = $.Deferred();
+						$(this).one('load', deferred.resolve);
+						deferreds.push(deferred);
+					}
+				});
+				$.when.apply($, deferreds).done(function() {
+					canStop = 1;
+				});
 
+*/
+
+				function imageLoaded() {
+				   counter--; 
+				   if( counter === 0 ) {
+					   console.log('images loaded!');
+					   canStop = 1;
+				   }
+				}
+				var images = $('img.shouldload');
+				var counter = images.length;  // initialize the counter
+
+				images.each(function() {
+					if( this.complete ) {
+						imageLoaded.call( this );
+					} else {
+						$(this).one('load error', imageLoaded);
+					}
+				})
+				
 				for(i=0;i<search_tabs.length;i++) {
 							
 							var _loadurl = 'tab'+search_tabs[i].toString()+'.txt' + '?' + Date.now();
@@ -956,7 +997,7 @@ top: ($('#header').offset().top + $('#header').height() + $('.tabl').offset().to
 	<div id="header">
 		<div class="logo row">
 			<div class="col-8 col-md-8 col-sm-8">
-				RetroSmiles<span class="btn" style="cursor:pointer" data-clipboard-text="[url=https://retrosmiles.github.io/retrosmiles]Visit RetroSmiles[/url]"><img src="copy.png"/></span>
+				RetroSmiles<span class="btn" style="cursor:pointer" data-clipboard-text="[url=https://retrosmiles.github.io/retrosmiles]Visit RetroSmiles[/url]"><img class='shouldload' src="copy.png"/></span>
 			</div>
 			<div class="col-4 col-md-4 col-sm-4 text-right">
 				<button type="button" id="bbcode" class="btn btn-sm btn-toggle active" data-toggle="button" aria-pressed="true" autocomplete="off">
