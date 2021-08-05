@@ -38,7 +38,7 @@ var currentTab = '', currentProfile = -1, csvContent = '';
 var history_data = [];
 var profile_data = createMatrix(10,profile_max );
 var profile_max = 120, history_max = 120;
-var profile_msg = "<p style='text-align:center'>No smiley in this package! <img src='./QuickSmiles/0/162.gif'><br>You can use tools above to add smiles from <b>any website</b> to this package for quick access! <img src='https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/69.gif'><br>You could then backup your package and share it with friends! <img src='./QuickSmiles/2/4.gif'></p>";
+var profile_msg = "<p style='text-align:center'>No smiley in this package! <img class='shouldload' src='./QuickSmiles/0/162.gif'><br>You can use tools above to add smiles from <b>any website</b> to this package for quick access! <img src='https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/69.gif'><br>You could then backup your package and share it with friends! <img src='./QuickSmiles/2/4.gif'></p>";
 
 var _tmp_h  = JSON.parse(localStorage.getItem("history_data"));
 if(Array.isArray(_tmp_h))
@@ -440,7 +440,7 @@ function loadTabCSV(e,format) {
     $('#selText').html($('#' + e).html());
     if(e.toString() != 'tab999-tab' && e.toString() != 'tab998-tab') localStorage.setItem('lasttab', e.toString());
     var targ = '#maintab';
-    $(targ).html("<p style='text-align:center'>Loading, please wait... <img src='./QuickSmiles/0/165.gif'/></p>");
+    $(targ).html("<p style='text-align:center'>Loading, please wait... <img class='shouldload' src='./QuickSmiles/0/165.gif'/></p>");
     $(targ).addClass('active');
     $(targ).addClass('show');
     $(targ).show();
@@ -492,7 +492,7 @@ function loadTabCSV(e,format) {
                 try {
                     $.get(loadurl, function(data2) {
                         _tmp_html = data2;
-                        _tmp_html+=  "<p  style='text-align:center'>No smiley clicked! <img src='./QuickSmiles/0/162.gif'></p>";
+                        _tmp_html+=  "<p  style='text-align:center'>No smiley clicked! <img class='shouldload' src='./QuickSmiles/0/162.gif'></p>";
                         $(targ).html(_tmp_html);
                         $('#ext_uploader').hide();
                         $('#ext_tools').show();
@@ -796,7 +796,7 @@ top: ($('#header').offset().top + $('#header').height() + $('.tabl').offset().to
 	<div id="header">
 		<div class="logo row">
 			<div class="col-8 col-md-8 col-sm-8" id="helper">
-				RetroSmiles<span class="btn" style="cursor:pointer" data-clipboard-text="[url=https://retrosmiles.github.io/retrosmiles]Visit RetroSmiles[/url]"><img src="copy.png"/></span>
+				RetroSmiles<span class="btn" style="cursor:pointer" data-clipboard-text="[url=https://retrosmiles.github.io/retrosmiles]Visit RetroSmiles[/url]"><img class='shouldload' src="copy.png"/></span>
 			</div>
 			<div class="col-4 col-md-4 col-sm-4 text-right">
 				<button type="button" id="bbcode" class="btn btn-sm btn-toggle active" data-toggle="button" aria-pressed="true" autocomplete="off">
