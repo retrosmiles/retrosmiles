@@ -1,4 +1,9 @@
 #bbcode,img
+23/sandiskhor.gif,23/sandiskhor.gif,ای لشکر ساندیس خوران آماده باش
+23/sari.gif,23/sari.gif,سریع فوری انقلابی
+23/hossein.gif,23/hossein.gif,سقای حسین سید و سالار نیامد
+23/akbar.gif,23/akbar.gif,این همه جلال
+23/peyko.gif,23/peyko.gif,پیک و میرم بالا سلامتیت حالا
 23/chand.gif,23/chand.gif,خودتو جند فروختی
 23/dard.gif,23/dard.gif,درد داشت
 23/doret.gif,23/doret.gif,دورت بگردم
