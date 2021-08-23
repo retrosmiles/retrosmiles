@@ -1,4 +1,5 @@
 #bbcode,img
+23/balabala.gif,23/balabala.gif,بلا میخرم برات طلا ملا
 23/hyenas.gif,23/hyenas.gif,خنده گرگ ههه
 23/4381.gif,23/4381.gif,بطری قایم سبز
 23/magas.gif,23/magas.gif,پرچم مگس کریزی
