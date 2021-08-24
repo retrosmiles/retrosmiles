@@ -1,4 +1,7 @@
 #bbcode,img
+23/best.gif,23/best.gif,پارمیدا یو بست لیدری
+23/parmida.gif,23/parmida.gif,وای پارمیدا من کو
+23/balabala.gif,23/balabala.gif,بلا میخرم برات طلا ملا
 23/sandiskhor.gif,23/sandiskhor.gif,ای لشکر ساندیس خوران آماده باش
 23/sari.gif,23/sari.gif,سریع فوری انقلابی
 23/hossein.gif,23/hossein.gif,سقای حسین سید و سالار نیامد
