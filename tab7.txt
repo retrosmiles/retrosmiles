@@ -20,6 +20,7 @@ green/ff.gif,green/ff.gif,بگ آپ بروکی میخوای بیاه
 green/film.gif,green/film.gif,فیلم سوسکی میخوای بیاه
 green/gif.gif,green/gif.gif,گیف میخوای بیاه
 green/konjed.gif,green/konjed.gif,کنجد میخوای بیاه
+23/takhfif.gif,23/takhfif.gif,تخفیف میخوای بیاه
 green/bitcoin.gif,green/bitcoin.gif,بیت کوین میخوای بیاه بیتکوین
 green/yessss.gif,green/yessss.gif,یک دو سه بیاه
 14/cpumikhai.gif,14/cpumikhai.gif,سی پی یو میخوی بیاه
