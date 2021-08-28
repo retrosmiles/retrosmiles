@@ -152,3 +152,8 @@
 19/good.gif,19/good.gif,نه خوشم اومد
 19/javoonha.gif,19/javoonha.gif,آماشالا جوون ها
 19/admin.gif,19/admin.gif,ادمین وارد میشود احسان
+23/admin4.gif,23/admin4.gif,ادمین وارد می شود
+23/bezanberim.gif,23/bezanberim.gif,بزن بریم به سرعت برق و باد
+23/night.gif,23/night.gif,شب تخت عشق
+23/parande.gif,23/parande.gif,می خواستیم مثل پرنده ها باشیم
+
