@@ -24,8 +24,8 @@ meme4/animation_0_1-128px-14.gif,meme4/animation_0_1-128px-14.img.png,بازی �
 meme4/animation_0_1-128px-20.gif,meme4/animation_0_1-128px-20.img.png,چادری خانوم
 meme4/animation_0_1-128px-34.gif,meme4/animation_0_1-128px-34.img.png,قتل کشتن
 meme4/animation_0_1-128px-49.gif,meme4/animation_0_1-128px-49.img.png,آها بیا وسط
-24/khastam.gif,24/khastam.gif,ده آخه خستم کردی
-24/honey.gif,24/honey.gif,بای هانی
-24/gham.gif,24/gham.gif,غم با من زاده شده منو رها نمی کنه
-24/dalghak.gif,24/dalghak.gif,اینقدر دلقک بازی در آوردم سرحال شو دیگه
+24/khastam.gif,24/khastam.img.png,ده آخه خستم کردی
+24/honey.gif,24/honey.img.png,بای هانی
+24/gham.gif,24/gham.img.png,غم با من زاده شده منو رها نمی کنه
+24/dalghak.gif,24/dalghak.img.png,اینقدر دلقک بازی در آوردم سرحال شو دیگه
 

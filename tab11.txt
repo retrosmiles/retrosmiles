@@ -63,5 +63,5 @@ meme4/animation_0_1-128px-4.gif,meme4/animation_0_1-128px-4.img.png,چشم با�
 meme4/animation_0_1-128px-12.gif,meme4/animation_0_1-128px-12.img.png,کلاغ رقص تکون
 meme4/animation_0_1-128px-22.gif,meme4/animation_0_1-128px-22.img.png,ناراحت
 meme4/animation_0_1-128px-35.gif,meme4/animation_0_1-128px-35.img.png,خنده
-24/chaprast.gif,24/chaprast.gif,بده چپ راست بده هروری دلت خواست
+24/chaprast.gif,24/chaprast.img.png,بده چپ راست بده هروری دلت خواست
 
