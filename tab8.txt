@@ -7,6 +7,8 @@
 18/opasnie210.gif,18/opasnie210.gif,قاتل خون عصبانی
 18/opasnie152.gif,18/opasnie152.gif,طلسم جادو سوزن
 18/opasnie156.gif,18/opasnie156.gif,تفنگ شلیک ترس
+24/crazysoozan.gif,24/crazysoozan.gif,طلسم جادو سوزن کریزی
+24/crazytofang.gif,24/crazytofang.gif,تفنگ شلیک ترس کریزی
 18/opasnie170.gif,18/opasnie170.gif,کتک نون خفه
 18/opasnie296.gif,18/opasnie296.gif,مسخره تمسخر خندین
 18/opasnie303.gif,18/opasnie303.gif,کتک لگد های
