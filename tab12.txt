@@ -56,3 +56,27 @@ pepe2/pepe38.gif,pepe2/pepe38.img.png,پپه نگران
 pepe2/pepe39.gif,pepe2/pepe39.img.png,پپه گریه
 pepe2/pepe40.gif,pepe2/pepe40.img.png,پپه شاد رقص کلاه پرش
 meme4/animation_0_1-128px-31.gif,meme4/animation_0_1-128px-31.img.png,پپه خودکشی برق
+25/sticker1.png,25/sticker1.png,گریه محو
+25/sticker2.png,25/sticker2.png,عینک تعجب
+25/sticker3.png,25/sticker3.png,خودکشی آر پی جی
+25/sticker4.png,25/sticker4.png,شنل سیاه شیطان پرست
+25/sticker5.png,25/sticker5.png,معتاد سیگار
+25/sticker6.png,25/sticker6.png,مخفی ترسناک
+25/sticker7.png,25/sticker7.png,ثروتمند موبایل
+25/sticker8.png,25/sticker8.png,تعجب
+25/sticker9.png,25/sticker9.png,تمسخر
+25/sticker10.png,25/sticker10.png,تمسخر خنده زیرکی
+25/sticker11.png,25/sticker11.png,بیلاخ
+25/sticker12.png,25/sticker12.png,توافق
+25/sticker13.png,25/sticker13.png,آشتی
+25/sticker14.png,25/sticker14.png,تعجب مشکوک
+25/sticker15.png,25/sticker15.png,ببخشید
+25/sticker16.png,25/sticker16.png,خنده
+25/sticker17.png,25/sticker17.png,بی تفاوت
+25/sticker18.png,25/sticker18.png,سیگار
+25/sticker19.png,25/sticker19.png,هکر
+25/sticker20.png,25/sticker20.png,مطالعه
+25/sticker21.png,25/sticker21.png,جستجو
+25/sticker22.png,25/sticker22.png,خپل کامپیوتر
+25/sticker23.png,25/sticker23.png,گنگ تبهکار
+
