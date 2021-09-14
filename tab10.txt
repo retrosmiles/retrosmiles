@@ -1,4 +1,5 @@
 #bbcode,img
+23/barekala.gif,23/barekala.gif,بار کلا بار کلا
 23/vaay.gif,23/vaay.gif,وای دارم آتیش میگیرم
 23/zan.gif,23/zan.gif,زن کوچه نشین عروس شیطان
 23/diramdiram.gif,23/diramdiram.gif,دیرام دیرام
