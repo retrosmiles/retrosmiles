@@ -1,4 +1,6 @@
 #bbcode,img
+23/vaay.gif,23/vaay.gif,وای دارم آتیش میگیرم
+23/zan.gif,23/zan.gif,زن کوچه نشین عروس شیطان
 23/diramdiram.gif,23/diramdiram.gif,دیرام دیرام
 23/best.gif,23/best.gif,پارمیدا یو بست لیدری
 23/parmida.gif,23/parmida.gif,وای پارمیدا من کو
