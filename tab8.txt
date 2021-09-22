@@ -4,6 +4,8 @@
 24/motorbargh1.gif,24/motorbargh1.gif,موتور برق خاموشی
 24/motorbargh2.gif,24/motorbargh2.gif,موتور برق خاموشی
 24/motorbargh3.gif,24/motorbargh3.gif,موتور برق خاموشی
+24/lala.gif,24/lala.gif,تعطیل خاموش
+24/lala2.gif,24/lala2.gif,تعطیل خاموش
 21/165fs459976.gif,21/165fs459976.gif,کریزی توسری کتک
 21/499kfok.gif,21/499kfok.gif,کریزی بچه قنداق
 21/svnxo5.gif,21/svnxo5.gif,سیبیل کریزی چکش پتک قتل خفه
@@ -19,6 +21,9 @@
 18/opasnie200.gif,18/opasnie200.gif,توسری کلاه سیبیل
 18/opasnie201.gif,18/opasnie201.gif,توسری کلاه سیبیل کریزی ابرو کلفت
 22/BTC.gif,22/BTC.gif,بیتکوین بیت کوین
+24/boos_bitcoin.gif,24/boos_bitcoin.gif,بوس بیتکوین
+24/eshgh_bitcoin.gif,24/eshgh_bitcoin.gif,عشقم بیتکوین
+24/kaf_bitcoin.gif,24/kaf_bitcoin.gif,کف بیتکوین
 22/bitcoin3.gif,22/bitcoin3.gif,بیتکوین بیت کوین کتک عصبانی
 22/bitcoin4.gif,22/bitcoin4.gif,بیتکوین بیت کوین کتک عصبانی شلیک
 22/bitcoin5.gif,22/bitcoin5.gif,بیتکوین بیت کوین کتک عصبانی گیوتین
