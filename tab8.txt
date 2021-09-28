@@ -26,6 +26,10 @@
 24/kaf_bitcoin.gif,24/kaf_bitcoin.gif,کف بیتکوین
 22/bitcoin3.gif,22/bitcoin3.gif,بیتکوین بیت کوین کتک عصبانی
 22/bitcoin4.gif,22/bitcoin4.gif,بیتکوین بیت کوین کتک عصبانی شلیک
+25/hate-bit.gif,25/hate-bit.gif,بیت کوین
+25/hate-bit2.gif,25/hate-bit2.gif,بیت کوین
+25/hate-bit3.gif,25/hate-bit3.gif,بیت کوین
+25/hate-bit4.gif,25/hate-bit4.gif,بیت کوین
 22/bitcoin5.gif,22/bitcoin5.gif,بیتکوین بیت کوین کتک عصبانی گیوتین
 16/1.gif,16/1.gif,ریلکس آرام ماهیگیری راحت
 16/2.gif,16/2.gif,ریلکس آرام وان دوش حموم حمام راحت
