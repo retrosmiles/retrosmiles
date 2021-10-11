@@ -65,3 +65,10 @@ meme4/animation_0_1-128px-22.gif,meme4/animation_0_1-128px-22.img.png,ناراح
 meme4/animation_0_1-128px-35.gif,meme4/animation_0_1-128px-35.img.png,خنده
 24/chaprast.gif,24/chaprast.img.png,بده چپ راست بده هروری دلت خواست
 24/akh.gif,24/akh.img.png,بگیر که آمد
+25/0.gif,25/0.img.png,تعجب ترس
+25/1.gif,25/1.img.png,قهرکردن اخم
+25/2.gif,25/2.img.png,پاتریک شیطانی آخ جون
+25/3.gif,25/3.img.png,گربه پیشی افسرده
+25/4.gif,25/4.img.png,جواد خیابانی
+25/5.gif,25/5.img.png,خرگوش تعجب
+25/6.gif,25/6.img.png,شیطانی شیطنت آتش
