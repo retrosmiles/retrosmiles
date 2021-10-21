@@ -72,3 +72,9 @@ meme4/animation_0_1-128px-35.gif,meme4/animation_0_1-128px-35.img.png,خنده
 25/4.gif,25/4.img.png,جواد خیابانی
 25/5.gif,25/5.img.png,خرگوش تعجب
 25/6.gif,25/6.img.png,شیطانی شیطنت آتش
+25/confusedlady.jpeg,25/confusedlady.jpeg,گیج سردرگم زن گیج شده محاسبات ریاضی
+25/oct1.gif,25/oct1.img.png,خجالت سگ
+25/oct2.gif,25/oct2.img.png,رانبو راکی جنگ تفنگ
+25/oct3.gif,25/oct3.img.png,ناراحت بچه اخم
+25/oct4.gif,25/oct4.img.png,بچه دوباره نه
+25/oct5.gif,25/oct5.img.png,آخ جون
