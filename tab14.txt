@@ -22,3 +22,11 @@ shiba/sticker20.png,shiba/sticker20.png,کفش دوز
 shiba/sticker21.png,shiba/sticker21.png,موفقیت
 shiba/sticker22.png,shiba/sticker22.png,مزاحم نشو
 shiba/sticker23.png,shiba/sticker23.png,نه خطا داوری
+25/53c_2.gif,25/53c_2.gif,چینی
+25/53c_14.gif,25/53c_14.gif,چینی
+25/53c_25.gif,25/53c_25.gif,چینی
+25/53c_23.gif,25/53c_23.gif,چینی
+25/53c_12.gif,25/53c_12.gif,چینی
+25/53c_11.gif,25/53c_11.gif,چینی
+25/53c_9.gif,25/53c_9.gif,چینی
+25/53c_28.gif,25/53c_28.gif,چینی
