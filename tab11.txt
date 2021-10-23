@@ -78,3 +78,4 @@ meme4/animation_0_1-128px-35.gif,meme4/animation_0_1-128px-35.img.png,خنده
 25/oct3.gif,25/oct3.img.png,ناراحت بچه اخم
 25/oct4.gif,25/oct4.img.png,بچه دوباره نه
 25/oct5.gif,25/oct5.img.png,آخ جون
+25/plan.jpg,25/plan.jpg,نقشه ریختن ایول
