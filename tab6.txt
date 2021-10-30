@@ -38,6 +38,7 @@
 12/boghZ.gif,12/boghZ.gif,بغض اشک کوچک
 23/longerye.gif,23/longerye.gif,گریه کریزی مرگ توسری
 25/geryefade.gif,25/geryefade.gif,گریه کریزی محو
+25/geryefade2.gif,25/geryefade2.gif,گریه کریزی محو
 12/bav2.gif,12/bav2.gif,گریه ریختن مو
 12/bav3_154fs759111.gif,12/bav3_154fs759111.gif,گریه ناراحتی
 0/bad_boys_22.gif,0/bad_boys_22.gif,سیگار بزرگ
