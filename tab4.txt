@@ -1,4 +1,6 @@
 #bbcode,img
+0/icon_atomrofl.gif,0/icon_atomrofl.gif,خندیدن
+0/797.gif,0/797.gif,باران چتر
 0/7.gif,0/7.gif,راکی هدبند ورزش قهرمان موفق
 0/6.gif,0/6.gif,پادشاه کینگ
 0/5.gif,0/5.gif,عصبانی خشم

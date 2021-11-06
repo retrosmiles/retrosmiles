@@ -1,4 +1,6 @@
 #bbcode,img
+0/headslap.gif,0/headslap.gif,ای وای
+0/hairpull.gif,0/hairpull.gif,مو کندن وحشت
 15/m1515.gif,15/m1515.gif,فرشته بال-شکسته angle
 15/t1310.gif,15/t1310.gif,فرشته angle  حلقه نورانی رژلب
 15/t1324.gif,15/t1324.gif,angle  حلقه نورانی تعجب

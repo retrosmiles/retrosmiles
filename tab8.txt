@@ -31,6 +31,7 @@
 25/hate-bit3.gif,25/hate-bit3.gif,بیت کوین
 25/hate-bit4.gif,25/hate-bit4.gif,بیت کوین
 22/bitcoin5.gif,22/bitcoin5.gif,بیتکوین بیت کوین کتک عصبانی گیوتین
+15/yapyapyapf.gif,15/yapyapyapf.gif,پرحرف
 16/1.gif,16/1.gif,ریلکس آرام ماهیگیری راحت
 16/2.gif,16/2.gif,ریلکس آرام وان دوش حموم حمام راحت
 16/44.gif,16/44.gif,آره یسس درست بله yes موفقیت
