@@ -128,6 +128,8 @@
 12/witchdrum.gif,12/witchdrum.gif,جادوگر طبل
 12/200.gif,12/200.gif,رقص کودک بچه 
 12/evil2.gif,12/evil2.gif,باسن یون سیپسون بارت
+25/ogh.gif,25/ogh.gif,اوق استفراغ حالت بالاآوردن
+25/ogh2.gif,25/ogh2.gif,اوق استفراغ حالت بالاآوردن
 10/heartbroken.gif,10/heartbroken.gif,شکست قلب عشق ناراحت اشک
 10/atingheart.gif,10/atingheart.gif,عشق عاشق لاو قلب
 10/hubbahubba.gif,10/hubbahubba.gif,به-به دهن باز
