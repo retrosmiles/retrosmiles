@@ -41,6 +41,10 @@
 25/geryefade2.gif,25/geryefade2.gif,گریه کریزی محو
 12/bav2.gif,12/bav2.gif,گریه ریختن مو
 12/bav3_154fs759111.gif,12/bav3_154fs759111.gif,گریه ناراحتی
+0/154fs232528.gif,0/154fs232528.gif,گریه ناراحت
+12/blk3.gif,12/blk3.gif,گریه ناراحتی
+12/wht3.gif,12/wht3.gif,گریه ناراحتی
+12/bld3.gif,12/bld3.gif,گریه ناراحتی
 0/bad_boys_22.gif,0/bad_boys_22.gif,سیگار بزرگ
 0/www_MyEmoticons_com__burp.gif,0/www_MyEmoticons_com__burp.gif,آروق بدمزه
 0/shark.GIF,0/shark.GIF,نهنگ کوسه ماهی
@@ -110,7 +114,6 @@
 0/129fs3248893.gif,0/129fs3248893.gif,سلام سیبیل لوتی
 0/128fs4765852.gif,0/128fs4765852.gif,گریه شکسته خورد ناراحت
 0/cerevat.gif,0/cerevat.gif,کروات خوشگل خوشتیپ شیک
-0/154fs232528.gif,0/154fs232528.gif,گریه ناراحت
 0/25r30wi.gif,0/25r30wi.gif,خندیدن خوشحال شاد
 0/130276-7wfweqh.gif,0/130276-7wfweqh.gif,بفرمایید درخدمتم موفقیت
 0/AddEmoticons09794.gif,0/AddEmoticons09794.gif,دخترونه صورتی
