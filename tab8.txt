@@ -30,6 +30,7 @@
 25/hate-bit2.gif,25/hate-bit2.gif,بیت کوین
 25/hate-bit3.gif,25/hate-bit3.gif,بیت کوین
 25/hate-bit4.gif,25/hate-bit4.gif,بیت کوین
+24/hate-bit5.gif,24/hate-bit5.gif,بیت کوین
 22/bitcoin5.gif,22/bitcoin5.gif,بیتکوین بیت کوین کتک عصبانی گیوتین
 15/yapyapyapf.gif,15/yapyapyapf.gif,پرحرف
 16/1.gif,16/1.gif,ریلکس آرام ماهیگیری راحت
