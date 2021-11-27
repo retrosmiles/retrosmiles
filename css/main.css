@@ -594,3 +594,12 @@ background: linear-gradient(90deg, rgba(40, 85, 173, 1) 0%, rgba(230, 238, 249, 
 	background-color: #ff8300;
 }
 
+.anim {
+	opacity:80%;
+	position: absolute;
+	left:16px;
+	top:0px;
+	width:16px;
+	height:16px;
+	background:url('./animated.png');
+}
