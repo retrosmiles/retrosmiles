@@ -121,6 +121,7 @@
 0/tooth.gif,0/tooth.gif,خلال دندون ساده
 0/happy.gif,0/happy.gif,خوشحال سفید رقص شاد
 0/ura1.gif,0/ura1.gif,هورا خوشحال شاد
+25/shklak23.gif,25/shklak23.gif,پیر نصیحت عصا ریش
 0/wide-eyed.gif,0/wide-eyed.gif,سبز چشم-درشت ناراحت
 0/pray.gif,0/pray.gif,دعا
 0/cry2.gif,0/cry2.gif,گریه فرار
