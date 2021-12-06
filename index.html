@@ -785,9 +785,9 @@ function renderArray(arr_t) {
                         id_count++;
                         
                         if(bbcode.indexOf('https://')!=-1 || bbcode.indexOf('http://')!=-1) {
-                            html+='<div class="col-auto col-md-2">yyy<input class="float_input" type="checkbox" id="sel_'+id_count+'"/><img id="block_'+id_count+'" class="btn lazy" data-clipboard-text="[img]'+bbcode+'[/img]" src="css/placeholder.png" data-src="'+img+'">'+(anim?'<div class="anim"></div>':'')+'</div>';
+                            html+='<div class="col-auto col-md-2"><input class="float_input" type="checkbox" id="sel_'+id_count+'"/><img id="block_'+id_count+'" class="btn lazy" data-clipboard-text="[img]'+bbcode+'[/img]" src="css/placeholder.png" data-src="'+img+'">'+(anim?'<div class="anim"></div>':'')+'</div>';
                         } else {
-                            html+='<div class="col-auto col-md-2">yyy<input class="float_input" type="checkbox" id="sel_'+id_count+'"/><img id="block_'+id_count+'" class="btn lazy" data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/'+bbcode+'[/img]" src="css/placeholder.png" data-src="QuickSmiles/'+img+'">'+(anim?'<div class="anim"></div>':'')+'</div>';
+                            html+='<div class="col-auto col-md-2"><input class="float_input" type="checkbox" id="sel_'+id_count+'"/><img id="block_'+id_count+'" class="btn lazy" data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/'+bbcode+'[/img]" src="css/placeholder.png" data-src="QuickSmiles/'+img+'">'+(anim?'<div class="anim"></div>':'')+'</div>';
                         }
                     }
                 }

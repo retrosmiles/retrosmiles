@@ -121,7 +121,6 @@
 0/tooth.gif,0/tooth.gif,خلال دندون ساده
 0/happy.gif,0/happy.gif,خوشحال سفید رقص شاد
 0/ura1.gif,0/ura1.gif,هورا خوشحال شاد
-25/shklak23.gif,25/shklak23.gif,پیر نصیحت عصا ریش
 0/wide-eyed.gif,0/wide-eyed.gif,سبز چشم-درشت ناراحت
 0/pray.gif,0/pray.gif,دعا
 0/cry2.gif,0/cry2.gif,گریه فرار
@@ -133,7 +132,7 @@
 0/298.gif,0/298.gif,عینک متخصص مهندس عاقل
 0/299.gif,0/299.gif,دختر ناراحت
 0/300.gif,0/300.gif,آبنبات بیخیال
-0/301.gif,0/301.gif,پیرمرد زرد
+0/301.gif,0/301.gif,پیرمرد زرد نصیحت عصا
 0/302.gif,0/302.gif,سبز :دی دی
 15/saupload_wink.png,15/saupload_wink.png,چشمک آبی
 0/305.gif,0/305.gif,تشکر پاپیون تشویق
