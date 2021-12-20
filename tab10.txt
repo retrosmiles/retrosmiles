@@ -1,4 +1,6 @@
 #bbcode,img
+23/yalda.gif,23/yalda.gif,آخ تو شب یلدا منی   
+23/yalda2.gif,23/yalda2.gif,یلدا
 23/aroos.gif,23/aroos.gif,عروس نمیتونست برقصه زمین کجه
 23/bozak.gif,23/bozak.gif,بزک نمیر بهار میاد
 23/barekala.gif,23/barekala.gif,بار کلا بار کلا
