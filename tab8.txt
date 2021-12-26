@@ -150,3 +150,4 @@
 16/meme_me_gusta.png,16/meme_me_gusta.png,گوستا زور گیج
 16/meme_okayfaceplz.png,16/meme_okayfaceplz.png,ناراحت افسرده
 16/meme_trollface.png,16/meme_trollface.png,ترول :دی دی خنده
+26/15693.gif,26/15693.gif,رقص دنس

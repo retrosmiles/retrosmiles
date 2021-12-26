@@ -1,4 +1,5 @@
 #bbcode,img
+26/smilie_gr_106.gif,26/smilie_gr_106.img.png,گرین چرخان رنگوارنگ
 meme1/peepee_poopoo-1.gif,meme1/peepee_poopoo-1.img.png,خنده اشک
 meme1/peepee_poopoo-2.gif,meme1/peepee_poopoo-2.img.png,گربه دهن داد
 meme1/peepee_poopoo-5.gif,meme1/peepee_poopoo-5.img.png,نابود ریزش بورس
