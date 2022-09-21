@@ -31,6 +31,7 @@ meme1/sticker29.png,meme1/sticker29.img.png,میمون دماغ بینی گند�
 meme1/sticker30.png,meme1/sticker30.img.png,ویتالیک بوترین اتریوم پیر کی میاد
 meme1/sticker31.png,meme1/sticker31.img.png,همه چیز اوکیه سگ آتش
 meme1/sticker32.png,meme1/sticker32.img.png,نود نه درصد کرش خنده سیگار
+meme1/5ism8l.jpg,meme1/5ism8l.jpg,khaby خابی راه بهتر گاگول
 19/qq.gif,19/qq.img.png,ریزش بورس
 16/197.gif,16/197.img.png,خنده
 16/198.gif,16/198.img.png,خنده
